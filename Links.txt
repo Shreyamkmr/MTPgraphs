@@ -15,3 +15,4 @@ Phase change occurs from the 2H to 1T take place between 820 C and
  880 C . Once the transition into 1T-phase occurs, this arrangement
  continues it’s meta-stable at high temperature without changing 
 back into the 2H-phase. Above 1100 C it converted into 1T’ phase.
+check file
