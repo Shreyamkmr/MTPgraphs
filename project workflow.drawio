@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T15:38:28.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LKl9M9indIevqifGqIJt" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T15:39:58.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="1HaPljIAJLlJQyxAC1Zo" version="15.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2059" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-97" value="Digitised data of all systems&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wirNJk3x5N79A3oDP3Wb-12" target="wirNJk3x5N79A3oDP3Wb-95" edge="1">
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-97" value="Digitised data of all systems(Mo-W till now)&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wirNJk3x5N79A3oDP3Wb-12" target="wirNJk3x5N79A3oDP3Wb-95" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="45" />
@@ -56,13 +56,13 @@
         <mxCell id="wirNJk3x5N79A3oDP3Wb-85" value="W-Te" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="169.9999999999999" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wirNJk3x5N79A3oDP3Wb-87" target="wirNJk3x5N79A3oDP3Wb-93" edge="1">
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.221;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wirNJk3x5N79A3oDP3Wb-87" target="wirNJk3x5N79A3oDP3Wb-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wirNJk3x5N79A3oDP3Wb-87" value="Mo-W" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="319.9999999999999" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-89" value="&lt;div&gt;In figure:&lt;/div&gt;&lt;div&gt;my work-&lt;/div&gt;&lt;div&gt;Used Trisoln(custom) interaction with redlich-kister L&lt;span&gt;AB= 2000 from 88Gustafson&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;data points from above mentioned sheet&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;dotted dashed line from&amp;nbsp;&lt;/span&gt;&lt;/div&gt;84Nag1" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;align=left;" parent="1" vertex="1">
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-89" value="available works:&lt;br&gt;properties of Mo-Te compound at high temperatures&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;align=left;" parent="1" vertex="1">
           <mxGeometry x="-100" y="230" width="260" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wirNJk3x5N79A3oDP3Wb-91" target="ZdKyLgPRO9MvoNBh7_Rb-1">
@@ -71,8 +71,8 @@
         <mxCell id="wirNJk3x5N79A3oDP3Wb-91" value="available works:&lt;br&gt;phase diagram with WTe2 intermetallic enthalpy and entropy of formation data&lt;br&gt;issue: notworking right with factsge compound.. showing melting point of WeTe2 way off" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="170" y="230" width="120" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-93" value="" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="320" y="230" width="120" height="230" as="geometry" />
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-93" value="&lt;div style=&quot;text-align: left&quot;&gt;In figure:&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;my work-&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Used Trisoln(custom) interaction with redlich-kister LAB= 2000 from 88Gustafson&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;data points from above mentioned sheet&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;dotted dashed line from&amp;nbsp;&lt;/div&gt;&lt;span style=&quot;text-align: left&quot;&gt;84Nag1&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
+          <mxGeometry x="320" y="280" width="360" height="230" as="geometry" />
         </mxCell>
         <UserObject label="edit?usp=sharing" linkTarget="_blank" link="https://docs.google.com/spreadsheets/d/113PZEouZPormDHuPyYL0D7f3zoQxEiFQmdjDreFnHmk/edit?usp=sharing" id="wirNJk3x5N79A3oDP3Wb-95">
           <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" parent="1" vertex="1">
