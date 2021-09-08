@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T12:55:56.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="_1IPjEgRe-Dl_olPDykJ" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T15:38:28.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LKl9M9indIevqifGqIJt" version="15.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1204" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2059" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,7 +36,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-12" value="Digitised Data- " style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-12" value="Binary systems" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
           <mxGeometry x="49.999999999999915" y="20" width="400" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wirNJk3x5N79A3oDP3Wb-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
@@ -65,7 +65,10 @@
         <mxCell id="wirNJk3x5N79A3oDP3Wb-89" value="&lt;div&gt;In figure:&lt;/div&gt;&lt;div&gt;my work-&lt;/div&gt;&lt;div&gt;Used Trisoln(custom) interaction with redlich-kister L&lt;span&gt;AB= 2000 from 88Gustafson&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;data points from above mentioned sheet&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;dotted dashed line from&amp;nbsp;&lt;/span&gt;&lt;/div&gt;84Nag1" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;align=left;" parent="1" vertex="1">
           <mxGeometry x="-100" y="230" width="260" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="wirNJk3x5N79A3oDP3Wb-91" value="" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wirNJk3x5N79A3oDP3Wb-91" target="ZdKyLgPRO9MvoNBh7_Rb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wirNJk3x5N79A3oDP3Wb-91" value="available works:&lt;br&gt;phase diagram with WTe2 intermetallic enthalpy and entropy of formation data&lt;br&gt;issue: notworking right with factsge compound.. showing melting point of WeTe2 way off" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="170" y="230" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="wirNJk3x5N79A3oDP3Wb-93" value="" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
@@ -76,6 +79,20 @@
             <mxGeometry x="590" y="120" width="130" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-1" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="498" width="140" height="104" as="geometry">
+            <mxRectangle x="160" y="498" width="50" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-2" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdKyLgPRO9MvoNBh7_Rb-1">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdKyLgPRO9MvoNBh7_Rb-1">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZdKyLgPRO9MvoNBh7_Rb-1">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
