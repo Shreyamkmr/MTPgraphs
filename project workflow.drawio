@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T07:20:19.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bN-N1KPFLjQWchUbwrqW" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:29:19.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0FiZ5ETJXUeAgrKADX3q" version="15.1.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1346" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1548" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,9 @@
         <mxCell id="wirNJk3x5N79A3oDP3Wb-87" value="Mo-W" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="319.9999999999999" y="160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wirNJk3x5N79A3oDP3Wb-89" target="ZdKyLgPRO9MvoNBh7_Rb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wirNJk3x5N79A3oDP3Wb-89" value="available works:&lt;br&gt;properties of Mo-Te compound at high temperatures&lt;br&gt;COllected data points into the data sheet&lt;br&gt;question: solvous line Mo rich side equation?&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;align=left;" parent="1" vertex="1">
           <mxGeometry x="-100" y="230" width="260" height="230" as="geometry" />
         </mxCell>
@@ -129,6 +132,9 @@
         </mxCell>
         <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZdKyLgPRO9MvoNBh7_Rb-37" target="ZdKyLgPRO9MvoNBh7_Rb-37">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdKyLgPRO9MvoNBh7_Rb-41" value="69spie- spiesser, M., Roux, J., Kerriou, M., Fourreaux, G.: Bull. Soc. Chim. Fr. (1969) 427&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="630" width="260" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
