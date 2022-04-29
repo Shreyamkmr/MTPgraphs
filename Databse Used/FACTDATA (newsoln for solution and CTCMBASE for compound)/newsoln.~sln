@@ -1,0 +1,122 @@
+Base news news
+Date Created: 44552.4550949537 Modified: 44679.4157067014 2021/12/22 2022/04/28
+Vers 7.00
+Desc newssoln solution database.
+SolB Liquid 99 2 Two-lattice mod. quasichem. old
+Stat Liquid 0
+Zeta 2.4
+Date Created: 44552.4566044213 Modified: 44679.4157067014 2021/12/22 2022/04/28
+Name Liquidsoln
+Desc Liquidsoln
+Desc This "Two-lattice mod. quasichem. old" solution description has been 
+Desc automatically generated. You can change this description and replace it by 
+Desc adding any number of lines of your own. The first word of the first line 
+Desc will be used and displayed as solution long name.
+SubL A 3
+Spec A0 1 Mo Mo
+Spec A1 1 Te Te
+Spec A2 1 W W
+SubL B 1
+Spec B0 1 Va Va
+Chrg A0 2
+Chrg A1 2
+Chrg A2 2
+Chrg B0 1
+EndM 0 A0B0 Mo
+Zeds 6
+Amnt 1 2
+Name Mo//Va
+CpXp Mo#Liquid_1
+EndM 0 A1B0 Te
+Zeds 6
+Amnt 1 2
+Name Te//Va
+CpXp Te#Liquid
+EndM 0 A2B0 W
+Zeds 6
+Amnt 1 2
+Name W//Va
+CpXp W#Liquid_1
+Exss GGP A1A2B0
+Powr 0 0
+GXss 7000
+Exss GGP A0A2B0
+Powr 0 0
+GXss 10
+SolE Liquid ------------------------------------------------------------
+SolB W-Mo(L 7 1 One-lattice R-K/Muggianu only
+Stat Liquid 0
+Date Created: 44675.2465559028 Modified: 44675.3335234954 2022/04/24 2022/04/24
+Name W-Mo-Liq
+Desc W-Mo-Liq
+Desc This "One-lattice R-K/Muggianu only" solution description has been 
+Desc automatically generated. You can change this description and replace it by 
+Desc adding any number of lines of your own. The first word of the first line 
+Desc will be used and displayed as solution long name.
+SubL A 2
+Spec A0 0 Mo Mo
+Spec A1 0 W W
+EndM 0 A0 Mo
+Amnt 1
+Name Mo
+CpXp Mo#Liquid_1
+EndM 0 A1 W
+Amnt 1
+Name W
+CpXp W#Liquid_1
+Exss BGK A0A1
+Powr 0
+GXss 
+SolE W-Mo(L ------------------------------------------------------------
+SolB Mo+W 12 2 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 44675.2598979167 Modified: 44675.3390130903 2022/04/24 2022/04/24
+Name Mo+Wsoln
+Desc Mo+Wsoln
+Desc This "Compound Energy Formalism" solution description has been 
+Desc automatically generated. You can change this description and replace it by 
+Desc adding any number of lines of your own. The first word of the first line 
+Desc will be used and displayed as solution long name.
+SubL A 2
+Spec A0 0 Mo Mo
+Spec A1 0 W W
+SubL B 1
+Spec B0 0 Va Va
+EndM 0 A0B0 Mo
+Amnt 1 1
+Name Mo//Va
+CpXp Mo#Solid_1
+EndM 0 A1B0 W
+Amnt 1 1
+Name W//Va
+CpXp W#Solid_1
+Exss BGK A0A1B0
+Powr 0
+GXss 815 -1.5*T
+SolE Mo+W ------------------------------------------------------------
+SolB W+Te 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 44679.3981233681 Modified: 44679.4001356829 2022/04/28 2022/04/28
+Name W+Tesoln
+Desc W+Tesoln
+Desc This "Compound Energy Formalism" solution description has been 
+Desc automatically generated. You can change this description and replace it by 
+Desc adding any number of lines of your own. The first word of the first line 
+Desc will be used and displayed as solution long name.
+SubL A 2
+Spec A0 0 W W
+Spec A1 0 Te Te
+SubL B 1
+Spec B0 0 Va Va
+EndM 0 A1B0 Te
+Amnt 1 1
+Name Te//Va
+CpXp Te#Hexagonal_A8
+EndM 0 A0B0 W
+Amnt 1 1
+Name W//Va
+CpXp W#Solid_1
+Exss BGK A0A1B0
+Powr 0
+GXss 
+SolE W+Te ------------------------------------------------------------

@@ -1,0 +1,45 @@
+   
+FTmisc53base.xcl   09-April-2020
+----------------
+   
+[NOTES]
+INFO1=   FTmisc53base.xcl lists restrictions on the FTmisc compound database.
+
+[DATA]
+DATA1=FSStel     // In-Ho 18-Mar-2020
+DATA2=STSC      // In-Ho Jung consortium STSC steel database     18-Mar-2020
+DATA3=SGTE2014  // In-Ho Jung 09-04-2020 same as the SGTE2014 and the addition of gas duplicates
+DATA4=SGTE2017  // In-Ho Jung 09-04-2020 same as the SGTE2014 and the addition of gas duplicates
+DATA5=SGTE2020  // In-Ho Jung 09-04-2020 same as the SGTE2014 and the addition of gas duplicates
+
+
+[FSStel]
+INFO1=   When FSStel is selected the following species are excluded from FTmisc
+LIQUID1=  DUPLICATE
+SOLID1=  DUPLICATE
+
+
+[STSC]
+INFO1=   When STSC is selected the following species are excluded from FTmisc
+LIQUID1=  DUPLICATE
+SOLID1=  DUPLICATE
+
+[SGTE2014]
+INFO1=    When SGTE2014 is selected the following species are excluded from FTmisc
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2017]
+INFO1=    When SGTE2017 is selected the following species are excluded from FTmisc
+INFO2=    remove all duplicate liquids and solids
+GAS1=     DUPLICATE    // In-Ho added this to remove gas duplicates
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2020]
+INFO1=    When SGTE2020 is selected the following species are excluded from FTmisc
+INFO2=    remove all duplicate liquids and solids
+GAS1=     DUPLICATE    // In-Ho added this to remove gas duplicates
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE

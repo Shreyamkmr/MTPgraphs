@@ -1,0 +1,21 @@
+Base Cust Cust
+Date Created: 44435.2826895370 Modified: 44435.7794141319 2021/08/27 2021/08/27
+Vers 7.00
+Desc W and Te
+SolB WTe2XX 1 1 One-lattice polynomial
+Stat Solid 0
+Date Created: 44435.7783166898 Modified: 44435.7794141204 2021/08/27 2021/08/27
+Name WTe2XXsoln
+Desc WTe2XXsoln
+Desc This "One-lattice polynomial" solution description has been automatically 
+Desc generated. You can change this description and replace it by adding any 
+Desc number of lines of your own. The first word of the first line will be used 
+Desc and displayed as solution long name.
+SubL A 1
+Spec A0 1 A0 WTe
+EndM 0 A0 WTe
+Zeds 1
+Amnt 1
+Name A0
+CpXp WTe2#Solid
+SolE WTe2XX ------------------------------------------------------------

@@ -1,0 +1,9621 @@
+Base BINS BINS
+Date Created: 43101.0000000000 Modified: 43052.7855027083 2018-01-01 2017-11-13
+Vers 7.20
+Desc BINS - binary (SGTE 2017) alloy databases[][ 0000 12 2099 ]
+SolB LIQU 7 1 One-lattice R-K/Muggianu only
+Stat Liquid 0
+Date Created: 43052.7854986574 Modified: 43052.7854986574 2017-11-13 2017-11-13
+Name LIQUID
+Desc LIQUID
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 53
+Spec A0 0 Ag
+Spec A1 0 Al
+Spec A2 0 As
+Spec A3 0 Au
+Spec A4 0 B
+Spec A5 0 Ba
+Spec A6 0 Bi
+Spec A7 0 C
+Spec A8 0 Ca
+Spec A9 0 Cd
+Spec A10 0 CdTe
+Spec A11 0 Ce
+Spec A12 0 Co
+Spec A13 0 Cr
+Spec A14 0 Cs
+Spec A15 0 Cu
+Spec A16 0 Er
+Spec A17 0 Fe
+Spec A18 0 Ga
+Spec A19 0 Ge
+Spec A20 0 GeTe
+Spec A21 0 Ho
+Spec A22 0 In
+Spec A23 0 Ir
+Spec A24 0 La
+Spec A25 0 Li
+Spec A26 0 Mg
+Spec A27 0 Mn
+Spec A28 0 Mo
+Spec A29 0 N
+Spec A30 0 Na
+Spec A31 0 Nb
+Spec A32 0 Ni
+Spec A33 0 Os
+Spec A34 0 P
+Spec A35 0 Pb
+Spec A36 0 Pt
+Spec A37 0 Rb
+Spec A38 0 Rh
+Spec A39 0 Sb
+Spec A40 0 Se
+Spec A41 0 Si
+Spec A42 0 Sn
+Spec A43 0 Ta
+Spec A44 0 Tb
+Spec A45 0 Te
+Spec A46 0 Ti
+Spec A47 0 U
+Spec A48 0 V
+Spec A49 0 W
+Spec A50 0 Y
+Spec A51 0 Zn
+Spec A52 0 Zr
+EndM 0 A0 Ag
+Amnt 1
+Name Ag
+CpXp Ag#LIQU_0000
+EndM 0 A1 Al
+Amnt 1
+Name Al
+CpXp Al#LIQU_0001
+EndM 0 A2 As
+Amnt 1
+Name As
+CpXp As#LIQU_0002
+EndM 0 A3 Au
+Amnt 1
+Name Au
+CpXp Au#LIQU_0003
+EndM 0 A4 B
+Amnt 1
+Name B
+CpXp B#LIQU_0004
+EndM 0 A5 Ba
+Amnt 1
+Name Ba
+CpXp Ba#LIQU_0005
+EndM 0 A6 Bi
+Amnt 1
+Name Bi
+CpXp Bi#LIQU_0006
+EndM 0 A7 C
+Amnt 1
+Name C
+CpXp C#LIQU_0007
+EndM 0 A8 Ca
+Amnt 1
+Name Ca
+CpXp Ca#LIQU_0008
+EndM 0 A9 Cd
+Amnt 1
+Name Cd
+CpXp Cd#LIQU_0009
+EndM 0 A10 TeCd
+Amnt 1
+Name CdTe
+CpXp TeCd#LIQU_0010
+EndM 0 A11 Ce
+Amnt 1
+Name Ce
+CpXp Ce#LIQU_0011
+EndM 0 A12 Co
+Amnt 1
+Name Co
+CpXp Co#LIQU_0012
+EndM 0 A13 Cr
+Amnt 1
+Name Cr
+CpXp Cr#LIQU_0013
+EndM 0 A14 Cs
+Amnt 1
+Name Cs
+CpXp Cs#LIQU_0014
+EndM 0 A15 Cu
+Amnt 1
+Name Cu
+CpXp Cu#LIQU_0015
+EndM 0 A16 Er
+Amnt 1
+Name Er
+CpXp Er#LIQU_0016
+EndM 0 A17 Fe
+Amnt 1
+Name Fe
+CpXp Fe#LIQU_0017
+EndM 0 A18 Ga
+Amnt 1
+Name Ga
+CpXp Ga#LIQU_0018
+EndM 0 A19 Ge
+Amnt 1
+Name Ge
+CpXp Ge#LIQU_0019
+EndM 0 A20 TeGe
+Amnt 1
+Name GeTe
+CpXp TeGe#LIQU_0020
+EndM 0 A21 Ho
+Amnt 1
+Name Ho
+CpXp Ho#LIQU_0021
+EndM 0 A22 In
+Amnt 1
+Name In
+CpXp In#LIQU_0022
+EndM 0 A23 Ir
+Amnt 1
+Name Ir
+CpXp Ir#LIQU_0023
+EndM 0 A24 La
+Amnt 1
+Name La
+CpXp La#LIQU_0024
+EndM 0 A25 Li
+Amnt 1
+Name Li
+CpXp Li#LIQU_0025
+EndM 0 A26 Mg
+Amnt 1
+Name Mg
+CpXp Mg#LIQU_0026
+EndM 0 A27 Mn
+Amnt 1
+Name Mn
+CpXp Mn#LIQU_0027
+EndM 0 A28 Mo
+Amnt 1
+Name Mo
+CpXp Mo#LIQU_0028
+EndM 0 A29 N
+Amnt 1
+Name N
+CpXp N#LIQU_0029
+EndM 0 A30 Na
+Amnt 1
+Name Na
+CpXp Na#LIQU_0030
+EndM 0 A31 Nb
+Amnt 1
+Name Nb
+CpXp Nb#LIQU_0031
+EndM 0 A32 Ni
+Amnt 1
+Name Ni
+CpXp Ni#LIQU_0032
+EndM 0 A33 Os
+Amnt 1
+Name Os
+CpXp Os#LIQU_0033
+EndM 0 A34 P
+Amnt 1
+Name P
+CpXp P#LIQU_0034
+EndM 0 A35 Pb
+Amnt 1
+Name Pb
+CpXp Pb#LIQU_0035
+EndM 0 A36 Pt
+Amnt 1
+Name Pt
+CpXp Pt#LIQU_0036
+EndM 0 A37 Rb
+Amnt 1
+Name Rb
+CpXp Rb#LIQU_0037
+EndM 0 A38 Rh
+Amnt 1
+Name Rh
+CpXp Rh#LIQU_0038
+EndM 0 A39 Sb
+Amnt 1
+Name Sb
+CpXp Sb#LIQU_0039
+EndM 0 A40 Se
+Amnt 1
+Name Se
+CpXp Se#LIQU_0040
+EndM 0 A41 Si
+Amnt 1
+Name Si
+CpXp Si#LIQU_0041
+EndM 0 A42 Sn
+Amnt 1
+Name Sn
+CpXp Sn#LIQU_0042
+EndM 0 A43 Ta
+Amnt 1
+Name Ta
+CpXp Ta#LIQU_0043
+EndM 0 A44 Tb
+Amnt 1
+Name Tb
+CpXp Tb#LIQU_0044
+EndM 0 A45 Te
+Amnt 1
+Name Te
+CpXp Te#LIQU_0045
+EndM 0 A46 Ti
+Amnt 1
+Name Ti
+CpXp Ti#LIQU_0046
+EndM 0 A47 U
+Amnt 1
+Name U
+CpXp U#LIQU_0047
+EndM 0 A48 V
+Amnt 1
+Name V
+CpXp V#LIQU_0048
+EndM 0 A49 W
+Amnt 1
+Name W
+CpXp W#LIQU_0049
+EndM 0 A50 Y
+Amnt 1
+Name Y
+CpXp Y#LIQU_0050
+EndM 0 A51 Zn
+Amnt 1
+Name Zn
+CpXp Zn#LIQU_0051
+EndM 0 A52 Zr
+Amnt 1
+Name Zr
+CpXp Zr#LIQU_0052
+Exss BGK A0A6
+Powr 0
+GXss 3340.81 +39.16749*T -5.969876*T*ln(T)
+Exss BGK A0A6
+Powr 1
+GXss -5485.45 -1.07133*T
+Exss BGK A0A6
+Powr 2
+GXss -3055.34 +1.77449*T
+Exss BGK A0A15
+Powr 0
+GXss 17384.37 -4.46438*T
+Exss BGK A0A15
+Powr 1
+GXss 1660.74 -2.31516*T
+Exss BGK A0A19
+Powr 0
+GXss 8708.55 -7.228525*T
+Exss BGK A0A19
+Powr 1
+GXss -14467.9 +5.10544*T
+Exss BGK A0A19
+Powr 2
+GXss -7955.55 +2.875185*T
+Exss BGK A0A23
+Powr 0
+GXss 57850
+Exss BGK A0A23
+Powr 1
+GXss -1350
+Exss BGK A0A26
+Powr 0
+GXss -68930.725 +0.684874*T
+Exss BGK A0A26
+Powr 1
+GXss 16824.411 -4.430152*T
+Exss BGK A0A26
+Powr 2
+GXss 1928.379 -1.977574*T
+Exss BGK A0A26
+Powr 3
+GXss -2624.584 -2.440899*T
+Exss BGK A0A33
+Powr 0
+GXss 55975
+Exss BGK A0A33
+Powr 1
+GXss -3375
+Exss BGK A0A35
+Powr 0
+GXss 14665.8 -7.92409*T
+Exss BGK A0A35
+Powr 1
+GXss -1350.24 -0.11456*T
+Exss BGK A0A35
+Powr 2
+GXss -2670.89 +0.69284*T
+Exss BGK A0A36
+Powr 0
+GXss 1960 +10.895073*T
+Exss BGK A0A36
+Powr 1
+GXss -4175.851 +1.440188*T
+Exss BGK A0A36
+Powr 2
+GXss 7380.3557
+Exss BGK A0A39
+Powr 0
+GXss -964.4779 -7.9876*T
+Exss BGK A0A39
+Powr 1
+GXss -21481.357 +7.1738*T
+Exss BGK A0A39
+Powr 2
+GXss -9992.0766
+Exss BGK A0A41
+Powr 0
+GXss 11052 -0.09508*T
+Exss BGK A0A41
+Powr 1
+GXss -16066.4 +5.3121*T
+Exss BGK A0A42
+Powr 0
+GXss -3177.49 -10.16124*T +0.380505*T*ln(T)
+Exss BGK A0A42
+Powr 1
+GXss -16782.28 +2.06521*T +0.437477*T*ln(T)
+Exss BGK A0A42
+Powr 2
+GXss 3190.34 -107.09456*T +13.954838*T*ln(T)
+Exss BGK A0A51
+Powr 0
+GXss -27600 +6.07*T
+Exss BGK A0A51
+Powr 1
+GXss -5500
+Exss BGK A1A11
+Powr 0
+GXss -134212.46 +52.8189*T -13295726/T
+Exss BGK A1A11
+Powr 1
+GXss -19162.82 -4.663728*T -10415657/T
+Exss BGK A1A13
+Powr 0
+GXss -37139.1 +2.011*T
+Exss BGK A1A13
+Powr 1
+GXss -15698.7 +7.4555*T
+Exss BGK A1A18
+Powr 0
+GXss 2613.3 -2.94533*T
+Exss BGK A1A18
+Powr 1
+GXss 692.4 -0.09271*T
+Exss BGK A1A18
+Powr 2
+GXss 319.5
+Exss BGK A1A19
+Powr 0
+GXss -13000 -3.954*T
+Exss BGK A1A19
+Powr 1
+GXss -418 +0.0335*T
+Exss BGK A1A19
+Powr 2
+GXss 4552 -2.335*T
+Exss BGK A1A26
+Powr 0
+GXss -9019 +4.794*T
+Exss BGK A1A26
+Powr 1
+GXss -1093 +1.412*T
+Exss BGK A1A26
+Powr 2
+GXss 494
+Exss BGK A1A27
+Powr 0
+GXss -66174 +27.0988*T
+Exss BGK A1A27
+Powr 1
+GXss -7509 +5.4836*T
+Exss BGK A1A27
+Powr 2
+GXss -2639
+Exss BGK A1A31
+Powr 0
+GXss -80470 +23.476*T
+Exss BGK A1A31
+Powr 1
+GXss -18176.2 +14.282*T
+Exss BGK A1A31
+Powr 2
+GXss 11868
+Exss BGK A1A32
+Powr 0
+GXss -207109.28 +41.31501*T
+Exss BGK A1A32
+Powr 1
+GXss -10185.79 +5.8714*T
+Exss BGK A1A32
+Powr 2
+GXss 81204.81 -31.95713*T
+Exss BGK A1A32
+Powr 3
+GXss 4365.35 -2.51632*T
+Exss BGK A1A32
+Powr 4
+GXss -22101.64 +13.16341*T
+Exss BGK A1A35
+Powr 0
+GXss 47933.6 -10.71995*T
+Exss BGK A1A35
+Powr 1
+GXss 14407.33 -6.65287*T
+Exss BGK A1A35
+Powr 2
+GXss 4742.36 -0.72034*T
+Exss BGK A1A41
+Powr 0
+GXss -11340.1 -1.23394*T
+Exss BGK A1A41
+Powr 1
+GXss -3530.93 +1.35993*T
+Exss BGK A1A41
+Powr 2
+GXss 2265.39
+Exss BGK A1A42
+Powr 0
+GXss 16329.85 -4.98306*T
+Exss BGK A1A42
+Powr 1
+GXss 4111.97 -1.15145*T
+Exss BGK A1A42
+Powr 2
+GXss 1765.43 -0.5739*T
+Exss BGK A1A46
+Powr 0
+GXss -108250 +38*T
+Exss BGK A1A46
+Powr 1
+GXss -6000 +5*T
+Exss BGK A1A46
+Powr 2
+GXss 15000
+Exss BGK A1A51
+Powr 0
+GXss 10465.55 -3.39259*T
+Exss BGK A2A18
+Powr 0
+GXss -25503.6 -4.3109*T
+Exss BGK A2A18
+Powr 1
+GXss -5174.7
+Exss BGK A2A19
+Powr 0
+GXss -8786
+Exss BGK A3A6
+Powr 0
+GXss 2538.793 -5.60093*T
+Exss BGK A3A6
+Powr 1
+GXss -157.7643 +0.226008*T
+Exss BGK A3A6
+Powr 2
+GXss -4561.3798 +4.19542*T
+Exss BGK A3A6
+Powr 3
+GXss -2539.0886 -1.148341*T
+Exss BGK A3A13
+Powr 0
+GXss 67986.517 -38.409271*T
+Exss BGK A3A13
+Powr 1
+GXss -31220.551 +11.375388*T
+Exss BGK A3A13
+Powr 2
+GXss -8301.402
+Exss BGK A3A15
+Powr 0
+GXss -27900 -1*T
+Exss BGK A3A15
+Powr 1
+GXss 4730
+Exss BGK A3A15
+Powr 2
+GXss 3500 +3.5*T
+Exss BGK A3A38
+Powr 0
+GXss 55059.466 -6.131642*T
+Exss BGK A3A38
+Powr 1
+GXss -5240.2948
+Exss BGK A3A41
+Powr 0
+GXss -23753.27 -14.78092*T
+Exss BGK A3A41
+Powr 1
+GXss -25186.27
+Exss BGK A3A41
+Powr 2
+GXss -16871.07
+Exss BGK A3A41
+Powr 3
+GXss -6392.43
+Exss BGK A5A15
+Powr 0
+GXss -713.94 -5.79964*T
+Exss BGK A5A15
+Powr 1
+GXss 2798.2 -5.29005*T
+Exss BGK A5A15
+Powr 2
+GXss -2905.6 +3.47621*T
+Exss BGK A5A15
+Powr 3
+GXss 990.44
+Exss BGK A5A50
+Powr 0
+GXss 185000 -16*T
+Exss BGK A4A17
+Powr 0
+GXss -133438 +33.95*T
+Exss BGK A4A17
+Powr 1
+GXss 7771
+Exss BGK A4A17
+Powr 2
+GXss 29739
+Exss BGK A6A19
+Powr 0
+GXss 12883.8 +2.14315*T
+Exss BGK A6A19
+Powr 1
+GXss 534.4
+Exss BGK A6A22
+Powr 0
+GXss -7165 -0.3754*T
+Exss BGK A6A22
+Powr 1
+GXss 1503.8 -0.5418*T
+Exss BGK A6A22
+Powr 2
+GXss 1221.15 -1.65967*T
+Exss BGK A6A22
+Powr 3
+GXss -1627 +2.764*T
+Exss BGK A6A39
+Powr 0
+GXss 2230 +0.06*T
+Exss BGK A6A42
+Powr 0
+GXss 500 +1.5*T
+Exss BGK A6A42
+Powr 1
+GXss -100 -0.135*T
+Exss BGK A4A32
+Powr 0
+GXss -144934.43 +36.84*T
+Exss BGK A4A32
+Powr 1
+GXss 85920.44 -35.74*T
+Exss BGK A4A32
+Powr 2
+GXss 62755.14 -21.36*T
+Exss BGK A4A32
+Powr 3
+GXss -10883.87
+Exss BGK A4A46
+Powr 0
+GXss -265414.4 +15.543418*T
+Exss BGK A4A46
+Powr 1
+GXss -134303.03 +17.709482*T
+Exss BGK A4A46
+Powr 2
+GXss 61691.479
+Exss BGK A4A46
+Powr 3
+GXss 52656.13
+Exss BGK A8A41
+Powr 0
+GXss -122940.5 -17.5*T
+Exss BGK A8A41
+Powr 1
+GXss 49000 -48*T
+Exss BGK A8A41
+Powr 2
+GXss 14199.3 -9*T
+Exss BGK A8A41
+Powr 3
+GXss 
+Exss BGK A9A22
+Powr 0
+GXss 5763.48 -3.2521*T
+Exss BGK A9A22
+Powr 1
+GXss 1282.26 -1.63311*T
+Exss BGK A9A22
+Powr 2
+GXss 117.86 +0.58527*T
+Exss BGK A9A39
+Powr 0
+GXss -1398.7 -64.572*T +7.72824*T*ln(T)
+Exss BGK A9A39
+Powr 1
+GXss -1650.3 -2.548*T
+Exss BGK A9A39
+Powr 2
+GXss 9674.2 -7.471*T
+Exss BGK A9A39
+Powr 3
+GXss 3924.1 -1.906*T
+Exss BGK A7A17
+Powr 0
+GXss -124320 +28.5*T
+Exss BGK A7A17
+Powr 1
+GXss 19300
+Exss BGK A7A17
+Powr 2
+GXss 49260 -19*T
+Exss BGK A7A31
+Powr 0
+GXss -307547 +33.826*T
+Exss BGK A7A31
+Powr 1
+GXss 38733
+Exss BGK A7A31
+Powr 2
+GXss 79703
+Exss BGK A7A32
+Powr 0
+GXss -111479 +35.2685*T
+Exss BGK A12A13
+Powr 0
+GXss -3034 -5.624*T
+Exss BGK A12A13
+Powr 1
+GXss 909
+Exss BGK A12A17
+Powr 0
+GXss -9312
+Exss BGK A12A17
+Powr 1
+GXss -1752
+Exss BGK A12A31
+Powr 0
+GXss -85028 +14.284*T
+Exss BGK A12A31
+Powr 1
+GXss -9936
+Exss BGK A12A36
+Powr 0
+GXss -44000 -9.06391*T
+Exss BGK A12A49
+Powr 0
+GXss -42258 +13.616*T
+Exss BGK A13A15
+Powr 0
+GXss 35495.913 -2.957993*T
+Exss BGK A13A15
+Powr 1
+GXss -1001.177
+Exss BGK A13A15
+Powr 2
+GXss 5704.648
+Exss BGK A13A17
+Powr 0
+GXss -17737 +7.996546*T
+Exss BGK A13A17
+Powr 1
+GXss -1331
+Exss BGK A13A27
+Powr 0
+GXss -15009 +13.6587*T
+Exss BGK A13A27
+Powr 1
+GXss 504 +0.9479*T
+Exss BGK A13A41
+Powr 0
+GXss -126112.28 +19.92557*T
+Exss BGK A13A41
+Powr 1
+GXss -48048.45 +11.38497*T
+Exss BGK A13A49
+Powr 0
+GXss -16800 +10*T
+Exss BGK A13A49
+Powr 1
+GXss 9000
+Exss BGK A14A30
+Powr 0
+GXss 2447.4 +14.587884*T -2.008*T*ln(T)
+Exss BGK A14A30
+Powr 1
+GXss -2670.9 -0.01095*T
+Exss BGK A14A30
+Powr 2
+GXss -778.8 +3.43707*T
+Exss BGK A14A30
+Powr 3
+GXss 2101.8 -7.5769*T
+Exss BGK A14A37
+Powr 0
+GXss -503.42 +11.40429*T
+Exss BGK A7A46
+Powr 0
+GXss -125409 -44.4*T
+Exss BGK A15A17
+Powr 0
+GXss 36087.987 -2.329689*T
+Exss BGK A15A17
+Powr 1
+GXss 324.53 -0.032701*T
+Exss BGK A15A17
+Powr 2
+GXss 10355.386 -3.602976*T
+Exss BGK A15A26
+Powr 0
+GXss -36962.71 +4.74394*T
+Exss BGK A15A26
+Powr 1
+GXss -8182.19
+Exss BGK A15A32
+Powr 0
+GXss 12048.61 +1.29893*T
+Exss BGK A15A32
+Powr 1
+GXss -1861.61 +0.94201*T
+Exss BGK A15A35
+Powr 0
+GXss 27190.2 -4.21329*T
+Exss BGK A15A35
+Powr 1
+GXss 2229.2 -0.53584*T
+Exss BGK A15A35
+Powr 2
+GXss -7029.2 +6.48832*T
+Exss BGK A15A35
+Powr 3
+GXss -7397.6 +5.07992*T
+Exss BGK A15A42
+Powr 0
+GXss -9002.8 -5.8381*T
+Exss BGK A15A42
+Powr 1
+GXss -18936.316 +2.339*T
+Exss BGK A15A42
+Powr 2
+GXss -14122.6 +52.942*T -7.057*T*ln(T)
+Exss BGK A15A50
+Powr 0
+GXss -88958.06 +21.56669*T
+Exss BGK A15A50
+Powr 1
+GXss -33607.31 +3.10462*T
+Exss BGK A15A50
+Powr 2
+GXss 8083.16 -0.74669*T
+Exss BGK A7A49
+Powr 0
+GXss -107920 +6.38*T
+Exss BGK A7A49
+Powr 1
+GXss 173900 -34.25*T
+Exss BGK A7A49
+Powr 2
+GXss 83700
+Exss BGK A7A52
+Powr 0
+GXss -305420.6 +16.01676*T
+Exss BGK A7A52
+Powr 1
+GXss -39269.66
+Exss BGK A7A52
+Powr 2
+GXss 50000
+Exss BGK A16A44
+Powr 0
+GXss -350
+Exss BGK A17A29
+Powr 0
+GXss -19930 -12.01*T
+Exss BGK A17A32
+Powr 0
+GXss -16911 +5.1622*T
+Exss BGK A17A32
+Powr 1
+GXss 10180 -4.146656*T
+Exss BGK A17A41
+Powr 0
+GXss -156881 +37.46*T
+Exss BGK A17A41
+Powr 1
+GXss -34239
+Exss BGK A17A41
+Powr 2
+GXss 10238
+Exss BGK A17A41
+Powr 3
+GXss 18352
+Exss BGK A17A46
+Powr 0
+GXss -71347 +8.25*T
+Exss BGK A17A46
+Powr 1
+GXss 7434 -4.5*T
+Exss BGK A17A46
+Powr 2
+GXss 12155 +0.25*T
+Exss BGK A17A52
+Powr 0
+GXss -63018 +12.534*T
+Exss BGK A17A52
+Powr 1
+GXss 9638.37
+Exss BGK A17A52
+Powr 2
+GXss -22215.4
+Exss BGK A18A22
+Powr 0
+GXss 4345 +1.7*T
+Exss BGK A18A22
+Powr 1
+GXss -146 +0.464*T
+Exss BGK A18A22
+Powr 2
+GXss 248
+Exss BGK A18A51
+Powr 0
+GXss 3662.8 +27.28629*T -4.2*T*ln(T)
+Exss BGK A18A51
+Powr 1
+GXss -464.2
+Exss BGK A19A41
+Powr 0
+GXss 6000
+Exss BGK A19A20
+Powr 0
+GXss 21188.99 -7.11037*T
+Exss BGK A19A20
+Powr 1
+GXss -7306.32 +11.90551*T
+Exss BGK A20A45
+Powr 0
+GXss 18277.32 -25.19442*T
+Exss BGK A20A45
+Powr 1
+GXss 16751.63 -15.3886*T
+Exss BGK A22A35
+Powr 0
+GXss 3771.4 -0.96292*T
+Exss BGK A22A35
+Powr 1
+GXss 207.7
+Exss BGK A22A42
+Powr 0
+GXss -828.54 +0.76018*T -0.1211767*T*ln(T)
+Exss BGK A22A42
+Powr 1
+GXss -115.59 -1.39997*T
+Exss BGK A24A32
+Powr 0
+GXss -116299 +19.815*T
+Exss BGK A24A32
+Powr 1
+GXss 63813 -40.941*T
+Exss BGK A25A26
+Powr 0
+GXss -14935 +10.371*T
+Exss BGK A25A26
+Powr 1
+GXss -1789 +1.143*T
+Exss BGK A25A26
+Powr 2
+GXss 6533 -6.6915*T
+Exss BGK A26A41
+Powr 0
+GXss -83864.26 +32.44438*T
+Exss BGK A26A41
+Powr 1
+GXss 18027.41 -19.61202*T
+Exss BGK A26A41
+Powr 2
+GXss 2486.67 -0.31084*T
+Exss BGK A26A41
+Powr 3
+GXss 18541.17 -2.31766*T
+Exss BGK A26A41
+Powr 4
+GXss -12338.84 +1.54236*T
+Exss BGK A26A52
+Powr 0
+GXss 4961 +38.18*T
+Exss BGK A27A35
+Powr 0
+GXss 36430 -4.26225*T
+Exss BGK A27A35
+Powr 1
+GXss 9785
+Exss BGK A27A46
+Powr 0
+GXss -34000 +21.5*T
+Exss BGK A27A46
+Powr 1
+GXss 1400
+Exss BGK A28A32
+Powr 0
+GXss -46540 +19.53*T
+Exss BGK A28A32
+Powr 1
+GXss 2915
+Exss BGK A28A41
+Powr 0
+GXss -137903.34 +8.40536*T
+Exss BGK A28A41
+Powr 1
+GXss -42528.38
+Exss BGK A28A41
+Powr 2
+GXss 49284.19
+Exss BGK A28A41
+Powr 3
+GXss 48395.52
+Exss BGK A28A46
+Powr 0
+GXss -17494.7 -3.57111*T
+Exss BGK A28A46
+Powr 1
+GXss -463.9 +9.0476*T
+Exss BGK A30A37
+Powr 0
+GXss 4832.6 +0.88615*T
+Exss BGK A30A37
+Powr 1
+GXss 2108.6 -3.17115*T
+Exss BGK A30A37
+Powr 2
+GXss 128.41 +2.34212*T
+Exss BGK A31A48
+Powr 0
+GXss -1875
+Exss BGK A32A34
+Powr 0
+GXss -271750 +64.8*T
+Exss BGK A32A34
+Powr 1
+GXss 
+Exss BGK A32A34
+Powr 2
+GXss 40000 -4.8*T
+Exss BGK A32A41
+Powr 0
+GXss -205597 +33.75*T
+Exss BGK A32A41
+Powr 1
+GXss -108816 +16.75*T
+Exss BGK A32A41
+Powr 2
+GXss 11449 -8*T
+Exss BGK A32A41
+Powr 3
+GXss 90706 -36.6*T
+Exss BGK A32A43
+Powr 0
+GXss -108449.99 -0.235*T
+Exss BGK A32A43
+Powr 1
+GXss -684.17 -21.139*T
+Exss BGK A32A43
+Powr 2
+GXss 37663.6 -17.372*T
+Exss BGK A32A52
+Powr 0
+GXss -200450 +10.35*T
+Exss BGK A32A52
+Powr 1
+GXss -42925 +3.58*T
+Exss BGK A32A52
+Powr 2
+GXss -34000 +32.37*T
+Exss BGK A29A31
+Powr 0
+GXss -292101
+Exss BGK A29A31
+Powr 1
+GXss -105406
+Exss BGK A29A46
+Powr 0
+GXss -376354.15
+Exss BGK A29A46
+Powr 1
+GXss -98242.295
+Exss BGK A35A42
+Powr 0
+GXss 6204.5 -0.67981*T
+Exss BGK A35A42
+Powr 1
+GXss 791.7 -1.5219*T
+Exss BGK A40A45
+Powr 0
+GXss -8271.5 +8.78843*T
+Exss BGK A40A45
+Powr 1
+GXss 476.8
+Exss BGK A41A46
+Powr 0
+GXss -236700.05 +15.8192*T
+Exss BGK A41A46
+Powr 1
+GXss 61500.59 -4.92006*T
+Exss BGK A41A46
+Powr 2
+GXss 71711.81 -5.73696*T
+Exss BGK A41A46
+Powr 3
+GXss -48695.02 +3.8956*T
+Exss BGK A41A49
+Powr 0
+GXss -121974.2 +19.8634*T
+Exss BGK A41A51
+Powr 0
+GXss 7829.25
+Exss BGK A41A51
+Powr 1
+GXss -3338.18
+Exss BGK A41A51
+Powr 2
+GXss -891.33
+Exss BGK A42A52
+Powr 0
+GXss -45520.535 -95.459986*T
+Exss BGK A42A52
+Powr 1
+GXss -80000 +82.115263*T
+Exss BGK A42A52
+Powr 2
+GXss -120000 +80.027343*T
+Exss BGK A46A48
+Powr 0
+GXss 368.55
+Exss BGK A46A48
+Powr 1
+GXss 2838.63
+Exss BGK A47A52
+Powr 0
+GXss 80371.896 -55.536815*T
+Exss BGK A9A10
+Powr 0
+GXss 50245.05 -28.03484*T
+Exss BGK A9A10
+Powr 1
+GXss 
+Exss BGK A9A45
+Powr 0
+GXss 
+Exss BGK A9A45
+Powr 1
+GXss 
+Exss BGK A10A45
+Powr 0
+GXss 4006.43 +0.67542*T
+Exss BGK A10A45
+Powr 1
+GXss 4741.89 -7.27527*T
+Exss BGK A42A51
+Powr 0
+GXss 19314.64 -75.89949*T +8.751396*T*ln(T)
+Exss BGK A42A51
+Powr 1
+GXss -5696.28 +4.20198*T
+Exss BGK A42A51
+Powr 2
+GXss 1037.22 +0.98362*T
+SolE LIQU ------------------------------------------------------------
+SolB BCT_ 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854986806 Modified: 43052.7854986806 2017-11-13 2017-11-13
+Name BCT_A5
+Desc BCT_A5
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 7
+Spec A0 0 Ag
+Spec A1 0 Sn
+Spec A2 0 Al
+Spec A3 0 Bi
+Spec A4 0 In
+Spec A5 0 Pb
+Spec A6 0 Zn
+EndM 0 A0 Ag
+Amnt 1
+Name Ag
+CpXp Ag#BCT__0000
+EndM 0 A1 Sn
+Amnt 1
+Name Sn
+CpXp Sn#BCT__0001
+EndM 0 A2 Al
+Amnt 1
+Name Al
+CpXp Al#BCT__0002
+EndM 0 A3 Bi
+Amnt 1
+Name Bi
+CpXp Bi#BCT__0003
+EndM 0 A4 In
+Amnt 1
+Name In
+CpXp In#BCT__0004
+EndM 0 A5 Pb
+Amnt 1
+Name Pb
+CpXp Pb#BCT__0005
+EndM 0 A6 Zn
+Amnt 1
+Name Zn
+CpXp Zn#BCT__0006
+Exss BGK A0A1
+Powr 0
+GXss 18358.8
+Exss BGK A1A2
+Powr 0
+GXss 14136.95 -4.71231*T
+Exss BGK A1A3
+Powr 0
+GXss 3500 -1.038*T
+Exss BGK A1A3
+Powr 1
+GXss 3710
+Exss BGK A1A5
+Powr 0
+GXss 19700 -15.89*T
+Exss BGK A1A6
+Powr 0
+GXss 6514.76 +25.70957*T
+SolE BCT_ ------------------------------------------------------------
+SolB BETA 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854986921 Modified: 43052.7854986921 2017-11-13 2017-11-13
+Name BETA_RHOMBO_B
+Desc BETA_RHOMBO_B
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 B
+EndM 0 A0 B
+Amnt 1
+Name B
+CpXp B#BETA_0000
+SolE BETA ------------------------------------------------------------
+SolB CDIN 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854986921 Modified: 43052.7854986921 2017-11-13 2017-11-13
+Name CDIN_ALPHA
+Desc CDIN_ALPHA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Cd
+Spec A1 0 In
+EndM 0 A0 Cd
+Amnt 1
+Name Cd
+CpXp Cd#CDIN_0000
+EndM 0 A1 In
+Amnt 1
+Name In
+CpXp In#CDIN_0001
+Exss BGK A0A1
+Powr 0
+GXss 8635.34 -2.15015*T
+Exss BGK A0A1
+Powr 1
+GXss 1297.52 +0.67751*T
+SolE CDIN ------------------------------------------------------------
+SolB COP1 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0.28
+Date Created: 43052.7854987037 Modified: 43052.7854987037 2017-11-13 2017-11-13
+Name COPT
+Desc COPT
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Co
+Spec A1 0 Pt
+EndM 0 A0 Co
+Amnt 1
+Name Co
+Magn 1.35 1396
+CpXp Co#COP1_0000
+EndM 0 A1 Pt
+Amnt 1
+Name Pt
+CpXp Pt#COP1_0001
+Exss BGK A0A1
+Powr 0
+GXss -47410 -8*T
+Exss BGK A0A1
+Powr 1
+GXss 150
+Exss BTK A0A1
+Powr 0
+GXss 582
+Exss BBK A0A1
+Powr 0
+GXss 
+Exss BTK A0A1
+Powr 1
+GXss 
+Exss BBK A0A1
+Powr 1
+GXss 
+Exss BTK A0A1
+Powr 2
+GXss 745
+Exss BBK A0A1
+Powr 2
+GXss 
+SolE COP1 ------------------------------------------------------------
+SolB COP2 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0.28
+Date Created: 43052.7854987153 Modified: 43052.7854987153 2017-11-13 2017-11-13
+Name COPT3
+Desc COPT3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Co
+Spec A1 0 Pt
+EndM 0 A0 Co
+Amnt 1
+Name Co
+Magn 1.35 1396
+CpXp Co#COP2_0000
+EndM 0 A1 Pt
+Amnt 1
+Name Pt
+CpXp Pt#COP2_0001
+Exss BGK A0A1
+Powr 0
+GXss -48795 -8*T
+Exss BGK A0A1
+Powr 1
+GXss 21200
+Exss BGK A0A1
+Powr 2
+GXss -5000
+Exss BTK A0A1
+Powr 0
+GXss 582
+Exss BBK A0A1
+Powr 0
+GXss 
+Exss BTK A0A1
+Powr 1
+GXss 
+Exss BBK A0A1
+Powr 1
+GXss 
+Exss BTK A0A1
+Powr 2
+GXss 745
+Exss BBK A0A1
+Powr 2
+GXss 
+SolE COP2 ------------------------------------------------------------
+SolB DHCP 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987153 Modified: 43052.7854987153 2017-11-13 2017-11-13
+Name DHCP
+Desc DHCP
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 La
+EndM 0 A0 La
+Amnt 1
+Name La
+CpXp La#DHCP_0000
+SolE DHCP ------------------------------------------------------------
+SolB DIAM 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987384 Modified: 43052.7854987384 2017-11-13 2017-11-13
+Name DIAMOND_A4
+Desc DIAMOND_A4
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 7
+Spec A0 0 Al
+Spec A1 0 Ge
+Spec A2 0 Si
+Spec A3 0 Bi
+Spec A4 0 Sn
+Spec A5 0 Ti
+Spec A6 0 Zn
+EndM 0 A0 Al
+Amnt 1
+Name Al
+CpXp Al#DIAM_0000
+EndM 0 A1 Ge
+Amnt 1
+Name Ge
+CpXp Ge#DIAM_0001
+EndM 0 A2 Si
+Amnt 1
+Name Si
+CpXp Si#DIAM_0002
+EndM 0 A3 Bi
+Amnt 1
+Name Bi
+CpXp Bi#DIAM_0003
+EndM 0 A4 Sn
+Amnt 1
+Name Sn
+CpXp Sn#DIAM_0004
+EndM 0 A5 Ti
+Amnt 1
+Name Ti
+CpXp Ti#DIAM_0005
+EndM 0 A6 Zn
+Amnt 1
+Name Zn
+CpXp Zn#DIAM_0006
+Exss BGK A0A1
+Powr 0
+GXss 80*T
+Exss BGK A0A2
+Powr 0
+GXss 113246.16 -47.55509*T
+Exss BGK A1A3
+Powr 0
+GXss 100000
+Exss BGK A3A4
+Powr 0
+GXss 10000
+Exss BGK A1A2
+Powr 0
+GXss 3500
+Exss BGK A2A5
+Powr 0
+GXss 80*T
+Exss BGK A2A6
+Powr 0
+GXss 100*T
+Exss BGK A4A6
+Powr 0
+GXss 30000
+SolE DIAM ------------------------------------------------------------
+SolB GRAP 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987384 Modified: 43052.7854987384 2017-11-13 2017-11-13
+Name GRAPHITE
+Desc GRAPHITE
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 C
+EndM 0 A0 C
+Amnt 1
+Name C
+CpXp C#GRAP_0000
+SolE GRAP ------------------------------------------------------------
+SolB HEXA 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987500 Modified: 43052.7854987500 2017-11-13 2017-11-13
+Name HEXAGONAL_A8
+Desc HEXAGONAL_A8
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Te
+Spec A1 0 Se
+EndM 0 A0 Te
+Amnt 1
+Name Te
+CpXp Te#HEXA_0000
+EndM 0 A1 Se
+Amnt 1
+Name Se
+CpXp Se#HEXA_0001
+Exss BGK A0A1
+Powr 0
+GXss -222.6 -1.2815*T
+SolE HEXA ------------------------------------------------------------
+SolB INS1 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987500 Modified: 43052.7854987500 2017-11-13 2017-11-13
+Name INSN_BETA
+Desc INSN_BETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 In
+Spec A1 0 Sn
+EndM 0 A0 In
+Amnt 1
+Name In
+CpXp In#INS1_0000
+EndM 0 A1 Sn
+Amnt 1
+Name Sn
+CpXp Sn#INS1_0001
+SolE INS1 ------------------------------------------------------------
+SolB INS2 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987616 Modified: 43052.7854987616 2017-11-13 2017-11-13
+Name INSN_GAMMA
+Desc INSN_GAMMA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 In
+Spec A1 0 Sn
+EndM 0 A0 In
+Amnt 1
+Name In
+CpXp In#INS2_0000
+EndM 0 A1 Sn
+Amnt 1
+Name Sn
+CpXp Sn#INS2_0001
+Exss BGK A0A1
+Powr 0
+GXss -4915.99 +1.63867*T
+SolE INS2 ------------------------------------------------------------
+SolB ORTH 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987616 Modified: 43052.7854987616 2017-11-13 2017-11-13
+Name ORTHORHOMBIC_A20
+Desc ORTHORHOMBIC_A20
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 U
+Spec A1 0 Zr
+EndM 0 A0 U
+Amnt 1
+Name U
+CpXp U#ORTH_0000
+EndM 0 A1 Zr
+Amnt 1
+Name Zr
+CpXp Zr#ORTH_0001
+Exss BGK A0A1
+Powr 0
+GXss 26092.616
+SolE ORTH ------------------------------------------------------------
+SolB RED_ 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987731 Modified: 43052.7854987731 2017-11-13 2017-11-13
+Name RED_P
+Desc RED_P
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 P
+EndM 0 A0 P
+Amnt 1
+Name P
+CpXp P#RED__0000
+SolE RED_ ------------------------------------------------------------
+SolB RHOM 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854987847 Modified: 43052.7854987847 2017-11-13 2017-11-13
+Name RHOMBOHEDRAL_A7
+Desc RHOMBOHEDRAL_A7
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 7
+Spec A0 0 As
+Spec A1 0 Ge
+Spec A2 0 Bi
+Spec A3 0 In
+Spec A4 0 Sb
+Spec A5 0 Sn
+Spec A6 0 Pb
+EndM 0 A0 As
+Amnt 1
+Name As
+CpXp As#RHOM_0000
+EndM 0 A1 Ge
+Amnt 1
+Name Ge
+CpXp Ge#RHOM_0001
+EndM 0 A2 Bi
+Amnt 1
+Name Bi
+CpXp Bi#RHOM_0002
+EndM 0 A3 In
+Amnt 1
+Name In
+CpXp In#RHOM_0003
+EndM 0 A4 Sb
+Amnt 1
+Name Sb
+CpXp Sb#RHOM_0004
+EndM 0 A5 Sn
+Amnt 1
+Name Sn
+CpXp Sn#RHOM_0005
+EndM 0 A6 Pb
+Amnt 1
+Name Pb
+CpXp Pb#RHOM_0006
+Exss BGK A0A1
+Powr 0
+GXss 80*T
+Exss BGK A1A2
+Powr 0
+GXss 100000
+Exss BGK A2A3
+Powr 0
+GXss 22500
+Exss BGK A2A4
+Powr 0
+GXss 10150 -6.3*T
+Exss BGK A2A4
+Powr 1
+GXss 150
+Exss BGK A2A5
+Powr 0
+GXss 19720 -22.6*T
+Exss BGK A2A5
+Powr 1
+GXss -5760 +13.834*T
+Exss BGK A3A6
+Powr 0
+GXss 6000
+SolE RHOM ------------------------------------------------------------
+SolB TET1 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854988079 Modified: 43052.7854988079 2017-11-13 2017-11-13
+Name TETRAGONAL_A6
+Desc TETRAGONAL_A6
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 6
+Spec A0 0 Bi
+Spec A1 0 In
+Spec A2 0 Cd
+Spec A3 0 Ga
+Spec A4 0 Pb
+Spec A5 0 Sn
+EndM 0 A0 Bi
+Amnt 1
+Name Bi
+CpXp Bi#TET1_0000
+EndM 0 A1 In
+Amnt 1
+Name In
+CpXp In#TET1_0001
+EndM 0 A2 Cd
+Amnt 1
+Name Cd
+CpXp Cd#TET1_0002
+EndM 0 A3 Ga
+Amnt 1
+Name Ga
+CpXp Ga#TET1_0003
+EndM 0 A4 Pb
+Amnt 1
+Name Pb
+CpXp Pb#TET1_0004
+EndM 0 A5 Sn
+Amnt 1
+Name Sn
+CpXp Sn#TET1_0005
+Exss BGK A0A1
+Powr 0
+GXss 5646.8 -26.868*T
+Exss BGK A1A2
+Powr 0
+GXss 7486.51 +0.01344*T
+Exss BGK A1A3
+Powr 0
+GXss 9398
+Exss BGK A1A4
+Powr 0
+GXss -3118.2
+Exss BGK A1A4
+Powr 1
+GXss 3741.1
+Exss BGK A1A5
+Powr 0
+GXss 2036 -7.88412*T
+SolE TET1 ------------------------------------------------------------
+SolB TET2 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854988194 Modified: 43052.7854988194 2017-11-13 2017-11-13
+Name TETRAGONAL_U
+Desc TETRAGONAL_U
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 U
+Spec A1 0 Zr
+EndM 0 A0 U
+Amnt 1
+Name U
+CpXp U#TET2_0000
+EndM 0 A1 Zr
+Amnt 1
+Name Zr
+CpXp Zr#TET2_0001
+Exss BGK A0A1
+Powr 0
+GXss 24580.904
+SolE TET2 ------------------------------------------------------------
+SolB TET3 7 1 One-lattice R-K/Muggianu only
+Stat Solid 0
+Date Created: 43052.7854988310 Modified: 43052.7854988310 2017-11-13 2017-11-13
+Name TET_ALPHA1
+Desc TET_ALPHA1
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 4
+Spec A0 0 Bi
+Spec A1 0 In
+Spec A2 0 Pb
+Spec A3 0 Sn
+EndM 0 A0 Bi
+Amnt 1
+Name Bi
+CpXp Bi#TET3_0000
+EndM 0 A1 In
+Amnt 1
+Name In
+CpXp In#TET3_0001
+EndM 0 A2 Pb
+Amnt 1
+Name Pb
+CpXp Pb#TET3_0002
+EndM 0 A3 Sn
+Amnt 1
+Name Sn
+CpXp Sn#TET3_0003
+Exss BGK A0A1
+Powr 0
+GXss 3308.429 -27.257*T
+Exss BGK A0A1
+Powr 1
+GXss -1661.422 -1.644*T
+Exss BGK A1A2
+Powr 0
+GXss 3207.99 -2.1104311*T
+Exss BGK A1A2
+Powr 1
+GXss -2075.44 +7.9804712*T
+Exss BGK A1A3
+Powr 0
+GXss 950.44 -6.14608*T
+SolE TET3 ------------------------------------------------------------
+SolB AGSB 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854988542 Modified: 43052.7854988542 2017-11-13 2017-11-13
+Name AGSB_ORTHO
+Desc AGSB_ORTHO
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Ag
+Spec A1 0 Sb
+SubL B 3
+Spec B0 0 Ag
+Spec B1 0 Sb
+Spec B2 0 Sn
+EndM 0 A0B0 Ag4
+Amnt 3 1
+Name Ag3Ag
+CpXp Ag4#AGSB_0000
+; Ag3Ag
+EndM 0 A0B1 SbAg3
+Amnt 3 1
+Name Ag3Sb
+CpXp SbAg3#AGSB_0001
+; Ag3Sb
+EndM 0 A1B0 Sb3Ag
+Amnt 3 1
+Name Sb3Ag
+CpXp Sb3Ag#AGSB_0002
+; Sb3Ag
+EndM 0 A1B1 Sb4
+Amnt 3 1
+Name Sb3Sb
+CpXp Sb4#AGSB_0003
+; Sb3Sb
+EndM 0 A0B2 SnAg3
+Amnt 3 1
+Name Ag3Sn
+CpXp SnAg3#AGSB_0004
+; Ag3Sn
+EndM 0 A1B2 Sb3Sn
+Amnt 3 1
+Name Sb3Sn
+CpXp Sb3Sn#AGSB_0005
+; Sb3Sn
+Exss BGK A0A1B1
+Powr 0
+GXss 41967.16
+Exss BGK A0B0B1
+Powr 0
+GXss -23154.159
+SolE AGSB ------------------------------------------------------------
+SolB AGZ1 12 4 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854988657 Modified: 43052.7854988657 2017-11-13 2017-11-13
+Name AGZN_GAMMA
+Desc AGZN_GAMMA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 2
+Spec A0 0 Ag
+Spec A1 0 Zn
+SubL B 2
+Site 2
+Spec B0 0 Ag
+Spec B1 0 Zn
+SubL C 1
+Site 3
+Spec C0 0 Ag
+SubL D 1
+Site 6
+Spec D0 0 Zn
+EndM 0 A0B0C0D0 Ag7Zn6
+Amnt 2 2 3 6
+Name Ag:Ag:Ag:Zn
+CpXp Ag7Zn6#AGZ1_0000
+; Ag:Ag:Ag:Zn
+EndM 0 A0B1C0D0 Ag5Zn8
+Amnt 2 2 3 6
+Name Ag:Zn:Ag:Zn
+CpXp Ag5Zn8#AGZ1_0001
+; Ag:Zn:Ag:Zn
+EndM 0 A1B0C0D0 Ag5Zn8
+Amnt 2 2 3 6
+Name Zn:Ag:Ag:Zn
+CpXp Ag5Zn8#AGZ1_0002
+; Zn:Ag:Ag:Zn
+EndM 0 A1B1C0D0 Ag3Zn10
+Amnt 2 2 3 6
+Name Zn:Zn:Ag:Zn
+CpXp Ag3Zn10#AGZ1_0003
+; Zn:Zn:Ag:Zn
+SolE AGZ1 ------------------------------------------------------------
+SolB AGZ2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854988773 Modified: 43052.7854988773 2017-11-13 2017-11-13
+Name AGZN_ZETA
+Desc AGZN_ZETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Zn
+SubL B 2
+Site 2
+Spec B0 0 Ag
+Spec B1 0 Zn
+EndM 0 A0B0 Ag2Zn
+Amnt 1 2
+Name Zn:Ag
+CpXp Ag2Zn#AGZ2_0000
+; Zn:Ag
+EndM 0 A0B1 Zn3
+Amnt 1 2
+Name Zn:Zn
+CpXp Zn3#AGZ2_0001
+; Zn:Zn
+Exss BGK A0B0B1
+Powr 0
+GXss -32070
+SolE AGZ2 ------------------------------------------------------------
+SolB AL11 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854988889 Modified: 43052.7854988889 2017-11-13 2017-11-13
+Name AL11CR2
+Desc AL11CR2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 11
+Spec A0 0 Al
+SubL B 2
+Site 2
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al13
+Amnt 11 2
+Name Al:Al
+CpXp Al13#AL11_0000
+; Al:Al
+EndM 0 A0B1 Cr2Al11
+Amnt 11 2
+Name Al:Cr
+CpXp Cr2Al11#AL11_0001
+; Al:Cr
+Exss BGK A0B0B1
+Powr 0
+GXss 199602.3 -186.4713*T
+SolE AL11 ------------------------------------------------------------
+SolB AL12 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854988889 Modified: 43052.7854988889 2017-11-13 2017-11-13
+Name AL11MN4
+Desc AL11MN4
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 11
+Spec A0 0 Al
+SubL B 1
+Site 4
+Spec B0 0 Mn
+EndM 0 A0B0 Mn4Al11
+Amnt 11 4
+Name Al:Mn
+CpXp Mn4Al11#AL12_0000
+; Al:Mn
+SolE AL12 ------------------------------------------------------------
+SolB AL13 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989005 Modified: 43052.7854989005 2017-11-13 2017-11-13
+Name AL11_CEND3_H
+Desc AL11_CEND3_H
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 11
+Spec A0 0 Al
+SubL B 1
+Site 3
+Spec B0 0 Ce
+EndM 0 A0B0 Ce3Al11
+Amnt 11 3
+Name Al:Ce
+CpXp Ce3Al11#AL13_0000
+; Al:Ce
+SolE AL13 ------------------------------------------------------------
+SolB AL14 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989005 Modified: 43052.7854989005 2017-11-13 2017-11-13
+Name AL11_CEND3_L
+Desc AL11_CEND3_L
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 11
+Spec A0 0 Al
+SubL B 1
+Site 3
+Spec B0 0 Ce
+EndM 0 A0B0 Ce3Al11
+Amnt 11 3
+Name Al:Ce
+CpXp Ce3Al11#AL14_0000
+; Al:Ce
+SolE AL14 ------------------------------------------------------------
+SolB AL15 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989120 Modified: 43052.7854989120 2017-11-13 2017-11-13
+Name AL12MN
+Desc AL12MN
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 12
+Spec A0 0 Al
+SubL B 1
+Spec B0 0 Mn
+EndM 0 A0B0 MnAl12
+Amnt 12 1
+Name Al:Mn
+CpXp MnAl12#AL15_0000
+; Al:Mn
+SolE AL15 ------------------------------------------------------------
+SolB AL31 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989120 Modified: 43052.7854989120 2017-11-13 2017-11-13
+Name AL3M_D022
+Desc AL3M_D022
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Al
+Spec A1 0 Ti
+SubL B 1
+Spec B0 0 Ti
+EndM 0 A0B0 TiAl3
+Amnt 3 1
+Name Al:Ti
+CpXp TiAl3#AL31_0000
+; Al:Ti
+EndM 0 A1B0 Ti4
+Amnt 3 1
+Name Ti:Ti
+CpXp Ti4#AL31_0001
+; Ti:Ti
+Exss BGK A0A1B0
+Powr 0
+GXss -60000
+SolE AL31 ------------------------------------------------------------
+SolB AL32 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989352 Modified: 43052.7854989352 2017-11-13 2017-11-13
+Name AL3NB
+Desc AL3NB
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Al
+Spec A1 0 Nb
+SubL B 2
+Site 3
+Spec B0 0 Al
+Spec B1 0 Nb
+EndM 0 A0B0 Al4
+Amnt 1 3
+Name AlAl3
+CpXp Al4#AL32_0000
+; AlAl3
+EndM 0 A0B1 Nb3Al
+Amnt 1 3
+Name AlNb3
+CpXp Nb3Al#AL32_0001
+; AlNb3
+EndM 0 A1B0 NbAl3
+Amnt 1 3
+Name NbAl3
+CpXp NbAl3#AL32_0002
+; NbAl3
+EndM 0 A1B1 Nb4
+Amnt 1 3
+Name NbNb3
+CpXp Nb4#AL32_0003
+; NbNb3
+Exss BGK A0B0B1
+Powr 0
+GXss -110692 +100*T
+Exss BGK A1B0B1
+Powr 0
+GXss -110692 +100*T
+SolE AL32 ------------------------------------------------------------
+SolB AL33 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989468 Modified: 43052.7854989468 2017-11-13 2017-11-13
+Name AL3NI2
+Desc AL3NI2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Al
+SubL B 2
+Site 2
+Spec B0 0 Al
+Spec B1 0 Ni
+SubL C 2
+Spec C0 0 Va
+Spec C1 0 Ni
+EndM 0 A0B0C0 Al5
+Amnt 3 2 1
+Name Al:Al:Va
+CpXp Al5#AL33_0000
+; Al:Al:Va
+EndM 0 A0B0C1 NiAl5
+Amnt 3 2 1
+Name Al:Al:Ni
+CpXp NiAl5#AL33_0001
+; Al:Al:Ni
+EndM 0 A0B1C0 Ni2Al3
+Amnt 3 2 1
+Name Al:Ni:Va
+CpXp Ni2Al3#AL33_0002
+; Al:Ni:Va
+EndM 0 A0B1C1 Ni3Al3
+Amnt 3 2 1
+Name Al:Ni:Ni
+CpXp Ni3Al3#AL33_0003
+; Al:Ni:Ni
+Exss BGK A0B0B1C0
+Powr 0
+GXss -193484.18 +131.79*T
+Exss BGK A0B0B1C1
+Powr 0
+GXss -193484.18 +131.79*T
+Exss BGK A0B0C0C1
+Powr 0
+GXss -22001.7 +7.0332*T
+Exss BGK A0B1C0C1
+Powr 0
+GXss -22001.7 +7.0332*T
+SolE AL33 ------------------------------------------------------------
+SolB AL34 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989583 Modified: 43052.7854989583 2017-11-13 2017-11-13
+Name AL3_CEND
+Desc AL3_CEND
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Al
+SubL B 1
+Spec B0 0 Ce
+EndM 0 A0B0 CeAl3
+Amnt 3 1
+Name Al:Ce
+CpXp CeAl3#AL34_0000
+; Al:Ce
+SolE AL34 ------------------------------------------------------------
+SolB AL41 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989699 Modified: 43052.7854989699 2017-11-13 2017-11-13
+Name AL4CR
+Desc AL4CR
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 4
+Spec A0 0 Al
+SubL B 2
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al5
+Amnt 4 1
+Name Al:Al
+CpXp Al5#AL41_0000
+; Al:Al
+EndM 0 A0B1 CrAl4
+Amnt 4 1
+Name Al:Cr
+CpXp CrAl4#AL41_0001
+; Al:Cr
+Exss BGK A0B0B1
+Powr 0
+GXss -71625 +53.003*T
+SolE AL41 ------------------------------------------------------------
+SolB AL42 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989699 Modified: 43052.7854989699 2017-11-13 2017-11-13
+Name AL4MN
+Desc AL4MN
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 4
+Spec A0 0 Al
+SubL B 1
+Spec B0 0 Mn
+EndM 0 A0B0 MnAl4
+Amnt 4 1
+Name Al:Mn
+CpXp MnAl4#AL42_0000
+; Al:Mn
+SolE AL42 ------------------------------------------------------------
+SolB AL6M 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989815 Modified: 43052.7854989815 2017-11-13 2017-11-13
+Name AL6MN
+Desc AL6MN
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 6
+Spec A0 0 Al
+SubL B 1
+Spec B0 0 Mn
+EndM 0 A0B0 MnAl6
+Amnt 6 1
+Name Al:Mn
+CpXp MnAl6#AL6M_0000
+; Al:Mn
+SolE AL6M ------------------------------------------------------------
+SolB AL7C 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854989815 Modified: 43052.7854989815 2017-11-13 2017-11-13
+Name AL7CR
+Desc AL7CR
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 7
+Spec A0 0 Al
+SubL B 2
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al8
+Amnt 7 1
+Name Al:Al
+CpXp Al8#AL7C_0000
+; Al:Al
+EndM 0 A0B1 CrAl7
+Amnt 7 1
+Name Al:Cr
+CpXp CrAl7#AL7C_0001
+; Al:Cr
+Exss BGK A0B0B1
+Powr 0
+GXss -21094.1 +12.6986*T
+SolE AL7C ------------------------------------------------------------
+SolB AL81 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990046 Modified: 43052.7854990046 2017-11-13 2017-11-13
+Name AL8CR5_ALPHA
+Desc AL8CR5_ALPHA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 8
+Spec A0 0 Al
+Spec A1 0 Cr
+SubL B 2
+Site 5
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al13
+Amnt 8 5
+Name Al:Al
+CpXp Al13#AL81_0000
+; Al:Al
+EndM 0 A0B1 Cr5Al8
+Amnt 8 5
+Name Al:Cr
+CpXp Cr5Al8#AL81_0001
+; Al:Cr
+EndM 0 A1B0 Cr8Al5
+Amnt 8 5
+Name Cr:Al
+CpXp Cr8Al5#AL81_0002
+; Cr:Al
+EndM 0 A1B1 Cr13
+Amnt 8 5
+Name Cr:Cr
+CpXp Cr13#AL81_0003
+; Cr:Cr
+Exss BGK A0A1B0
+Powr 0
+GXss 140019.3 +2.7138*T
+Exss BGK A0A1B0
+Powr 1
+GXss -298819 +92.8656*T
+Exss BGK A0A1B1
+Powr 0
+GXss 140019.3 +2.7138*T
+Exss BGK A0A1B1
+Powr 1
+GXss -298819 +92.8656*T
+Exss BGK A0B0B1
+Powr 0
+GXss -302291.9 +156.9409*T
+Exss BGK A0B0B1
+Powr 1
+GXss -84584.3
+Exss BGK A1B0B1
+Powr 0
+GXss -302291.9 +156.9409*T
+Exss BGK A1B0B1
+Powr 1
+GXss -84584.3
+SolE AL81 ------------------------------------------------------------
+SolB AL82 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990162 Modified: 43052.7854990162 2017-11-13 2017-11-13
+Name AL8CR5_BETA
+Desc AL8CR5_BETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 8
+Spec A0 0 Al
+Spec A1 0 Cr
+SubL B 2
+Site 5
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al13
+Amnt 8 5
+Name Al:Al
+CpXp Al13#AL82_0000
+; Al:Al
+EndM 0 A0B1 Cr5Al8
+Amnt 8 5
+Name Al:Cr
+CpXp Cr5Al8#AL82_0001
+; Al:Cr
+EndM 0 A1B0 Cr8Al5
+Amnt 8 5
+Name Cr:Al
+CpXp Cr8Al5#AL82_0002
+; Cr:Al
+EndM 0 A1B1 Cr13
+Amnt 8 5
+Name Cr:Cr
+CpXp Cr13#AL82_0003
+; Cr:Cr
+Exss BGK A0A1B0
+Powr 0
+GXss 194038.6 -57.0982*T
+Exss BGK A0A1B0
+Powr 1
+GXss 16289.5 -99.3751*T
+Exss BGK A0A1B1
+Powr 0
+GXss 194038.6 -57.0982*T
+Exss BGK A0A1B1
+Powr 1
+GXss 16289.5 -99.3751*T
+Exss BGK A0B0B1
+Powr 0
+GXss 198488 -236.4091*T
+Exss BGK A0B0B1
+Powr 1
+GXss -254728.3 +98.3046*T
+Exss BGK A1B0B1
+Powr 0
+GXss 198488 -236.4091*T
+Exss BGK A1B0B1
+Powr 1
+GXss -254728.3 +98.3046*T
+SolE AL82 ------------------------------------------------------------
+SolB AL83 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990278 Modified: 43052.7854990278 2017-11-13 2017-11-13
+Name AL8MN5_D810
+Desc AL8MN5_D810
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 12
+Spec A0 0 Al
+SubL B 1
+Site 4
+Spec B0 0 Mn
+SubL C 2
+Site 10
+Spec C0 0 Al
+Spec C1 0 Mn
+EndM 0 A0B0C0 Mn4Al22
+Amnt 12 4 10
+Name Al:Mn:Al
+CpXp Mn4Al22#AL83_0000
+; Al:Mn:Al
+EndM 0 A0B0C1 Mn14Al12
+Amnt 12 4 10
+Name Al:Mn:Mn
+CpXp Mn14Al12#AL83_0001
+; Al:Mn:Mn
+Exss BGK A0B0C0C1
+Powr 0
+GXss -546234 +387.348*T
+SolE AL83 ------------------------------------------------------------
+SolB ALCR 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990509 Modified: 43052.7854990509 2017-11-13 2017-11-13
+Name ALCR2
+Desc ALCR2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Al
+Spec A1 0 Cr
+SubL B 2
+Site 2
+Spec B0 0 Al
+Spec B1 0 Cr
+EndM 0 A0B0 Al3
+Amnt 1 2
+Name Al:Al
+CpXp Al3#ALCR_0000
+; Al:Al
+EndM 0 A0B1 Cr2Al
+Amnt 1 2
+Name Al:Cr
+CpXp Cr2Al#ALCR_0001
+; Al:Cr
+EndM 0 A1B0 CrAl2
+Amnt 1 2
+Name Cr:Al
+CpXp CrAl2#ALCR_0002
+; Cr:Al
+EndM 0 A1B1 Cr3
+Amnt 1 2
+Name Cr:Cr
+CpXp Cr3#ALCR_0003
+; Cr:Cr
+Exss BGK A0A1B0
+Powr 0
+GXss -11282.4 -6.37*T
+Exss BGK A0A1B1
+Powr 0
+GXss -11282.4 -6.37*T
+Exss BGK A0B0B1
+Powr 0
+GXss -31502.4 +5.7033*T
+Exss BGK A1B0B1
+Powr 0
+GXss -31502.4 +5.7033*T
+SolE ALCR ------------------------------------------------------------
+SolB ALM1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990509 Modified: 43052.7854990509 2017-11-13 2017-11-13
+Name ALMG_BETA
+Desc ALMG_BETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 44
+Spec A0 0 Mg
+SubL B 1
+Site 70
+Spec B0 0 Al
+EndM 0 A0B0 Al70Mg44
+Amnt 44 70
+Name Mg:Al
+CpXp Al70Mg44#ALM1_0000
+; Mg:Al
+SolE ALM1 ------------------------------------------------------------
+SolB ALM2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990625 Modified: 43052.7854990625 2017-11-13 2017-11-13
+Name ALMG_EPSILON
+Desc ALMG_EPSILON
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 23
+Spec A0 0 Mg
+SubL B 1
+Site 30
+Spec B0 0 Al
+EndM 0 A0B0 Al30Mg23
+Amnt 23 30
+Name Mg:Al
+CpXp Al30Mg23#ALM2_0000
+; Mg:Al
+SolE ALM2 ------------------------------------------------------------
+SolB ALM3 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990741 Modified: 43052.7854990741 2017-11-13 2017-11-13
+Name ALMG_GAMMA
+Desc ALMG_GAMMA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Mg
+SubL B 2
+Site 12
+Spec B0 0 Al
+Spec B1 0 Mg
+SubL C 2
+Site 12
+Spec C0 0 Al
+Spec C1 0 Mg
+EndM 0 A0B0C0 Al24Mg5
+Amnt 5 12 12
+Name Mg:Al:Al
+CpXp Al24Mg5#ALM3_0000
+; Mg:Al:Al
+EndM 0 A0B0C1 Al12Mg17
+Amnt 5 12 12
+Name Mg:Al:Mg
+CpXp Al12Mg17#ALM3_0001
+; Mg:Al:Mg
+EndM 0 A0B1C0 Al12Mg17
+Amnt 5 12 12
+Name Mg:Mg:Al
+CpXp Al12Mg17#ALM3_0002
+; Mg:Mg:Al
+EndM 0 A0B1C1 Mg29
+Amnt 5 12 12
+Name Mg:Mg:Mg
+CpXp Mg29#ALM3_0003
+; Mg:Mg:Mg
+Exss BGK A0B0C0C1
+Powr 0
+GXss 113100 -14.5*T
+Exss BGK A0B1C0C1
+Powr 0
+GXss 113100 -14.5*T
+SolE ALM3 ------------------------------------------------------------
+SolB ALM4 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854990972 Modified: 43052.7854990972 2017-11-13 2017-11-13
+Name ALM_D019
+Desc ALM_D019
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Al
+Spec A1 0 Ti
+SubL B 2
+Spec B0 0 Al
+Spec B1 0 Ti
+EndM 0 A0B0 Al4
+Amnt 3 1
+Name Al:Al
+CpXp Al4#ALM4_0000
+; Al:Al
+EndM 0 A0B1 TiAl3
+Amnt 3 1
+Name Al:Ti
+CpXp TiAl3#ALM4_0001
+; Al:Ti
+EndM 0 A1B0 Ti3Al
+Amnt 3 1
+Name Ti:Al
+CpXp Ti3Al#ALM4_0002
+; Ti:Al
+EndM 0 A1B1 Ti4
+Amnt 3 1
+Name Ti:Ti
+CpXp Ti4#ALM4_0003
+; Ti:Ti
+Exss BGK A0A1B0
+Powr 0
+GXss -297200 +100*T
+Exss BGK A0A1B1
+Powr 0
+GXss 32000 -4*T
+Exss BGK A0B0B1
+Powr 0
+GXss -98968 +33.3*T
+Exss BGK A1B0B1
+Powr 0
+GXss 10656 -1.332*T
+SolE ALM4 ------------------------------------------------------------
+SolB ALN1 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991088 Modified: 43052.7854991088 2017-11-13 2017-11-13
+Name ALNB2
+Desc ALNB2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 8
+Spec A0 0 Al
+Spec A1 0 Nb
+SubL B 2
+Site 5
+Spec B0 0 Al
+Spec B1 0 Nb
+SubL C 1
+Site 2
+Spec C0 0 Nb
+EndM 0 A0B0C0 Nb2Al13
+Amnt 8 5 2
+Name Al8Al5Nb2
+CpXp Nb2Al13#ALN1_0000
+; Al8Al5Nb2
+EndM 0 A0B1C0 Nb7Al8
+Amnt 8 5 2
+Name Al8Nb5Nb2
+CpXp Nb7Al8#ALN1_0001
+; Al8Nb5Nb2
+EndM 0 A1B0C0 Nb10Al5
+Amnt 8 5 2
+Name Nb8Al5Nb2
+CpXp Nb10Al5#ALN1_0002
+; Nb8Al5Nb2
+EndM 0 A1B1C0 Nb15
+Amnt 8 5 2
+Name Nb8Nb5Nb2
+CpXp Nb15#ALN1_0003
+; Nb8Nb5Nb2
+Exss BGK A0B0B1C0
+Powr 0
+GXss -616740 -38.64*T
+Exss BGK A1B0B1C0
+Powr 0
+GXss -54639 -2.385*T
+SolE ALN1 ------------------------------------------------------------
+SolB ALN2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991319 Modified: 43052.7854991319 2017-11-13 2017-11-13
+Name ALNB3
+Desc ALNB3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Al
+Spec A1 0 Nb
+SubL B 2
+Spec B0 0 Al
+Spec B1 0 Nb
+EndM 0 A0B0 Al4
+Amnt 3 1
+Name Al3Al
+CpXp Al4#ALN2_0000
+; Al3Al
+EndM 0 A0B1 NbAl3
+Amnt 3 1
+Name Al3Nb
+CpXp NbAl3#ALN2_0001
+; Al3Nb
+EndM 0 A1B0 Nb3Al
+Amnt 3 1
+Name Nb3Al
+CpXp Nb3Al#ALN2_0002
+; Nb3Al
+EndM 0 A1B1 Nb4
+Amnt 3 1
+Name Nb3Nb
+CpXp Nb4#ALN2_0003
+; Nb3Nb
+Exss BGK A0A1B0
+Powr 0
+GXss 3326.8 -14.068*T
+Exss BGK A0A1B1
+Powr 0
+GXss 3326.8 -14.068*T
+Exss BGK A0B0B1
+Powr 0
+GXss -31800 +6.784*T
+Exss BGK A1B0B1
+Powr 0
+GXss -31800 +6.784*T
+SolE ALN2 ------------------------------------------------------------
+SolB ALTI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991435 Modified: 43052.7854991435 2017-11-13 2017-11-13
+Name ALTI
+Desc ALTI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Al
+Spec A1 0 Ti
+SubL B 2
+Spec B0 0 Al
+Spec B1 0 Ti
+EndM 0 A0B0 Al2
+Amnt 1 1
+Name Al:Al
+CpXp Al2#ALTI_0000
+; Al:Al
+EndM 0 A0B1 TiAl
+Amnt 1 1
+Name Al:Ti
+CpXp TiAl#ALTI_0001
+; Al:Ti
+EndM 0 A1B0 TiAl
+Amnt 1 1
+Name Ti:Al
+CpXp TiAl#ALTI_0002
+; Ti:Al
+EndM 0 A1B1 Ti2
+Amnt 1 1
+Name Ti:Ti
+CpXp Ti2#ALTI_0003
+; Ti:Ti
+Exss BGK A0A1B0
+Powr 0
+GXss -89892 +44*T
+Exss BGK A0A1B0
+Powr 1
+GXss 30000
+Exss BGK A0A1B0
+Powr 2
+GXss 20000
+Exss BGK A0A1B1
+Powr 0
+GXss -15134 -2.36*T
+Exss BGK A0B0B1
+Powr 0
+GXss -89892 +44*T
+Exss BGK A0B0B1
+Powr 1
+GXss 30000
+Exss BGK A0B0B1
+Powr 2
+GXss 20000
+Exss BGK A1B0B1
+Powr 0
+GXss -15134 -2.36*T
+SolE ALTI ------------------------------------------------------------
+SolB AL_1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991551 Modified: 43052.7854991551 2017-11-13 2017-11-13
+Name AL_CEND
+Desc AL_CEND
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Al
+SubL B 1
+Spec B0 0 Ce
+EndM 0 A0B0 CeAl
+Amnt 1 1
+Name Al:Ce
+CpXp CeAl#AL_1_0000
+; Al:Ce
+SolE AL_1 ------------------------------------------------------------
+SolB AL_2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991551 Modified: 43052.7854991551 2017-11-13 2017-11-13
+Name AL_CEND3_L
+Desc AL_CEND3_L
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Al
+SubL B 1
+Site 3
+Spec B0 0 Ce
+EndM 0 A0B0 Ce3Al
+Amnt 1 3
+Name Al:Ce
+CpXp Ce3Al#AL_2_0000
+; Al:Ce
+SolE AL_2 ------------------------------------------------------------
+SolB AU2B 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991667 Modified: 43052.7854991667 2017-11-13 2017-11-13
+Name AU2BI_C15
+Desc AU2BI_C15
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 Au
+SubL B 1
+Spec B0 0 Bi
+EndM 0 A0B0 BiAu2
+Amnt 2 1
+Name Au:Bi
+CpXp BiAu2#AU2B_0000
+; Au:Bi
+SolE AU2B ------------------------------------------------------------
+SolB B2M 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991667 Modified: 43052.7854991667 2017-11-13 2017-11-13
+Name B2M
+Desc B2M
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 B
+SubL B 1
+Spec B0 0 Ti
+EndM 0 A0B0 TiB2
+Amnt 2 1
+Name B:Ti
+CpXp TiB2#B2M_0000
+; B:Ti
+SolE B2M ------------------------------------------------------------
+SolB B2_B 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991898 Modified: 43052.7854991898 2017-11-13 2017-11-13
+Name B2_BCC
+Desc B2_BCC
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Al
+Spec A1 0 Ni
+SubL B 2
+Spec B0 0 Va
+Spec B1 0 Ni
+EndM 0 A0B0 Al
+Amnt 1 1
+Name Al:Va
+CpXp Al#B2_B_0000
+; Al:Va
+EndM 0 A0B1 NiAl
+Amnt 1 1
+Name Al:Ni
+CpXp NiAl#B2_B_0001
+; Al:Ni
+EndM 0 A1B0 Ni
+Amnt 1 1
+Name Ni:Va
+CpXp Ni#B2_B_0002
+; Ni:Va
+EndM 0 A1B1 Ni2
+Amnt 1 1
+Name Ni:Ni
+CpXp Ni2#B2_B_0003
+; Ni:Ni
+Exss BGK A0A1B0
+Powr 0
+GXss -52440.88 +11.30117*T
+Exss BGK A0A1B1
+Powr 0
+GXss -52440.88 +11.30117*T
+Exss BGK A0B0B1
+Powr 0
+GXss -64024.38 +26.49419*T
+Exss BGK A1B0B1
+Powr 0
+GXss -64024.38 +26.49419*T
+SolE B2_B ------------------------------------------------------------
+SolB B4M3 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854991898 Modified: 43052.7854991898 2017-11-13 2017-11-13
+Name B4M3
+Desc B4M3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 4
+Spec A0 0 B
+SubL B 1
+Site 3
+Spec B0 0 Ti
+EndM 0 A0B0 Ti3B4
+Amnt 4 3
+Name B:Ti
+CpXp Ti3B4#B4M3_0000
+; B:Ti
+SolE B4M3 ------------------------------------------------------------
+SolB BCC1 12 2 Compound Energy Formalism
+Stat Solid 0.4
+Date Created: 43052.7854998380 Modified: 43052.7854998380 2017-11-13 2017-11-13
+Name BCC_A2
+Desc BCC_A2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 33
+Spec A0 0 Ag
+Spec A1 0 Mg
+Spec A2 0 Zn
+Spec A3 0 Al
+Spec A4 0 Cr
+Spec A5 0 Mn
+Spec A6 0 Nb
+Spec A7 0 Ti
+Spec A8 0 Au
+Spec A9 0 Ba
+Spec A10 0 Cu
+Spec A11 0 Y
+Spec A12 0 Fe
+Spec A13 0 Ca
+Spec A14 0 Si
+Spec A15 0 Co
+Spec A16 0 W
+Spec A17 0 Cs
+Spec A18 0 Na
+Spec A19 0 Rb
+Spec A20 0 Sn
+Spec A21 0 Zr
+Spec A22 0 Er
+Spec A23 0 Tb
+Spec A24 0 Ni
+Spec A25 0 La
+Spec A26 0 Li
+Spec A27 0 Pb
+Spec A28 0 Mo
+Spec A29 0 V
+Spec A30 0 Ta
+Spec A31 0 U
+Spec A32 0 Ce
+SubL B 4
+Site 3
+Spec B0 0 Va
+Spec B1 0 B
+Spec B2 0 C
+Spec B3 0 N
+EndM 0 A0B0 Ag
+Amnt 1 3
+Name Ag:Va
+CpXp Ag#BCC1_0000
+; Ag:Va
+EndM 0 A0B1 AgB3
+Amnt 1 3
+Name Ag:B
+CpXp AgB3#BCC1_0001
+; Ag:B
+EndM 0 A0B2 AgC3
+Amnt 1 3
+Name Ag:C
+CpXp AgC3#BCC1_0002
+; Ag:C
+EndM 0 A0B3 AgN3
+Amnt 1 3
+Name Ag:N
+CpXp AgN3#BCC1_0003
+; Ag:N
+EndM 0 A1B0 Mg
+Amnt 1 3
+Name Mg:Va
+CpXp Mg#BCC1_0004
+; Mg:Va
+EndM 0 A1B1 MgB3
+Amnt 1 3
+Name Mg:B
+CpXp MgB3#BCC1_0005
+; Mg:B
+EndM 0 A1B2 MgC3
+Amnt 1 3
+Name Mg:C
+CpXp MgC3#BCC1_0006
+; Mg:C
+EndM 0 A1B3 MgN3
+Amnt 1 3
+Name Mg:N
+CpXp MgN3#BCC1_0007
+; Mg:N
+EndM 0 A2B0 Zn
+Amnt 1 3
+Name Zn:Va
+CpXp Zn#BCC1_0008
+; Zn:Va
+EndM 0 A2B1 ZnB3
+Amnt 1 3
+Name Zn:B
+CpXp ZnB3#BCC1_0009
+; Zn:B
+EndM 0 A2B2 ZnC3
+Amnt 1 3
+Name Zn:C
+CpXp ZnC3#BCC1_0010
+; Zn:C
+EndM 0 A2B3 ZnN3
+Amnt 1 3
+Name Zn:N
+CpXp ZnN3#BCC1_0011
+; Zn:N
+EndM 0 A3B0 Al
+Amnt 1 3
+Name Al:Va
+CpXp Al#BCC1_0012
+; Al:Va
+EndM 0 A3B1 AlB3
+Amnt 1 3
+Name Al:B
+CpXp AlB3#BCC1_0013
+; Al:B
+EndM 0 A3B2 AlC3
+Amnt 1 3
+Name Al:C
+CpXp AlC3#BCC1_0014
+; Al:C
+EndM 0 A3B3 AlN3
+Amnt 1 3
+Name Al:N
+CpXp AlN3#BCC1_0015
+; Al:N
+EndM 0 A4B0 Cr
+Amnt 1 3
+Name Cr:Va
+Magn 0.008 -311.5
+CpXp Cr#BCC1_0016
+; Cr:Va
+EndM 0 A4B1 CrB3
+Amnt 1 3
+Name Cr:B
+CpXp CrB3#BCC1_0017
+; Cr:B
+EndM 0 A4B2 CrC3
+Amnt 1 3
+Name Cr:C
+CpXp CrC3#BCC1_0018
+; Cr:C
+EndM 0 A4B3 CrN3
+Amnt 1 3
+Name Cr:N
+CpXp CrN3#BCC1_0019
+; Cr:N
+EndM 0 A5B0 Mn
+Amnt 1 3
+Name Mn:Va
+Magn 0.27 -580
+CpXp Mn#BCC1_0020
+; Mn:Va
+EndM 0 A5B1 MnB3
+Amnt 1 3
+Name Mn:B
+CpXp MnB3#BCC1_0021
+; Mn:B
+EndM 0 A5B2 MnC3
+Amnt 1 3
+Name Mn:C
+CpXp MnC3#BCC1_0022
+; Mn:C
+EndM 0 A5B3 MnN3
+Amnt 1 3
+Name Mn:N
+CpXp MnN3#BCC1_0023
+; Mn:N
+EndM 0 A6B0 Nb
+Amnt 1 3
+Name Nb:Va
+CpXp Nb#BCC1_0024
+; Nb:Va
+EndM 0 A6B1 NbB3
+Amnt 1 3
+Name Nb:B
+CpXp NbB3#BCC1_0025
+; Nb:B
+EndM 0 A6B2 NbC3
+Amnt 1 3
+Name Nb:C
+CpXp NbC3#BCC1_0026
+; Nb:C
+EndM 0 A6B3 NbN3
+Amnt 1 3
+Name Nb:N
+CpXp NbN3#BCC1_0027
+; Nb:N
+EndM 0 A7B0 Ti
+Amnt 1 3
+Name Ti:Va
+CpXp Ti#BCC1_0028
+; Ti:Va
+EndM 0 A7B1 TiB3
+Amnt 1 3
+Name Ti:B
+CpXp TiB3#BCC1_0029
+; Ti:B
+EndM 0 A7B2 TiC3
+Amnt 1 3
+Name Ti:C
+CpXp TiC3#BCC1_0030
+; Ti:C
+EndM 0 A7B3 TiN3
+Amnt 1 3
+Name Ti:N
+CpXp TiN3#BCC1_0031
+; Ti:N
+EndM 0 A8B0 Au
+Amnt 1 3
+Name Au:Va
+CpXp Au#BCC1_0032
+; Au:Va
+EndM 0 A8B1 AuB3
+Amnt 1 3
+Name Au:B
+CpXp AuB3#BCC1_0033
+; Au:B
+EndM 0 A8B2 AuC3
+Amnt 1 3
+Name Au:C
+CpXp AuC3#BCC1_0034
+; Au:C
+EndM 0 A8B3 AuN3
+Amnt 1 3
+Name Au:N
+CpXp AuN3#BCC1_0035
+; Au:N
+EndM 0 A9B0 Ba
+Amnt 1 3
+Name Ba:Va
+CpXp Ba#BCC1_0036
+; Ba:Va
+EndM 0 A9B1 BaB3
+Amnt 1 3
+Name Ba:B
+CpXp BaB3#BCC1_0037
+; Ba:B
+EndM 0 A9B2 BaC3
+Amnt 1 3
+Name Ba:C
+CpXp BaC3#BCC1_0038
+; Ba:C
+EndM 0 A9B3 BaN3
+Amnt 1 3
+Name Ba:N
+CpXp BaN3#BCC1_0039
+; Ba:N
+EndM 0 A10B0 Cu
+Amnt 1 3
+Name Cu:Va
+CpXp Cu#BCC1_0040
+; Cu:Va
+EndM 0 A10B1 CuB3
+Amnt 1 3
+Name Cu:B
+CpXp CuB3#BCC1_0041
+; Cu:B
+EndM 0 A10B2 CuC3
+Amnt 1 3
+Name Cu:C
+CpXp CuC3#BCC1_0042
+; Cu:C
+EndM 0 A10B3 CuN3
+Amnt 1 3
+Name Cu:N
+CpXp CuN3#BCC1_0043
+; Cu:N
+EndM 0 A11B0 Y
+Amnt 1 3
+Name Y:Va
+CpXp Y#BCC1_0044
+; Y:Va
+EndM 0 A11B1 YB3
+Amnt 1 3
+Name Y:B
+CpXp YB3#BCC1_0045
+; Y:B
+EndM 0 A11B2 YC3
+Amnt 1 3
+Name Y:C
+CpXp YC3#BCC1_0046
+; Y:C
+EndM 0 A11B3 YN3
+Amnt 1 3
+Name Y:N
+CpXp YN3#BCC1_0047
+; Y:N
+EndM 0 A12B0 Fe
+Amnt 1 3
+Name Fe:Va
+Magn 2.22 1043
+CpXp Fe#BCC1_0048
+; Fe:Va
+EndM 0 A12B1 FeB3
+Amnt 1 3
+Name Fe:B
+CpXp FeB3#BCC1_0049
+; Fe:B
+EndM 0 A12B2 FeC3
+Amnt 1 3
+Name Fe:C
+Magn 2.22 1043
+CpXp FeC3#BCC1_0050
+; Fe:C
+EndM 0 A12B3 FeN3
+Amnt 1 3
+Name Fe:N
+Magn 2.22 1043
+CpXp FeN3#BCC1_0051
+; Fe:N
+EndM 0 A13B0 Ca
+Amnt 1 3
+Name Ca:Va
+CpXp Ca#BCC1_0052
+; Ca:Va
+EndM 0 A13B1 CaB3
+Amnt 1 3
+Name Ca:B
+CpXp CaB3#BCC1_0053
+; Ca:B
+EndM 0 A13B2 CaC3
+Amnt 1 3
+Name Ca:C
+CpXp CaC3#BCC1_0054
+; Ca:C
+EndM 0 A13B3 CaN3
+Amnt 1 3
+Name Ca:N
+CpXp CaN3#BCC1_0055
+; Ca:N
+EndM 0 A14B0 Si
+Amnt 1 3
+Name Si:Va
+CpXp Si#BCC1_0056
+; Si:Va
+EndM 0 A14B1 SiB3
+Amnt 1 3
+Name Si:B
+CpXp SiB3#BCC1_0057
+; Si:B
+EndM 0 A14B2 SiC3
+Amnt 1 3
+Name Si:C
+CpXp SiC3#BCC1_0058
+; Si:C
+EndM 0 A14B3 SiN3
+Amnt 1 3
+Name Si:N
+CpXp SiN3#BCC1_0059
+; Si:N
+EndM 0 A15B0 Co
+Amnt 1 3
+Name Co:Va
+Magn 1.35 1450
+CpXp Co#BCC1_0060
+; Co:Va
+EndM 0 A15B1 CoB3
+Amnt 1 3
+Name Co:B
+CpXp CoB3#BCC1_0061
+; Co:B
+EndM 0 A15B2 CoC3
+Amnt 1 3
+Name Co:C
+CpXp CoC3#BCC1_0062
+; Co:C
+EndM 0 A15B3 CoN3
+Amnt 1 3
+Name Co:N
+CpXp CoN3#BCC1_0063
+; Co:N
+EndM 0 A16B0 W
+Amnt 1 3
+Name W:Va
+CpXp W#BCC1_0064
+; W:Va
+EndM 0 A16B1 WB3
+Amnt 1 3
+Name W:B
+CpXp WB3#BCC1_0065
+; W:B
+EndM 0 A16B2 WC3
+Amnt 1 3
+Name W:C
+CpXp WC3#BCC1_0066
+; W:C
+EndM 0 A16B3 WN3
+Amnt 1 3
+Name W:N
+CpXp WN3#BCC1_0067
+; W:N
+EndM 0 A17B0 Cs
+Amnt 1 3
+Name Cs:Va
+CpXp Cs#BCC1_0068
+; Cs:Va
+EndM 0 A17B1 CsB3
+Amnt 1 3
+Name Cs:B
+CpXp CsB3#BCC1_0069
+; Cs:B
+EndM 0 A17B2 CsC3
+Amnt 1 3
+Name Cs:C
+CpXp CsC3#BCC1_0070
+; Cs:C
+EndM 0 A17B3 CsN3
+Amnt 1 3
+Name Cs:N
+CpXp CsN3#BCC1_0071
+; Cs:N
+EndM 0 A18B0 Na
+Amnt 1 3
+Name Na:Va
+CpXp Na#BCC1_0072
+; Na:Va
+EndM 0 A18B1 NaB3
+Amnt 1 3
+Name Na:B
+CpXp NaB3#BCC1_0073
+; Na:B
+EndM 0 A18B2 NaC3
+Amnt 1 3
+Name Na:C
+CpXp NaC3#BCC1_0074
+; Na:C
+EndM 0 A18B3 NaN3
+Amnt 1 3
+Name Na:N
+CpXp NaN3#BCC1_0075
+; Na:N
+EndM 0 A19B0 Rb
+Amnt 1 3
+Name Rb:Va
+CpXp Rb#BCC1_0076
+; Rb:Va
+EndM 0 A19B1 RbB3
+Amnt 1 3
+Name Rb:B
+CpXp RbB3#BCC1_0077
+; Rb:B
+EndM 0 A19B2 RbC3
+Amnt 1 3
+Name Rb:C
+CpXp RbC3#BCC1_0078
+; Rb:C
+EndM 0 A19B3 RbN3
+Amnt 1 3
+Name Rb:N
+CpXp RbN3#BCC1_0079
+; Rb:N
+EndM 0 A20B0 Sn
+Amnt 1 3
+Name Sn:Va
+CpXp Sn#BCC1_0080
+; Sn:Va
+EndM 0 A20B1 SnB3
+Amnt 1 3
+Name Sn:B
+CpXp SnB3#BCC1_0081
+; Sn:B
+EndM 0 A20B2 SnC3
+Amnt 1 3
+Name Sn:C
+CpXp SnC3#BCC1_0082
+; Sn:C
+EndM 0 A20B3 SnN3
+Amnt 1 3
+Name Sn:N
+CpXp SnN3#BCC1_0083
+; Sn:N
+EndM 0 A21B0 Zr
+Amnt 1 3
+Name Zr:Va
+CpXp Zr#BCC1_0084
+; Zr:Va
+EndM 0 A21B1 ZrB3
+Amnt 1 3
+Name Zr:B
+CpXp ZrB3#BCC1_0085
+; Zr:B
+EndM 0 A21B2 ZrC3
+Amnt 1 3
+Name Zr:C
+CpXp ZrC3#BCC1_0086
+; Zr:C
+EndM 0 A21B3 ZrN3
+Amnt 1 3
+Name Zr:N
+CpXp ZrN3#BCC1_0087
+; Zr:N
+EndM 0 A22B0 Er
+Amnt 1 3
+Name Er:Va
+CpXp Er#BCC1_0088
+; Er:Va
+EndM 0 A22B1 ErB3
+Amnt 1 3
+Name Er:B
+CpXp ErB3#BCC1_0089
+; Er:B
+EndM 0 A22B2 ErC3
+Amnt 1 3
+Name Er:C
+CpXp ErC3#BCC1_0090
+; Er:C
+EndM 0 A22B3 ErN3
+Amnt 1 3
+Name Er:N
+CpXp ErN3#BCC1_0091
+; Er:N
+EndM 0 A23B0 Tb
+Amnt 1 3
+Name Tb:Va
+CpXp Tb#BCC1_0092
+; Tb:Va
+EndM 0 A23B1 TbB3
+Amnt 1 3
+Name Tb:B
+CpXp TbB3#BCC1_0093
+; Tb:B
+EndM 0 A23B2 TbC3
+Amnt 1 3
+Name Tb:C
+CpXp TbC3#BCC1_0094
+; Tb:C
+EndM 0 A23B3 TbN3
+Amnt 1 3
+Name Tb:N
+CpXp TbN3#BCC1_0095
+; Tb:N
+EndM 0 A24B0 Ni
+Amnt 1 3
+Name Ni:Va
+Magn 0.85 575
+CpXp Ni#BCC1_0096
+; Ni:Va
+EndM 0 A24B1 NiB3
+Amnt 1 3
+Name Ni:B
+CpXp NiB3#BCC1_0097
+; Ni:B
+EndM 0 A24B2 NiC3
+Amnt 1 3
+Name Ni:C
+CpXp NiC3#BCC1_0098
+; Ni:C
+EndM 0 A24B3 NiN3
+Amnt 1 3
+Name Ni:N
+CpXp NiN3#BCC1_0099
+; Ni:N
+EndM 0 A25B0 La
+Amnt 1 3
+Name La:Va
+CpXp La#BCC1_0100
+; La:Va
+EndM 0 A25B1 LaB3
+Amnt 1 3
+Name La:B
+CpXp LaB3#BCC1_0101
+; La:B
+EndM 0 A25B2 LaC3
+Amnt 1 3
+Name La:C
+CpXp LaC3#BCC1_0102
+; La:C
+EndM 0 A25B3 LaN3
+Amnt 1 3
+Name La:N
+CpXp LaN3#BCC1_0103
+; La:N
+EndM 0 A26B0 Li
+Amnt 1 3
+Name Li:Va
+CpXp Li#BCC1_0104
+; Li:Va
+EndM 0 A26B1 B3Li
+Amnt 1 3
+Name Li:B
+CpXp B3Li#BCC1_0105
+; Li:B
+EndM 0 A26B2 C3Li
+Amnt 1 3
+Name Li:C
+CpXp C3Li#BCC1_0106
+; Li:C
+EndM 0 A26B3 N3Li
+Amnt 1 3
+Name Li:N
+CpXp N3Li#BCC1_0107
+; Li:N
+EndM 0 A27B0 Pb
+Amnt 1 3
+Name Pb:Va
+CpXp Pb#BCC1_0108
+; Pb:Va
+EndM 0 A27B1 PbB3
+Amnt 1 3
+Name Pb:B
+CpXp PbB3#BCC1_0109
+; Pb:B
+EndM 0 A27B2 PbC3
+Amnt 1 3
+Name Pb:C
+CpXp PbC3#BCC1_0110
+; Pb:C
+EndM 0 A27B3 PbN3
+Amnt 1 3
+Name Pb:N
+CpXp PbN3#BCC1_0111
+; Pb:N
+EndM 0 A28B0 Mo
+Amnt 1 3
+Name Mo:Va
+CpXp Mo#BCC1_0112
+; Mo:Va
+EndM 0 A28B1 MoB3
+Amnt 1 3
+Name Mo:B
+CpXp MoB3#BCC1_0113
+; Mo:B
+EndM 0 A28B2 MoC3
+Amnt 1 3
+Name Mo:C
+CpXp MoC3#BCC1_0114
+; Mo:C
+EndM 0 A28B3 MoN3
+Amnt 1 3
+Name Mo:N
+CpXp MoN3#BCC1_0115
+; Mo:N
+EndM 0 A29B0 V
+Amnt 1 3
+Name V:Va
+CpXp V#BCC1_0116
+; V:Va
+EndM 0 A29B1 VB3
+Amnt 1 3
+Name V:B
+CpXp VB3#BCC1_0117
+; V:B
+EndM 0 A29B2 VC3
+Amnt 1 3
+Name V:C
+CpXp VC3#BCC1_0118
+; V:C
+EndM 0 A29B3 VN3
+Amnt 1 3
+Name V:N
+CpXp VN3#BCC1_0119
+; V:N
+EndM 0 A30B0 Ta
+Amnt 1 3
+Name Ta:Va
+CpXp Ta#BCC1_0120
+; Ta:Va
+EndM 0 A30B1 TaB3
+Amnt 1 3
+Name Ta:B
+CpXp TaB3#BCC1_0121
+; Ta:B
+EndM 0 A30B2 TaC3
+Amnt 1 3
+Name Ta:C
+CpXp TaC3#BCC1_0122
+; Ta:C
+EndM 0 A30B3 TaN3
+Amnt 1 3
+Name Ta:N
+CpXp TaN3#BCC1_0123
+; Ta:N
+EndM 0 A31B0 U
+Amnt 1 3
+Name U:Va
+CpXp U#BCC1_0124
+; U:Va
+EndM 0 A31B1 UB3
+Amnt 1 3
+Name U:B
+CpXp UB3#BCC1_0125
+; U:B
+EndM 0 A31B2 UC3
+Amnt 1 3
+Name U:C
+CpXp UC3#BCC1_0126
+; U:C
+EndM 0 A31B3 UN3
+Amnt 1 3
+Name U:N
+CpXp UN3#BCC1_0127
+; U:N
+EndM 0 A32B0 Ce
+Amnt 1 3
+Name Ce:Va
+CpXp Ce#BCC1_0128
+; Ce:Va
+EndM 0 A32B1 CeB3
+Amnt 1 3
+Name Ce:B
+CpXp CeB3#BCC1_0129
+; Ce:B
+EndM 0 A32B2 CeC3
+Amnt 1 3
+Name Ce:C
+CpXp CeC3#BCC1_0130
+; Ce:C
+EndM 0 A32B3 CeN3
+Amnt 1 3
+Name Ce:N
+CpXp CeN3#BCC1_0131
+; Ce:N
+Exss BGK A0A1B0
+Powr 0
+GXss -66808.431 -7.42428*T
+Exss BGK A0A1B0
+Powr 1
+GXss -2775.692 +14.181525*T
+Exss BGK A0A1B0
+Powr 2
+GXss 12942.405 +7.971177*T
+Exss BGK A0A2B0
+Powr 0
+GXss -30740 +2.37*T
+Exss BGK A0A2B0
+Powr 1
+GXss -1880
+Exss BGK A3A4B0
+Powr 0
+GXss -58257.5 +8.4407*T
+Exss BGK A3A5B0
+Powr 0
+GXss -120077 +52.851*T
+Exss BGK A3A5B0
+Powr 1
+GXss -40652 +29.2764*T
+Exss BGK A3A6B0
+Powr 0
+GXss -58005.3 +13*T
+Exss BGK A3A6B0
+Powr 1
+GXss 26362.2 -9.764*T
+Exss BGK A3A7B0
+Powr 0
+GXss -128500 +39*T
+Exss BGK A3A7B0
+Powr 1
+GXss 6000
+Exss BGK A3A7B0
+Powr 2
+GXss 21200
+Exss BGK A4A8B0
+Powr 0
+GXss 13475.006 +16.43485*T
+Exss BGK A4A8B0
+Powr 1
+GXss -104.34557
+Exss BGK A9A10B0
+Powr 0
+GXss 80*T
+Exss BGK A9A11B0
+Powr 0
+GXss 80*T
+Exss BGK A13A14B0
+Powr 0
+GXss 80*T
+Exss BGK A12B0B2
+Powr 0
+GXss 150000 -290*T
+Exss BGK A6B0B2
+Powr 0
+GXss -452303
+Exss BGK A4A15B0
+Powr 0
+GXss 17208 -13.519*T
+Exss BGK A4A15B0
+Powr 1
+GXss 5470
+Exss BGK A12A15B0
+Powr 0
+GXss -23669 +103.9627*T -12.7886*T*ln(T)
+Exss BGK A6A15B0
+Powr 0
+GXss 6627
+Exss BGK A15A16B0
+Powr 0
+GXss 56517
+Exss BGK A4A10B0
+Powr 0
+GXss 200000
+Exss BGK A4A12B0
+Powr 0
+GXss 20500 -9.68*T
+Exss BGK A4A5B0
+Powr 0
+GXss -20328 +18.7339*T
+Exss BGK A4A5B0
+Powr 1
+GXss -9162 +4.4183*T
+Exss BGK A4A14B0
+Powr 0
+GXss -83007.82 -1.35928*T
+Exss BGK A4A14B0
+Powr 1
+GXss -48048.45 +11.38497*T
+Exss BGK A4A16B0
+Powr 0
+GXss 31520
+Exss BGK A4A16B0
+Powr 1
+GXss -1320
+Exss BGK A17A18B0
+Powr 0
+GXss 15000
+Exss BGK A17A19B0
+Powr 0
+GXss -810.19 +14.87152*T
+Exss BGK A7B0B2
+Powr 0
+GXss -881180 +45.5*T
+Exss BGK A10A12B0
+Powr 0
+GXss 39257.976 -4.14983*T
+Exss BGK A10A20B0
+Powr 0
+GXss -32656.8 +25.015776*T
+Exss BGK A10A20B0
+Powr 1
+GXss -13862.5 -32.0218*T
+Exss BGK A10A20B0
+Powr 2
+GXss -4175.47 +5.0083*T
+Exss BGK A10A11B0
+Powr 0
+GXss 80*T
+Exss BGK A21B0B2
+Powr 0
+GXss -223221.3
+Exss BGK A12A24B0
+Powr 0
+GXss -956.63 -1.28726*T
+Exss BGK A12A24B0
+Powr 1
+GXss 1789.03 -1.92912*T
+Exss BGK A12A14B0
+Powr 0
+GXss -153141.13 +46.48*T
+Exss BGK A12A14B0
+Powr 1
+GXss -92352
+Exss BGK A12A14B0
+Powr 2
+GXss 62240
+Exss BGK A7A12B0
+Powr 0
+GXss -57500 +10.1*T
+Exss BGK A7A12B0
+Powr 1
+GXss 4590 -2.6*T
+Exss BGK A7A12B0
+Powr 2
+GXss 2180 +6.2*T
+Exss BGK A12A21B0
+Powr 0
+GXss -19000
+Exss BGK A24A25B0
+Powr 0
+GXss 100000
+Exss BGK A1A26B0
+Powr 0
+GXss -18335 +8.49*T
+Exss BGK A1A26B0
+Powr 1
+GXss -3481
+Exss BGK A1A26B0
+Powr 2
+GXss 2658 -0.114*T
+Exss BGK A1A21B0
+Powr 0
+GXss 19512 +31.816*T
+Exss BGK A5A27B0
+Powr 0
+GXss 80*T
+Exss BGK A5A7B0
+Powr 0
+GXss -23200 +20*T
+Exss BGK A5A7B0
+Powr 1
+GXss -1000
+Exss BGK A24A28B0
+Powr 0
+GXss 46422
+Exss BGK A14A28B0
+Powr 0
+GXss -75688.45
+Exss BGK A7A28B0
+Powr 0
+GXss 3383.4 -10.0774*T
+Exss BGK A7A28B0
+Powr 1
+GXss 56704.6 -32.12*T
+Exss BGK A7A28B0
+Powr 2
+GXss -15172.4
+Exss BGK A18A19B0
+Powr 0
+GXss 12500
+Exss BGK A6A29B0
+Powr 0
+GXss 9080
+Exss BGK A24A30B0
+Powr 0
+GXss -15913.36 -27.955*T
+Exss BGK A24A30B0
+Powr 1
+GXss 13563.9 -25.02*T
+Exss BGK A21A24B0
+Powr 0
+GXss -147500 +2.3*T
+Exss BGK A21A24B0
+Powr 1
+GXss 43500 +11.6*T
+Exss BGK A6B0B3
+Powr 0
+GXss -357277 +129.474*T
+Exss BGK A7B0B3
+Powr 0
+GXss -3215338.2
+Exss BGK A7A14B0
+Powr 0
+GXss -197842 +15.82736*T
+Exss BGK A14A16B0
+Powr 0
+GXss -10877.84
+Exss BGK A20A21B0
+Powr 0
+GXss -101199.78 -71.129857*T
+Exss BGK A20A21B0
+Powr 1
+GXss 55000
+Exss BGK A20A21B0
+Powr 2
+GXss 26102.296
+Exss BGK A7A29B0
+Powr 0
+GXss 6523.17
+Exss BGK A7A29B0
+Powr 1
+GXss 2025.39
+Exss BGK A21A31B0
+Powr 0
+GXss 51430.744 -40.503473*T
+Exss BGK A21A31B0
+Powr 1
+GXss -6697.702
+Exss BGK A21A31B0
+Powr 2
+GXss 1482.94
+Exss BGK A3A27B0
+Powr 0
+GXss 100000
+Exss BGK A10A24B0
+Powr 0
+GXss 8047.72 +3.42217*T
+Exss BGK A10A24B0
+Powr 1
+GXss -2041.3 +0.99714*T
+Exss BGK A10A27B0
+Powr 0
+GXss 74090.9 -24.69707*T
+Exss BGK A20A27B0
+Powr 0
+GXss 10000 -2*T
+Exss BGK A2A20B0
+Powr 0
+GXss 10000
+Exss BGK A0A10B0
+Powr 0
+GXss 36772.58 -11.02847*T
+Exss BGK A0A10B0
+Powr 1
+GXss -4612.43 +0.28869*T
+Exss BGK A0A27B0
+Powr 0
+GXss 38965 -20.57122*T
+Exss BGK A0A27B0
+Powr 1
+GXss -1350.24 -0.11456*T
+Exss BGK A3A32B0
+Powr 0
+GXss 80*T
+Exss BTK A12A15B0
+Powr 0
+GXss 590
+Exss BBK A12A15B0
+Powr 0
+GXss 2.4127
+Exss BTK A12A15B0
+Powr 1
+GXss 
+Exss BBK A12A15B0
+Powr 1
+GXss -0.2418
+Exss BTK A15A16B0
+Powr 0
+GXss -3379
+Exss BBK A15A16B0
+Powr 0
+GXss -3.146
+Exss BTK A4A12B0
+Powr 0
+GXss 1650
+Exss BBK A4A12B0
+Powr 0
+GXss -0.85
+Exss BTK A4A12B0
+Powr 1
+GXss 550
+Exss BBK A4A12B0
+Powr 1
+GXss 
+Exss BTK A4A5B0
+Powr 0
+GXss -1325
+Exss BBK A4A5B0
+Powr 0
+GXss 0.48643
+Exss BTK A4A5B0
+Powr 1
+GXss 
+Exss BBK A4A5B0
+Powr 1
+GXss 
+Exss BTK A4A5B0
+Powr 2
+GXss -1133
+Exss BBK A4A5B0
+Powr 2
+GXss -0.72035
+Exss BTK A4A5B0
+Powr 3
+GXss 
+Exss BBK A4A5B0
+Powr 3
+GXss 
+Exss BTK A4A5B0
+Powr 4
+GXss -10294
+Exss BBK A4A5B0
+Powr 4
+GXss -1.93265
+Exss BTK A4A5B0
+Powr 5
+GXss 
+Exss BBK A4A5B0
+Powr 5
+GXss 
+Exss BTK A4A5B0
+Powr 6
+GXss 26706
+Exss BBK A4A5B0
+Powr 6
+GXss 
+Exss BTK A4A5B0
+Powr 7
+GXss 
+Exss BBK A4A5B0
+Powr 7
+GXss 
+Exss BTK A4A5B0
+Powr 8
+GXss -28117
+Exss BBK A4A5B0
+Powr 8
+GXss 
+Exss BTK A12A14B0
+Powr 0
+GXss 
+Exss BBK A12A14B0
+Powr 0
+GXss 
+Exss BTK A12A14B0
+Powr 1
+GXss 504
+Exss BBK A12A14B0
+Powr 1
+GXss 
+Exss BTK A7A12B0
+Powr 0
+GXss -1850
+Exss BBK A7A12B0
+Powr 0
+GXss -3.94
+Exss BTK A7A12B0
+Powr 1
+GXss 
+Exss BBK A7A12B0
+Powr 1
+GXss 
+Exss BTK A7A12B0
+Powr 2
+GXss 1460
+Exss BBK A7A12B0
+Powr 2
+GXss 3.11
+SolE BCC1 ------------------------------------------------------------
+SolB BCC2 12 3 Compound Energy Formalism
+Stat Solid 0.4
+Date Created: 43052.7854998727 Modified: 43052.7854998727 2017-11-13 2017-11-13
+Name BCC_B2!BCC_A2
+Desc BCC_B2!BCC_A2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 3
+Spec A0 0 Fe
+Spec A1 0 Si
+Spec A2 0 Ti
+SubL B 3
+Spec B0 0 Fe
+Spec B1 0 Si
+Spec B2 0 Ti
+SubL C 1
+Site 6
+Spec C0 0 Va
+EndM 0 A0B0C0 Fe2
+Amnt 1 1 6
+Name FeFeVa6
+CpXp Fe2#BCC2_0000
+; FeFeVa6
+EndM 0 A0B1C0 FeSi
+Amnt 1 1 6
+Name FeSiVa6
+CpXp FeSi#BCC2_0001
+; FeSiVa6
+EndM 0 A1B0C0 FeSi
+Amnt 1 1 6
+Name SiFeVa6
+CpXp FeSi#BCC2_0002
+; SiFeVa6
+EndM 0 A1B1C0 Si2
+Amnt 1 1 6
+Name SiSiVa6
+CpXp Si2#BCC2_0003
+; SiSiVa6
+EndM 0 A0B2C0 FeTi
+Amnt 1 1 6
+Name FeTiVa6
+CpXp FeTi#BCC2_0004
+; FeTiVa6
+EndM 0 A2B0C0 FeTi
+Amnt 1 1 6
+Name TiFeVa6
+CpXp FeTi#BCC2_0005
+; TiFeVa6
+EndM 0 A2B2C0 Ti2
+Amnt 1 1 6
+Name TiTiVa6
+CpXp Ti2#BCC2_0006
+; TiTiVa6
+EndM 0 A1B2C0 TiSi
+Amnt 1 1 6
+Name SiTiVa6
+CpXp TiSi#BCC2_0007
+; SiTiVa6
+EndM 0 A2B1C0 TiSi
+Amnt 1 1 6
+Name TiSiVa6
+CpXp TiSi#BCC2_0008
+; TiSiVa6
+Exss BGK A0A2B0B2C0
+Powr 0
+GXss -200000
+SolE BCC2 ------------------------------------------------------------
+SolB BM 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854998727 Modified: 43052.7854998727 2017-11-13 2017-11-13
+Name BM
+Desc BM
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 B
+SubL B 1
+Spec B0 0 Ti
+EndM 0 A0B0 TiB
+Amnt 1 1
+Name B:Ti
+CpXp TiB#BM_0000
+; B:Ti
+SolE BM ------------------------------------------------------------
+SolB CBCC 12 2 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 43052.7854998958 Modified: 43052.7854998958 2017-11-13 2017-11-13
+Name CBCC_A12
+Desc CBCC_A12
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 4
+Spec A0 0 Al
+Spec A1 0 Mn
+Spec A2 0 Cr
+Spec A3 0 Ti
+SubL B 1
+Spec B0 0 Va
+EndM 0 A0B0 Al
+Amnt 1 1
+Name Al:Va
+CpXp Al#CBCC_0000
+; Al:Va
+EndM 0 A1B0 Mn
+Amnt 1 1
+Name Mn:Va
+Magn 0.21999978 -94.999905
+CpXp Mn#CBCC_0001
+; Mn:Va
+EndM 0 A2B0 Cr
+Amnt 1 1
+Name Cr:Va
+CpXp Cr#CBCC_0002
+; Cr:Va
+EndM 0 A3B0 Ti
+Amnt 1 1
+Name Ti:Va
+CpXp Ti#CBCC_0003
+; Ti:Va
+Exss BGK A0A1B0
+Powr 0
+GXss -101410 +43*T
+Exss BGK A1A2B0
+Powr 0
+GXss -38349 +22.6925*T
+Exss BGK A1A3B0
+Powr 0
+GXss -29500 +20*T
+Exss BGK A1A3B0
+Powr 1
+GXss -3635 -5*T
+SolE CBCC ------------------------------------------------------------
+SolB CDSB 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854998958 Modified: 43052.7854998958 2017-11-13 2017-11-13
+Name CDSB_OMEGA
+Desc CDSB_OMEGA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Cd
+SubL B 1
+Spec B0 0 Sb
+EndM 0 A0B0 SbCd
+Amnt 1 1
+Name Cd:Sb
+CpXp SbCd#CDSB_0000
+; Cd:Sb
+SolE CDSB ------------------------------------------------------------
+SolB CO3W 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999074 Modified: 43052.7854999074 2017-11-13 2017-11-13
+Name CO3W
+Desc CO3W
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Co
+SubL B 1
+Spec B0 0 W
+EndM 0 A0B0 WCo3
+Amnt 3 1
+Name Co:W
+CpXp WCo3#CO3W_0000
+; Co:W
+SolE CO3W ------------------------------------------------------------
+SolB CON1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999190 Modified: 43052.7854999190 2017-11-13 2017-11-13
+Name CONB_LAMBDA
+Desc CONB_LAMBDA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 2
+Spec A0 0 Co
+Spec A1 0 Nb
+SubL B 2
+Spec B0 0 Nb
+Spec B1 0 Co
+EndM 0 A0B0 NbCo2
+Amnt 2 1
+Name Co:Nb
+CpXp NbCo2#CON1_0000
+; Co:Nb
+EndM 0 A0B1 Co3
+Amnt 2 1
+Name Co:Co
+CpXp Co3#CON1_0001
+; Co:Co
+EndM 0 A1B0 Nb3
+Amnt 2 1
+Name Nb:Nb
+CpXp Nb3#CON1_0002
+; Nb:Nb
+EndM 0 A1B1 Nb2Co
+Amnt 2 1
+Name Nb:Co
+CpXp Nb2Co#CON1_0003
+; Nb:Co
+Exss BGK A0A1B0
+Powr 0
+GXss 92444
+SolE CON1 ------------------------------------------------------------
+SolB CON2 12 4 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999306 Modified: 43052.7854999306 2017-11-13 2017-11-13
+Name CONB_MU
+Desc CONB_MU
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Co
+Spec A1 0 Nb
+SubL B 2
+Site 2
+Spec B0 0 Nb
+Spec B1 0 Co
+SubL C 1
+Site 4
+Spec C0 0 Nb
+SubL D 1
+Site 6
+Spec D0 0 Co
+EndM 0 A0B0C0D0 Nb6Co7
+Amnt 1 2 4 6
+Name Co:Nb:Nb:Co
+CpXp Nb6Co7#CON2_0000
+; Co:Nb:Nb:Co
+EndM 0 A0B1C0D0 Nb4Co9
+Amnt 1 2 4 6
+Name Co:Co:Nb:Co
+CpXp Nb4Co9#CON2_0001
+; Co:Co:Nb:Co
+EndM 0 A1B0C0D0 Nb7Co6
+Amnt 1 2 4 6
+Name Nb:Nb:Nb:Co
+CpXp Nb7Co6#CON2_0002
+; Nb:Nb:Nb:Co
+EndM 0 A1B1C0D0 Nb5Co8
+Amnt 1 2 4 6
+Name Nb:Co:Nb:Co
+CpXp Nb5Co8#CON2_0003
+; Nb:Co:Nb:Co
+SolE CON2 ------------------------------------------------------------
+SolB CR31 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999421 Modified: 43052.7854999421 2017-11-13 2017-11-13
+Name CR3MN5
+Desc CR3MN5
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Cr
+SubL B 1
+Site 5
+Spec B0 0 Mn
+EndM 0 A0B0 Mn5Cr3
+Amnt 3 5
+Name Cr:Mn
+CpXp Mn5Cr3#CR31_0000
+; Cr:Mn
+SolE CR31 ------------------------------------------------------------
+SolB CR32 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999537 Modified: 43052.7854999537 2017-11-13 2017-11-13
+Name CR3SI_A15
+Desc CR3SI_A15
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Cr
+Spec A1 0 Si
+SubL B 2
+Spec B0 0 Cr
+Spec B1 0 Si
+SubL C 1
+Site 3
+Spec C0 0 Va
+EndM 0 A0B0C0 Cr4
+Amnt 3 1 3
+Name Cr:Cr:Va
+CpXp Cr4#CR32_0000
+; Cr:Cr:Va
+EndM 0 A0B1C0 Cr3Si
+Amnt 3 1 3
+Name Cr:Si:Va
+CpXp Cr3Si#CR32_0001
+; Cr:Si:Va
+EndM 0 A1B0C0 CrSi3
+Amnt 3 1 3
+Name Si:Cr:Va
+CpXp CrSi3#CR32_0002
+; Si:Cr:Va
+EndM 0 A1B1C0 Si4
+Amnt 3 1 3
+Name Si:Si:Va
+CpXp Si4#CR32_0003
+; Si:Si:Va
+Exss BGK A0A1B0C0
+Powr 0
+GXss -9661.46
+Exss BGK A0A1B1C0
+Powr 0
+GXss -9661.46
+Exss BGK A0B0B1C0
+Powr 0
+GXss -16781.4
+Exss BGK A1B0B1C0
+Powr 0
+GXss -16781.4
+SolE CR32 ------------------------------------------------------------
+SolB CR5S 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999537 Modified: 43052.7854999537 2017-11-13 2017-11-13
+Name CR5SI3
+Desc CR5SI3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Cr
+SubL B 1
+Site 3
+Spec B0 0 Si
+EndM 0 A0B0 Cr5Si3
+Amnt 5 3
+Name Cr:Si
+CpXp Cr5Si3#CR5S_0000
+; Cr:Si
+SolE CR5S ------------------------------------------------------------
+SolB CRSI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999884 Modified: 43052.7854999884 2017-11-13 2017-11-13
+Name CRSI2
+Desc CRSI2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Cr
+Spec A1 0 Si
+SubL B 2
+Site 2
+Spec B0 0 Cr
+Spec B1 0 Si
+EndM 0 A0B0 Cr3
+Amnt 1 2
+Name Cr:Cr
+CpXp Cr3#CRSI_0000
+; Cr:Cr
+EndM 0 A0B1 CrSi2
+Amnt 1 2
+Name Cr:Si
+CpXp CrSi2#CRSI_0001
+; Cr:Si
+EndM 0 A1B0 Cr2Si
+Amnt 1 2
+Name Si:Cr
+CpXp Cr2Si#CRSI_0002
+; Si:Cr
+EndM 0 A1B1 Si3
+Amnt 1 2
+Name Si:Si
+CpXp Si3#CRSI_0003
+; Si:Si
+Exss BGK A0B0B1
+Powr 0
+GXss 1435.7
+Exss BGK A1B0B1
+Powr 0
+GXss 1435.7
+SolE CRSI ------------------------------------------------------------
+SolB CU3S 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7854999884 Modified: 43052.7854999884 2017-11-13 2017-11-13
+Name CU3SN
+Desc CU3SN
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Cu
+SubL B 1
+Spec B0 0 Sn
+EndM 0 A0B0 SnCu3
+Amnt 3 1
+Name Cu3Sn
+CpXp SnCu3#CU3S_0000
+; Cu3Sn
+SolE CU3S ------------------------------------------------------------
+SolB CU41 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855000000 Modified: 43052.7855000000 2017-11-13 2017-11-13
+Name CU41SN11
+Desc CU41SN11
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 26
+Spec A0 0 Cu
+SubL B 1
+Site 7
+Spec B0 0 Sn
+EndM 0 A0B0 Sn7Cu26
+Amnt 26 7
+Name Cu26Sn7
+CpXp Sn7Cu26#CU41_0000
+; Cu26Sn7
+SolE CU41 ------------------------------------------------------------
+SolB CU6Y 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855000000 Modified: 43052.7855000000 2017-11-13 2017-11-13
+Name CU6Y
+Desc CU6Y
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Cu
+SubL B 2
+Spec B0 0 Cu2
+Spec B1 0 Y
+EndM 0 A0B0 Cu7
+Amnt 5 1
+Name Cu:Cu2
+CpXp Cu7#CU6Y_0000
+; Cu:Cu2
+EndM 0 A0B1 YCu5
+Amnt 5 1
+Name Cu:Y
+CpXp YCu5#CU6Y_0001
+; Cu:Y
+Exss BGK A0B0B1
+Powr 0
+GXss -34386.27 +3.17656*T
+SolE CU6Y ------------------------------------------------------------
+SolB CUB_ 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855000232 Modified: 43052.7855000232 2017-11-13 2017-11-13
+Name CUB_A13
+Desc CUB_A13
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 4
+Spec A0 0 Al
+Spec A1 0 Mn
+Spec A2 0 Cr
+Spec A3 0 Ti
+SubL B 1
+Spec B0 0 Va
+EndM 0 A0B0 Al
+Amnt 1 1
+Name Al:Va
+CpXp Al#CUB__0000
+; Al:Va
+EndM 0 A1B0 Mn
+Amnt 1 1
+Name Mn:Va
+CpXp Mn#CUB__0001
+; Mn:Va
+EndM 0 A2B0 Cr
+Amnt 1 1
+Name Cr:Va
+CpXp Cr#CUB__0002
+; Cr:Va
+EndM 0 A3B0 Ti
+Amnt 1 1
+Name Ti:Va
+CpXp Ti#CUB__0003
+; Ti:Va
+Exss BGK A0A1B0
+Powr 0
+GXss -119022 +52.507*T
+Exss BGK A0A1B0
+Powr 1
+GXss -1763
+Exss BGK A1A2B0
+Powr 0
+GXss -31260 +16.4919*T
+Exss BGK A1A3B0
+Powr 0
+GXss -34000 +20*T
+SolE CUB_ ------------------------------------------------------------
+SolB CUIN 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855000347 Modified: 43052.7855000347 2017-11-13 2017-11-13
+Name CUIN_ETA
+Desc CUIN_ETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 67
+Spec A0 0 Cu
+SubL B 2
+Site 15
+Spec B0 0 Cu
+Spec B1 0 Sn
+SubL C 1
+Site 41
+Spec C0 0 Sn
+EndM 0 A0B0C0 Sn41Cu82
+Amnt 67 15 41
+Name Cu67Cu15Sn41
+CpXp Sn41Cu82#CUIN_0000
+; Cu67Cu15Sn41
+EndM 0 A0B1C0 Sn56Cu67
+Amnt 67 15 41
+Name Cu67Sn15Sn41
+CpXp Sn56Cu67#CUIN_0001
+; Cu67Sn15Sn41
+Exss BGK A0B0B1C0
+Powr 0
+GXss -1020900
+SolE CUIN ------------------------------------------------------------
+SolB FCC1 12 2 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 43052.7855006713 Modified: 43052.7855006713 2017-11-13 2017-11-13
+Name FCC_A1
+Desc FCC_A1
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 35
+Spec A0 0 Ag
+Spec A1 0 Bi
+Spec A2 0 Cu
+Spec A3 0 Ge
+Spec A4 0 Ir
+Spec A5 0 Mg
+Spec A6 0 Os
+Spec A7 0 Pb
+Spec A8 0 Pt
+Spec A9 0 Sb
+Spec A10 0 Si
+Spec A11 0 Sn
+Spec A12 0 Zn
+Spec A13 0 Al
+Spec A14 0 Ce
+Spec A15 0 Cr
+Spec A16 0 Ga
+Spec A17 0 Mn
+Spec A18 0 Nb
+Spec A19 0 Ni
+Spec A20 0 Ti
+Spec A21 0 Au
+Spec A22 0 Rh
+Spec A23 0 Ba
+Spec A24 0 Fe
+Spec A25 0 Ca
+Spec A26 0 Co
+Spec A27 0 W
+Spec A28 0 Y
+Spec A29 0 Zr
+Spec A30 0 In
+Spec A31 0 La
+Spec A32 0 Mo
+Spec A33 0 P
+Spec A34 0 Ta
+SubL B 4
+Spec B0 0 Va
+Spec B1 0 B
+Spec B2 0 C
+Spec B3 0 N
+EndM 0 A0B0 Ag
+Amnt 1 1
+Name Ag:Va
+CpXp Ag#FCC1_0000
+; Ag:Va
+EndM 0 A1B0 Bi
+Amnt 1 1
+Name Bi:Va
+CpXp Bi#FCC1_0001
+; Bi:Va
+EndM 0 A2B0 Cu
+Amnt 1 1
+Name Cu:Va
+CpXp Cu#FCC1_0002
+; Cu:Va
+EndM 0 A3B0 Ge
+Amnt 1 1
+Name Ge:Va
+CpXp Ge#FCC1_0003
+; Ge:Va
+EndM 0 A4B0 Ir
+Amnt 1 1
+Name Ir:Va
+CpXp Ir#FCC1_0004
+; Ir:Va
+EndM 0 A5B0 Mg
+Amnt 1 1
+Name Mg:Va
+CpXp Mg#FCC1_0005
+; Mg:Va
+EndM 0 A6B0 Os
+Amnt 1 1
+Name Os:Va
+CpXp Os#FCC1_0006
+; Os:Va
+EndM 0 A7B0 Pb
+Amnt 1 1
+Name Pb:Va
+CpXp Pb#FCC1_0007
+; Pb:Va
+EndM 0 A8B0 Pt
+Amnt 1 1
+Name Pt:Va
+CpXp Pt#FCC1_0008
+; Pt:Va
+EndM 0 A9B0 Sb
+Amnt 1 1
+Name Sb:Va
+CpXp Sb#FCC1_0009
+; Sb:Va
+EndM 0 A10B0 Si
+Amnt 1 1
+Name Si:Va
+CpXp Si#FCC1_0010
+; Si:Va
+EndM 0 A11B0 Sn
+Amnt 1 1
+Name Sn:Va
+CpXp Sn#FCC1_0011
+; Sn:Va
+EndM 0 A12B0 Zn
+Amnt 1 1
+Name Zn:Va
+CpXp Zn#FCC1_0012
+; Zn:Va
+EndM 0 A13B0 Al
+Amnt 1 1
+Name Al:Va
+CpXp Al#FCC1_0013
+; Al:Va
+EndM 0 A14B0 Ce
+Amnt 1 1
+Name Ce:Va
+CpXp Ce#FCC1_0014
+; Ce:Va
+EndM 0 A15B0 Cr
+Amnt 1 1
+Name Cr:Va
+Magn 0.81999918 -369.666297
+CpXp Cr#FCC1_0015
+; Cr:Va
+EndM 0 A16B0 Ga
+Amnt 1 1
+Name Ga:Va
+CpXp Ga#FCC1_0016
+; Ga:Va
+EndM 0 A17B0 Mn
+Amnt 1 1
+Name Mn:Va
+Magn 0.61999938 -539.99946
+CpXp Mn#FCC1_0017
+; Mn:Va
+EndM 0 A18B0 Nb
+Amnt 1 1
+Name Nb:Va
+CpXp Nb#FCC1_0018
+; Nb:Va
+EndM 0 A19B0 Ni
+Amnt 1 1
+Name Ni:Va
+Magn 0.52 633
+CpXp Ni#FCC1_0019
+; Ni:Va
+EndM 0 A20B0 Ti
+Amnt 1 1
+Name Ti:Va
+CpXp Ti#FCC1_0020
+; Ti:Va
+EndM 0 A21B0 Au
+Amnt 1 1
+Name Au:Va
+CpXp Au#FCC1_0021
+; Au:Va
+EndM 0 A22B0 Rh
+Amnt 1 1
+Name Rh:Va
+CpXp Rh#FCC1_0022
+; Rh:Va
+EndM 0 A23B0 Ba
+Amnt 1 1
+Name Ba:Va
+CpXp Ba#FCC1_0023
+; Ba:Va
+EndM 0 A24B0 Fe
+Amnt 1 1
+Name Fe:Va
+Magn 0.6999993 -66.999933
+CpXp Fe#FCC1_0024
+; Fe:Va
+EndM 0 A24B1 FeB
+Amnt 1 1
+Name Fe:B
+CpXp FeB#FCC1_0025
+; Fe:B
+EndM 0 A0B1 AgB
+Amnt 1 1
+Name Ag:B
+CpXp AgB#FCC1_0026
+; Ag:B
+EndM 0 A1B1 BiB
+Amnt 1 1
+Name Bi:B
+CpXp BiB#FCC1_0027
+; Bi:B
+EndM 0 A2B1 CuB
+Amnt 1 1
+Name Cu:B
+CpXp CuB#FCC1_0028
+; Cu:B
+EndM 0 A3B1 GeB
+Amnt 1 1
+Name Ge:B
+CpXp GeB#FCC1_0029
+; Ge:B
+EndM 0 A4B1 IrB
+Amnt 1 1
+Name Ir:B
+CpXp IrB#FCC1_0030
+; Ir:B
+EndM 0 A5B1 MgB
+Amnt 1 1
+Name Mg:B
+CpXp MgB#FCC1_0031
+; Mg:B
+EndM 0 A6B1 OsB
+Amnt 1 1
+Name Os:B
+CpXp OsB#FCC1_0032
+; Os:B
+EndM 0 A7B1 PbB
+Amnt 1 1
+Name Pb:B
+CpXp PbB#FCC1_0033
+; Pb:B
+EndM 0 A8B1 PtB
+Amnt 1 1
+Name Pt:B
+CpXp PtB#FCC1_0034
+; Pt:B
+EndM 0 A9B1 SbB
+Amnt 1 1
+Name Sb:B
+CpXp SbB#FCC1_0035
+; Sb:B
+EndM 0 A10B1 SiB
+Amnt 1 1
+Name Si:B
+CpXp SiB#FCC1_0036
+; Si:B
+EndM 0 A11B1 SnB
+Amnt 1 1
+Name Sn:B
+CpXp SnB#FCC1_0037
+; Sn:B
+EndM 0 A12B1 ZnB
+Amnt 1 1
+Name Zn:B
+CpXp ZnB#FCC1_0038
+; Zn:B
+EndM 0 A13B1 AlB
+Amnt 1 1
+Name Al:B
+CpXp AlB#FCC1_0039
+; Al:B
+EndM 0 A14B1 CeB
+Amnt 1 1
+Name Ce:B
+CpXp CeB#FCC1_0040
+; Ce:B
+EndM 0 A15B1 CrB
+Amnt 1 1
+Name Cr:B
+CpXp CrB#FCC1_0041
+; Cr:B
+EndM 0 A16B1 GaB
+Amnt 1 1
+Name Ga:B
+CpXp GaB#FCC1_0042
+; Ga:B
+EndM 0 A17B1 MnB
+Amnt 1 1
+Name Mn:B
+CpXp MnB#FCC1_0043
+; Mn:B
+EndM 0 A18B1 NbB
+Amnt 1 1
+Name Nb:B
+CpXp NbB#FCC1_0044
+; Nb:B
+EndM 0 A19B1 NiB
+Amnt 1 1
+Name Ni:B
+CpXp NiB#FCC1_0045
+; Ni:B
+EndM 0 A20B1 TiB
+Amnt 1 1
+Name Ti:B
+CpXp TiB#FCC1_0046
+; Ti:B
+EndM 0 A21B1 AuB
+Amnt 1 1
+Name Au:B
+CpXp AuB#FCC1_0047
+; Au:B
+EndM 0 A22B1 RhB
+Amnt 1 1
+Name Rh:B
+CpXp RhB#FCC1_0048
+; Rh:B
+EndM 0 A23B1 BaB
+Amnt 1 1
+Name Ba:B
+CpXp BaB#FCC1_0049
+; Ba:B
+EndM 0 A25B0 Ca
+Amnt 1 1
+Name Ca:Va
+CpXp Ca#FCC1_0050
+; Ca:Va
+EndM 0 A25B1 CaB
+Amnt 1 1
+Name Ca:B
+CpXp CaB#FCC1_0051
+; Ca:B
+EndM 0 A24B2 FeC
+Amnt 1 1
+Name Fe:C
+Magn 0.6999993 -66.999933
+CpXp FeC#FCC1_0052
+; Fe:C
+EndM 0 A0B2 AgC
+Amnt 1 1
+Name Ag:C
+CpXp AgC#FCC1_0053
+; Ag:C
+EndM 0 A1B2 BiC
+Amnt 1 1
+Name Bi:C
+CpXp BiC#FCC1_0054
+; Bi:C
+EndM 0 A2B2 CuC
+Amnt 1 1
+Name Cu:C
+CpXp CuC#FCC1_0055
+; Cu:C
+EndM 0 A3B2 GeC
+Amnt 1 1
+Name Ge:C
+CpXp GeC#FCC1_0056
+; Ge:C
+EndM 0 A4B2 IrC
+Amnt 1 1
+Name Ir:C
+CpXp IrC#FCC1_0057
+; Ir:C
+EndM 0 A5B2 MgC
+Amnt 1 1
+Name Mg:C
+CpXp MgC#FCC1_0058
+; Mg:C
+EndM 0 A6B2 OsC
+Amnt 1 1
+Name Os:C
+CpXp OsC#FCC1_0059
+; Os:C
+EndM 0 A7B2 PbC
+Amnt 1 1
+Name Pb:C
+CpXp PbC#FCC1_0060
+; Pb:C
+EndM 0 A8B2 PtC
+Amnt 1 1
+Name Pt:C
+CpXp PtC#FCC1_0061
+; Pt:C
+EndM 0 A9B2 SbC
+Amnt 1 1
+Name Sb:C
+CpXp SbC#FCC1_0062
+; Sb:C
+EndM 0 A10B2 SiC
+Amnt 1 1
+Name Si:C
+CpXp SiC#FCC1_0063
+; Si:C
+EndM 0 A11B2 SnC
+Amnt 1 1
+Name Sn:C
+CpXp SnC#FCC1_0064
+; Sn:C
+EndM 0 A12B2 ZnC
+Amnt 1 1
+Name Zn:C
+CpXp ZnC#FCC1_0065
+; Zn:C
+EndM 0 A13B2 AlC
+Amnt 1 1
+Name Al:C
+CpXp AlC#FCC1_0066
+; Al:C
+EndM 0 A14B2 CeC
+Amnt 1 1
+Name Ce:C
+CpXp CeC#FCC1_0067
+; Ce:C
+EndM 0 A15B2 CrC
+Amnt 1 1
+Name Cr:C
+CpXp CrC#FCC1_0068
+; Cr:C
+EndM 0 A16B2 GaC
+Amnt 1 1
+Name Ga:C
+CpXp GaC#FCC1_0069
+; Ga:C
+EndM 0 A17B2 MnC
+Amnt 1 1
+Name Mn:C
+CpXp MnC#FCC1_0070
+; Mn:C
+EndM 0 A18B2 NbC
+Amnt 1 1
+Name Nb:C
+CpXp NbC#FCC1_0071
+; Nb:C
+EndM 0 A19B2 NiC
+Amnt 1 1
+Name Ni:C
+Magn 0.52 633
+CpXp NiC#FCC1_0072
+; Ni:C
+EndM 0 A20B2 TiC
+Amnt 1 1
+Name Ti:C
+CpXp TiC#FCC1_0073
+; Ti:C
+EndM 0 A21B2 AuC
+Amnt 1 1
+Name Au:C
+CpXp AuC#FCC1_0074
+; Au:C
+EndM 0 A22B2 RhC
+Amnt 1 1
+Name Rh:C
+CpXp RhC#FCC1_0075
+; Rh:C
+EndM 0 A23B2 BaC
+Amnt 1 1
+Name Ba:C
+CpXp BaC#FCC1_0076
+; Ba:C
+EndM 0 A25B2 CaC
+Amnt 1 1
+Name Ca:C
+CpXp CaC#FCC1_0077
+; Ca:C
+EndM 0 A26B0 Co
+Amnt 1 1
+Name Co:Va
+Magn 1.35 1396
+CpXp Co#FCC1_0078
+; Co:Va
+EndM 0 A26B1 CoB
+Amnt 1 1
+Name Co:B
+CpXp CoB#FCC1_0079
+; Co:B
+EndM 0 A26B2 CoC
+Amnt 1 1
+Name Co:C
+CpXp CoC#FCC1_0080
+; Co:C
+EndM 0 A27B0 W
+Amnt 1 1
+Name W:Va
+CpXp W#FCC1_0081
+; W:Va
+EndM 0 A27B1 WB
+Amnt 1 1
+Name W:B
+CpXp WB#FCC1_0082
+; W:B
+EndM 0 A27B2 WC
+Amnt 1 1
+Name W:C
+CpXp WC#FCC1_0083
+; W:C
+EndM 0 A28B0 Y
+Amnt 1 1
+Name Y:Va
+CpXp Y#FCC1_0084
+; Y:Va
+EndM 0 A28B1 YB
+Amnt 1 1
+Name Y:B
+CpXp YB#FCC1_0085
+; Y:B
+EndM 0 A28B2 YC
+Amnt 1 1
+Name Y:C
+CpXp YC#FCC1_0086
+; Y:C
+EndM 0 A29B0 Zr
+Amnt 1 1
+Name Zr:Va
+CpXp Zr#FCC1_0087
+; Zr:Va
+EndM 0 A29B2 ZrC
+Amnt 1 1
+Name Zr:C
+CpXp ZrC#FCC1_0088
+; Zr:C
+EndM 0 A29B1 ZrB
+Amnt 1 1
+Name Zr:B
+CpXp ZrB#FCC1_0089
+; Zr:B
+EndM 0 A24B3 FeN
+Amnt 1 1
+Name Fe:N
+CpXp FeN#FCC1_0090
+; Fe:N
+EndM 0 A0B3 AgN
+Amnt 1 1
+Name Ag:N
+CpXp AgN#FCC1_0091
+; Ag:N
+EndM 0 A1B3 BiN
+Amnt 1 1
+Name Bi:N
+CpXp BiN#FCC1_0092
+; Bi:N
+EndM 0 A2B3 CuN
+Amnt 1 1
+Name Cu:N
+CpXp CuN#FCC1_0093
+; Cu:N
+EndM 0 A3B3 GeN
+Amnt 1 1
+Name Ge:N
+CpXp GeN#FCC1_0094
+; Ge:N
+EndM 0 A4B3 IrN
+Amnt 1 1
+Name Ir:N
+CpXp IrN#FCC1_0095
+; Ir:N
+EndM 0 A5B3 MgN
+Amnt 1 1
+Name Mg:N
+CpXp MgN#FCC1_0096
+; Mg:N
+EndM 0 A6B3 OsN
+Amnt 1 1
+Name Os:N
+CpXp OsN#FCC1_0097
+; Os:N
+EndM 0 A7B3 PbN
+Amnt 1 1
+Name Pb:N
+CpXp PbN#FCC1_0098
+; Pb:N
+EndM 0 A8B3 PtN
+Amnt 1 1
+Name Pt:N
+CpXp PtN#FCC1_0099
+; Pt:N
+EndM 0 A9B3 SbN
+Amnt 1 1
+Name Sb:N
+CpXp SbN#FCC1_0100
+; Sb:N
+EndM 0 A10B3 SiN
+Amnt 1 1
+Name Si:N
+CpXp SiN#FCC1_0101
+; Si:N
+EndM 0 A11B3 SnN
+Amnt 1 1
+Name Sn:N
+CpXp SnN#FCC1_0102
+; Sn:N
+EndM 0 A12B3 ZnN
+Amnt 1 1
+Name Zn:N
+CpXp ZnN#FCC1_0103
+; Zn:N
+EndM 0 A13B3 AlN
+Amnt 1 1
+Name Al:N
+CpXp AlN#FCC1_0104
+; Al:N
+EndM 0 A14B3 CeN
+Amnt 1 1
+Name Ce:N
+CpXp CeN#FCC1_0105
+; Ce:N
+EndM 0 A15B3 CrN
+Amnt 1 1
+Name Cr:N
+CpXp CrN#FCC1_0106
+; Cr:N
+EndM 0 A16B3 GaN
+Amnt 1 1
+Name Ga:N
+CpXp GaN#FCC1_0107
+; Ga:N
+EndM 0 A17B3 MnN
+Amnt 1 1
+Name Mn:N
+CpXp MnN#FCC1_0108
+; Mn:N
+EndM 0 A18B3 NbN
+Amnt 1 1
+Name Nb:N
+CpXp NbN#FCC1_0109
+; Nb:N
+EndM 0 A19B3 NiN
+Amnt 1 1
+Name Ni:N
+CpXp NiN#FCC1_0110
+; Ni:N
+EndM 0 A20B3 TiN
+Amnt 1 1
+Name Ti:N
+CpXp TiN#FCC1_0111
+; Ti:N
+EndM 0 A21B3 AuN
+Amnt 1 1
+Name Au:N
+CpXp AuN#FCC1_0112
+; Au:N
+EndM 0 A22B3 RhN
+Amnt 1 1
+Name Rh:N
+CpXp RhN#FCC1_0113
+; Rh:N
+EndM 0 A23B3 BaN
+Amnt 1 1
+Name Ba:N
+CpXp BaN#FCC1_0114
+; Ba:N
+EndM 0 A25B3 CaN
+Amnt 1 1
+Name Ca:N
+CpXp CaN#FCC1_0115
+; Ca:N
+EndM 0 A26B3 CoN
+Amnt 1 1
+Name Co:N
+CpXp CoN#FCC1_0116
+; Co:N
+EndM 0 A27B3 WN
+Amnt 1 1
+Name W:N
+CpXp WN#FCC1_0117
+; W:N
+EndM 0 A28B3 YN
+Amnt 1 1
+Name Y:N
+CpXp YN#FCC1_0118
+; Y:N
+EndM 0 A29B3 ZrN
+Amnt 1 1
+Name Zr:N
+CpXp ZrN#FCC1_0119
+; Zr:N
+EndM 0 A30B0 In
+Amnt 1 1
+Name In:Va
+CpXp In#FCC1_0120
+; In:Va
+EndM 0 A30B1 InB
+Amnt 1 1
+Name In:B
+CpXp InB#FCC1_0121
+; In:B
+EndM 0 A30B2 InC
+Amnt 1 1
+Name In:C
+CpXp InC#FCC1_0122
+; In:C
+EndM 0 A30B3 InN
+Amnt 1 1
+Name In:N
+CpXp InN#FCC1_0123
+; In:N
+EndM 0 A31B0 La
+Amnt 1 1
+Name La:Va
+CpXp La#FCC1_0124
+; La:Va
+EndM 0 A31B1 LaB
+Amnt 1 1
+Name La:B
+CpXp LaB#FCC1_0125
+; La:B
+EndM 0 A31B2 LaC
+Amnt 1 1
+Name La:C
+CpXp LaC#FCC1_0126
+; La:C
+EndM 0 A31B3 LaN
+Amnt 1 1
+Name La:N
+CpXp LaN#FCC1_0127
+; La:N
+EndM 0 A32B0 Mo
+Amnt 1 1
+Name Mo:Va
+CpXp Mo#FCC1_0128
+; Mo:Va
+EndM 0 A32B1 MoB
+Amnt 1 1
+Name Mo:B
+CpXp MoB#FCC1_0129
+; Mo:B
+EndM 0 A32B2 MoC
+Amnt 1 1
+Name Mo:C
+CpXp MoC#FCC1_0130
+; Mo:C
+EndM 0 A32B3 MoN
+Amnt 1 1
+Name Mo:N
+CpXp MoN#FCC1_0131
+; Mo:N
+EndM 0 A33B0 P
+Amnt 1 1
+Name P:Va
+CpXp P#FCC1_0132
+; P:Va
+EndM 0 A33B1 PB
+Amnt 1 1
+Name P:B
+CpXp PB#FCC1_0133
+; P:B
+EndM 0 A33B2 PC
+Amnt 1 1
+Name P:C
+CpXp PC#FCC1_0134
+; P:C
+EndM 0 A33B3 PN
+Amnt 1 1
+Name P:N
+CpXp PN#FCC1_0135
+; P:N
+EndM 0 A34B0 Ta
+Amnt 1 1
+Name Ta:Va
+CpXp Ta#FCC1_0136
+; Ta:Va
+EndM 0 A34B1 TaB
+Amnt 1 1
+Name Ta:B
+CpXp TaB#FCC1_0137
+; Ta:B
+EndM 0 A34B2 TaC
+Amnt 1 1
+Name Ta:C
+CpXp TaC#FCC1_0138
+; Ta:C
+EndM 0 A34B3 TaN
+Amnt 1 1
+Name Ta:N
+CpXp TaN#FCC1_0139
+; Ta:N
+Exss BGK A0A1B0
+Powr 0
+GXss 25077.78 -12.05475*T
+Exss BGK A0A2B0
+Powr 0
+GXss 36772.58 -11.02847*T
+Exss BGK A0A2B0
+Powr 1
+GXss -4612.43 +0.28869*T
+Exss BGK A0A3B0
+Powr 0
+GXss 3066.7 +11.05926*T
+Exss BGK A0A3B0
+Powr 1
+GXss -16428.5
+Exss BGK A0A4B0
+Powr 0
+GXss 80*T
+Exss BGK A0A5B0
+Powr 0
+GXss -59983.562 -3.485663*T
+Exss BGK A0A5B0
+Powr 1
+GXss 14413.269 -8.913437*T
+Exss BGK A0A5B0
+Powr 2
+GXss -2804.963 +2.974794*T
+Exss BGK A0A6B0
+Powr 0
+GXss 80*T
+Exss BGK A0A7B0
+Powr 0
+GXss 38965 -20.57122*T
+Exss BGK A0A7B0
+Powr 1
+GXss -11846.97 +15.77593*T
+Exss BGK A0A8B0
+Powr 0
+GXss 24000 -0.8481111*T
+Exss BGK A0A8B0
+Powr 1
+GXss -5023.3512 -0.0099376834*T
+Exss BGK A0A8B0
+Powr 2
+GXss 275.425 -0.97035144*T
+Exss BGK A0A9B0
+Powr 0
+GXss -30164.027 +66.4033*T
+Exss BGK A0A9B0
+Powr 1
+GXss 8714.5741 -67.6783*T
+Exss BGK A0A10B0
+Powr 0
+GXss 50*T
+Exss BGK A0A11B0
+Powr 0
+GXss 745.45 +11.498027*T
+Exss BGK A0A11B0
+Powr 1
+GXss -36541.5
+Exss BGK A0A12B0
+Powr 0
+GXss -24620 +0.91*T
+Exss BGK A13A14B0
+Powr 0
+GXss 80*T
+Exss BGK A13A15B0
+Powr 0
+GXss -30946 +8.3017*T
+Exss BGK A13A16B0
+Powr 0
+GXss 9195.8 +8.18764*T
+Exss BGK A13A16B0
+Powr 1
+GXss -7678.5
+Exss BGK A3A13B0
+Powr 0
+GXss 600
+Exss BGK A5A13B0
+Powr 0
+GXss 1593 +2.149*T
+Exss BGK A5A13B0
+Powr 1
+GXss -1014 +0.66*T
+Exss BGK A5A13B0
+Powr 2
+GXss -673
+Exss BGK A13A17B0
+Powr 0
+GXss -69300 +25*T
+Exss BGK A13A17B0
+Powr 1
+GXss 8800
+Exss BGK A13A18B0
+Powr 0
+GXss -52000 +20*T
+Exss BGK A13A18B0
+Powr 1
+GXss -85000 +35.5*T
+Exss BGK A13A19B0
+Powr 0
+GXss -162407.75 +16.212965*T
+Exss BGK A13A19B0
+Powr 1
+GXss 73417.798 -34.914168*T
+Exss BGK A13A19B0
+Powr 2
+GXss 33471.014 -9.837356*T
+Exss BGK A13A19B0
+Powr 3
+GXss -30758.01 +10.25267*T
+Exss BGK A7A13B0
+Powr 0
+GXss 100000
+Exss BGK A10A13B0
+Powr 0
+GXss -3143.78 +0.39297*T
+Exss BGK A11A13B0
+Powr 0
+GXss 45297.84 -8.39814*T
+Exss BGK A13A20B0
+Powr 0
+GXss -128970 +39*T
+Exss BGK A13A20B0
+Powr 1
+GXss -5000
+Exss BGK A13A20B0
+Powr 2
+GXss 20000
+Exss BGK A12A13B0
+Powr 0
+GXss 7297.48 +0.47512*T
+Exss BGK A12A13B0
+Powr 1
+GXss -6612.88 +4.5911*T
+Exss BGK A12A13B0
+Powr 2
+GXss -3097.19 +3.30635*T
+Exss BGK A1A21B0
+Powr 0
+GXss 42000 +0.3*T
+Exss BGK A15A21B0
+Powr 0
+GXss -9741.0417 +8.578842*T
+Exss BGK A15A21B0
+Powr 1
+GXss 25580.78 -17.355014*T
+Exss BGK A15A21B0
+Powr 2
+GXss -10211.809
+Exss BGK A2A21B0
+Powr 0
+GXss -25053.125 +34.98*T -4.695*T*ln(T)
+Exss BGK A2A21B0
+Powr 1
+GXss -6446.25
+Exss BGK A2A21B0
+Powr 2
+GXss 1267.5 +6.3*T
+Exss BGK A2A21B0
+Powr 3
+GXss 2981.25
+Exss BGK A2A21B0
+Powr 4
+GXss 1490.625
+Exss BGK A21A22B0
+Powr 0
+GXss 55750
+Exss BGK A21A22B0
+Powr 1
+GXss -8750
+Exss BGK A10A21B0
+Powr 0
+GXss 80*T
+Exss BGK A2A23B0
+Powr 0
+GXss 80*T
+Exss BGK A19B0B1
+Powr 0
+GXss -90402.33 +36*T
+Exss BGK A10A25B0
+Powr 0
+GXss 80*T
+Exss BGK A24B0B2
+Powr 0
+GXss -34671
+Exss BGK A18B0B2
+Powr 0
+GXss -98823 +11.525*T
+Exss BGK A19B0B2
+Powr 0
+GXss -14902 +7.5*T
+Exss BGK A15A26B0
+Powr 0
+GXss 1500 -9.592*T
+Exss BGK A24A26B0
+Powr 0
+GXss -8471
+Exss BGK A24A26B0
+Powr 1
+GXss -1181 +1.6544*T
+Exss BGK A18A26B0
+Powr 0
+GXss -41634
+Exss BGK A18A26B0
+Powr 1
+GXss 10241
+Exss BGK A8A26B0
+Powr 0
+GXss -38238.8 -9.06391*T
+Exss BGK A26A27B0
+Powr 0
+GXss -17267 +10.878*T
+Exss BGK A26A27B0
+Powr 1
+GXss 14711 -18.687*T
+Exss BGK A2A15B0
+Powr 0
+GXss 88112 -30.38315*T
+Exss BGK A15A24B0
+Powr 0
+GXss 10833 -7.477*T
+Exss BGK A15A24B0
+Powr 1
+GXss 1410
+Exss BGK A15A17B0
+Powr 0
+GXss -19088 +17.5423*T
+Exss BGK A20B0B2
+Powr 0
+GXss -52702 -4.6*T
+Exss BGK A20B0B2
+Powr 1
+GXss 121367 -31.5*T
+Exss BGK A2A24B0
+Powr 0
+GXss 48232.565 -8.609542*T
+Exss BGK A2A24B0
+Powr 1
+GXss 8861.882 -5.289751*T
+Exss BGK A2A5B0
+Powr 0
+GXss -22059.61 +5.63232*T
+Exss BGK A2A19B0
+Powr 0
+GXss 8047.72 +3.42217*T
+Exss BGK A2A19B0
+Powr 1
+GXss -2041.3 +0.99714*T
+Exss BGK A2A7B0
+Powr 0
+GXss 74090.9 -24.69707*T
+Exss BGK A2A11B0
+Powr 0
+GXss -11106.95 +2.0791*T
+Exss BGK A2A11B0
+Powr 1
+GXss -15718.018 +5.9254696*T
+Exss BGK A2A28B0
+Powr 0
+GXss 80*T
+Exss BGK A29B0B2
+Powr 0
+GXss -41870.2 -35.70271*T +6.042424*T*ln(T) -0.001326472*T^2
+Exss BGK A29B0B2
+Powr 1
+GXss 81870.2 +35.70271*T -6.042424*T*ln(T) +0.001326472*T^2
+Exss BGK A24B0B3
+Powr 0
+GXss -26150
+Exss BGK A19A24B0
+Powr 0
+GXss -12054.355 +3.27413*T
+Exss BGK A19A24B0
+Powr 1
+GXss -11082.131 +4.45077*T
+Exss BGK A19A24B0
+Powr 2
+GXss -725.805
+Exss BGK A10A24B0
+Powr 0
+GXss -125247.7 +41.166*T
+Exss BGK A10A24B0
+Powr 1
+GXss 142707.6
+Exss BGK A10A24B0
+Powr 2
+GXss 89907.3
+Exss BGK A20A24B0
+Powr 0
+GXss -51625 +11*T
+Exss BGK A20A24B0
+Powr 1
+GXss 1950 +6*T
+Exss BGK A20A24B0
+Powr 2
+GXss 14875
+Exss BGK A24A29B0
+Powr 0
+GXss -25100
+Exss BGK A7A30B0
+Powr 0
+GXss 4846.2 -2.56363*T
+Exss BGK A7A30B0
+Powr 1
+GXss -305.1
+Exss BGK A19A31B0
+Powr 0
+GXss 100000
+Exss BGK A7A17B0
+Powr 0
+GXss 80*T
+Exss BGK A17A20B0
+Powr 0
+GXss -26200 +20*T
+Exss BGK A19A32B0
+Powr 0
+GXss 4803.7 -5.96*T
+Exss BGK A19A32B0
+Powr 1
+GXss -10880
+Exss BGK A19A33B0
+Powr 0
+GXss -140000 +15*T
+Exss BGK A10A19B0
+Powr 0
+GXss -204564.52 +38.99204*T
+Exss BGK A10A19B0
+Powr 1
+GXss 82289.606
+Exss BGK A19A34B0
+Powr 0
+GXss -52063.1 -24.399*T
+Exss BGK A19A34B0
+Powr 1
+GXss -67705.81 +14.997*T
+Exss BGK A19A29B0
+Powr 0
+GXss -130000 +2*T
+Exss BGK A19A29B0
+Powr 1
+GXss -25000 +2.5*T
+Exss BGK A18B0B3
+Powr 0
+GXss -65218
+Exss BGK A20B0B3
+Powr 0
+GXss -42704.41
+Exss BGK A20B0B3
+Powr 1
+GXss 13989.34
+Exss BGK A7A11B0
+Powr 0
+GXss 7145.3 -2.30237*T
+Exss BGK A23A28B0
+Powr 0
+GXss 80*T
+Exss BGK A16A30B0
+Powr 0
+GXss 80*T
+Exss BGK A12A16B0
+Powr 0
+GXss 10744
+Exss BGK A5A29B0
+Powr 0
+GXss 30384 +13.723*T
+Exss BGK A5A29B0
+Powr 1
+GXss 18589 -25.175*T
+Exss BGK A11A12B0
+Powr 0
+GXss 33433.94 -11.14466*T
+Exss BTK A13A19B0
+Powr 0
+GXss -1112
+Exss BBK A13A19B0
+Powr 0
+GXss 
+Exss BTK A13A19B0
+Powr 1
+GXss 1745
+Exss BBK A13A19B0
+Powr 1
+GXss 
+Exss BTK A15A26B0
+Powr 0
+GXss -1795
+Exss BBK A15A26B0
+Powr 0
+GXss 
+Exss BTK A24A26B0
+Powr 0
+GXss 283
+Exss BBK A24A26B0
+Powr 0
+GXss 9.74
+Exss BTK A24A26B0
+Powr 1
+GXss -879
+Exss BBK A24A26B0
+Powr 1
+GXss 3.516
+Exss BTK A8A26B0
+Powr 0
+GXss 582
+Exss BBK A8A26B0
+Powr 0
+GXss 
+Exss BTK A8A26B0
+Powr 1
+GXss 
+Exss BBK A8A26B0
+Powr 1
+GXss 
+Exss BTK A8A26B0
+Powr 2
+GXss 745
+Exss BBK A8A26B0
+Powr 2
+GXss 
+Exss BTK A26A27B0
+Powr 0
+GXss -3379
+Exss BBK A26A27B0
+Powr 0
+GXss -3.268
+Exss BTK A2A19B0
+Powr 0
+GXss -935.5
+Exss BBK A2A19B0
+Powr 0
+GXss 0.52
+Exss BTK A2A19B0
+Powr 1
+GXss -594.9
+Exss BBK A2A19B0
+Powr 1
+GXss -0.7316
+Exss BTK A2A19B0
+Powr 2
+GXss 
+Exss BBK A2A19B0
+Powr 2
+GXss -0.3174
+Exss BTK A19A24B0
+Powr 0
+GXss 2133
+Exss BBK A19A24B0
+Powr 0
+GXss 9.55
+Exss BTK A19A24B0
+Powr 1
+GXss 682
+Exss BBK A19A24B0
+Powr 1
+GXss -7.23
+Exss BTK A19A24B0
+Powr 2
+GXss 
+Exss BBK A19A24B0
+Powr 2
+GXss 5.93
+Exss BTK A19A24B0
+Powr 3
+GXss 
+Exss BBK A19A24B0
+Powr 3
+GXss -6.18
+Exss BTK A19A34B0
+Powr 0
+GXss -3568.77
+Exss BBK A19A34B0
+Powr 0
+GXss 
+SolE FCC1 ------------------------------------------------------------
+SolB FCC2 12 5 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855007639 Modified: 43052.7855007639 2017-11-13 2017-11-13
+Name FCC_AUCU!FCC_A1
+Desc FCC_AUCU!FCC_A1
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Au
+Spec A1 0 Cu
+SubL B 2
+Spec B0 0 Au
+Spec B1 0 Cu
+SubL C 2
+Spec C0 0 Au
+Spec C1 0 Cu
+SubL D 2
+Spec D0 0 Au
+Spec D1 0 Cu
+SubL E 1
+Site 4
+Spec E0 0 Va
+EndM 0 A0B0C0D0E0 Au4
+Amnt 1 1 1 1 4
+Name AuAuAuAuVa4
+CpXp Au4#FCC2_0000
+; AuAuAuAuVa4
+EndM 0 A0B0C0D1E0 Au3Cu
+Amnt 1 1 1 1 4
+Name AuAuAuCuVa4
+CpXp Au3Cu#FCC2_0001
+; AuAuAuCuVa4
+EndM 0 A0B0C1D0E0 Au3Cu
+Amnt 1 1 1 1 4
+Name AuAuCuAuVa4
+CpXp Au3Cu#FCC2_0002
+; AuAuCuAuVa4
+EndM 0 A0B0C1D1E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name AuAuCuCuVa4
+CpXp Au2Cu2#FCC2_0003
+; AuAuCuCuVa4
+EndM 0 A0B1C0D0E0 Au3Cu
+Amnt 1 1 1 1 4
+Name AuCuAuAuVa4
+CpXp Au3Cu#FCC2_0004
+; AuCuAuAuVa4
+EndM 0 A0B1C0D1E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name AuCuAuCuVa4
+CpXp Au2Cu2#FCC2_0005
+; AuCuAuCuVa4
+EndM 0 A0B1C1D0E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name AuCuCuAuVa4
+CpXp Au2Cu2#FCC2_0006
+; AuCuCuAuVa4
+EndM 0 A0B1C1D1E0 AuCu3
+Amnt 1 1 1 1 4
+Name AuCuCuCuVa4
+CpXp AuCu3#FCC2_0007
+; AuCuCuCuVa4
+EndM 0 A1B0C0D0E0 Au3Cu
+Amnt 1 1 1 1 4
+Name CuAuAuAuVa4
+CpXp Au3Cu#FCC2_0008
+; CuAuAuAuVa4
+EndM 0 A1B0C0D1E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name CuAuAuCuVa4
+CpXp Au2Cu2#FCC2_0009
+; CuAuAuCuVa4
+EndM 0 A1B0C1D0E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name CuAuCuAuVa4
+CpXp Au2Cu2#FCC2_0010
+; CuAuCuAuVa4
+EndM 0 A1B0C1D1E0 AuCu3
+Amnt 1 1 1 1 4
+Name CuAuCuCuVa4
+CpXp AuCu3#FCC2_0011
+; CuAuCuCuVa4
+EndM 0 A1B1C0D0E0 Au2Cu2
+Amnt 1 1 1 1 4
+Name CuCuAuAuVa4
+CpXp Au2Cu2#FCC2_0012
+; CuCuAuAuVa4
+EndM 0 A1B1C0D1E0 AuCu3
+Amnt 1 1 1 1 4
+Name CuCuAuCuVa4
+CpXp AuCu3#FCC2_0013
+; CuCuAuCuVa4
+EndM 0 A1B1C1D0E0 AuCu3
+Amnt 1 1 1 1 4
+Name CuCuCuAuVa4
+CpXp AuCu3#FCC2_0014
+; CuCuCuAuVa4
+EndM 0 A1B1C1D1E0 Cu4
+Amnt 1 1 1 1 4
+Name CuCuCuCuVa4
+CpXp Cu4#FCC2_0015
+; CuCuCuCuVa4
+Exss BGK A0A1B0B1C0D0E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0B1C0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0B1C1D0E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0B1C1D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A0A1B0C0C1D0E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0C0C1D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0C0D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0C0D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B0C0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B0C1D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B0C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B0C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B1C0C1D0E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B1C0C1D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A0A1B1C0D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0A1B1C0D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B1C0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B1C1D0D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A0A1B1C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0A1B1C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0B1C0C1D0E0
+Powr 0
+GXss -18*T
+Exss BGK A0B0B1C0C1D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0B0B1C0D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0B0B1C0D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0B1C0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0B1C1D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0B0B1C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0B1C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0C0C1D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0B0C0C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0C0C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0C0D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B0C1D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B1C0C1D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A0B1C0C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B1C0C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B1C0D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A0B1C1D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0B1C0C1D0E0
+Powr 0
+GXss -18*T
+Exss BGK A1B0B1C0C1D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A1B0B1C0D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A1B0B1C0D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0B1C0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0B1C1D0D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A1B0B1C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0B1C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0C0C1D0D1E0
+Powr 0
+GXss -18*T
+Exss BGK A1B0C0C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0C0C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0C0D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B0C1D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B1C0C1D0D1E0
+Powr 0
+GXss -15900 -18*T
+Exss BGK A1B1C0C1D0E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B1C0C1D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B1C0D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+Exss BGK A1B1C1D0D1E0
+Powr 0
+GXss 3940 +10.32*T
+SolE FCC2 ------------------------------------------------------------
+SolB FCC3 12 3 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 43052.7855008218 Modified: 43052.7855008218 2017-11-13 2017-11-13
+Name FCC_L12!FCC_A1
+Desc FCC_L12!FCC_A1
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 4
+Site 3
+Spec A0 0 Al
+Spec A1 0 Ni
+Spec A2 0 Fe
+Spec A3 0 Si
+SubL B 4
+Spec B0 0 Al
+Spec B1 0 Ni
+Spec B2 0 Fe
+Spec B3 0 Si
+SubL C 1
+Site 4
+Spec C0 0 Va
+EndM 0 A0B0C0 Al4
+Amnt 3 1 4
+Name Al3AlVa4
+CpXp Al4#FCC3_0000
+; Al3AlVa4
+EndM 0 A0B1C0 NiAl3
+Amnt 3 1 4
+Name Al3NiVa4
+CpXp NiAl3#FCC3_0001
+; Al3NiVa4
+EndM 0 A1B0C0 Ni3Al
+Amnt 3 1 4
+Name Ni3AlVa4
+CpXp Ni3Al#FCC3_0002
+; Ni3AlVa4
+EndM 0 A1B1C0 Ni4
+Amnt 3 1 4
+Name Ni3NiVa4
+CpXp Ni4#FCC3_0003
+; Ni3NiVa4
+EndM 0 A2B2C0 Fe4
+Amnt 3 1 4
+Name Fe3FeVa4
+CpXp Fe4#FCC3_0004
+; Fe3FeVa4
+EndM 0 A2B1C0 NiFe3
+Amnt 3 1 4
+Name Fe3NiVa4
+CpXp NiFe3#FCC3_0005
+; Fe3NiVa4
+EndM 0 A1B2C0 Ni3Fe
+Amnt 3 1 4
+Name Ni3FeVa4
+CpXp Ni3Fe#FCC3_0006
+; Ni3FeVa4
+EndM 0 A0B2C0 FeAl3
+Amnt 3 1 4
+Name Al3FeVa4
+CpXp FeAl3#FCC3_0007
+; Al3FeVa4
+EndM 0 A2B0C0 Fe3Al
+Amnt 3 1 4
+Name Fe3AlVa4
+CpXp Fe3Al#FCC3_0008
+; Fe3AlVa4
+EndM 0 A1B3C0 Ni3Si
+Amnt 3 1 4
+Name Ni3SiVa4
+CpXp Ni3Si#FCC3_0009
+; Ni3SiVa4
+EndM 0 A3B1C0 NiSi3
+Amnt 3 1 4
+Name Si3NiVa4
+CpXp NiSi3#FCC3_0010
+; Si3NiVa4
+EndM 0 A3B3C0 Si4
+Amnt 3 1 4
+Name Si3SiVa4
+CpXp Si4#FCC3_0011
+; Si3SiVa4
+EndM 0 A0B3C0 SiAl3
+Amnt 3 1 4
+Name Al3SiVa4
+CpXp SiAl3#FCC3_0012
+; Al3SiVa4
+EndM 0 A2B3C0 Fe3Si
+Amnt 3 1 4
+Name Fe3SiVa4
+CpXp Fe3Si#FCC3_0013
+; Fe3SiVa4
+EndM 0 A3B0C0 Si3Al
+Amnt 3 1 4
+Name Si3AlVa4
+CpXp Si3Al#FCC3_0014
+; Si3AlVa4
+EndM 0 A3B2C0 FeSi3
+Amnt 3 1 4
+Name Si3FeVa4
+CpXp FeSi3#FCC3_0015
+; Si3FeVa4
+Exss BGK A0A1B0C0
+Powr 0
+GXss -321972.36 +49.966192*T
+Exss BGK A0A1B0C0
+Powr 1
+GXss 85064.836 -44.242744*T
+Exss BGK A0A1B1C0
+Powr 0
+GXss -321972.36 +49.966192*T
+Exss BGK A0A1B1C0
+Powr 1
+GXss 85064.836 -44.242744*T
+Exss BGK A0B0B1C0
+Powr 0
+GXss 
+Exss BGK A0B0B1C0
+Powr 1
+GXss 28354.944 -14.74758*T
+Exss BGK A1B0B1C0
+Powr 0
+GXss 
+Exss BGK A1B0B1C0
+Powr 1
+GXss 28354.944 -14.74758*T
+Exss BGK A1A2B2C0
+Powr 0
+GXss 130539.244 -70.557144*T
+Exss BGK A1A2B2C0
+Powr 1
+GXss -15937.2528 -23.519048*T
+Exss BGK A1A2B1C0
+Powr 0
+GXss -112349.456 +70.557144*T
+Exss BGK A1A2B1C0
+Powr 1
+GXss -65025.648 +70.557144*T
+Exss BGK A2B1B2C0
+Powr 0
+GXss 3031.63124
+Exss BGK A1B1B2C0
+Powr 0
+GXss 3031.63124
+Exss BGK A1A3B1C0
+Powr 0
+GXss -361540.8 +38.44704*T
+Exss BGK A1A3B1C0
+Powr 1
+GXss -101680.848 +40.16052*T
+Exss BGK A1A3B3C0
+Powr 0
+GXss -361540.8 +38.44704*T
+Exss BGK A1A3B3C0
+Powr 1
+GXss -101680.848 +40.16052*T
+Exss BGK A1B1B3C0
+Powr 0
+GXss 
+Exss BGK A1B1B3C0
+Powr 1
+GXss -33893.616 +13.38684*T
+Exss BGK A3B1B3C0
+Powr 0
+GXss 
+Exss BGK A3B1B3C0
+Powr 1
+GXss -33893.616 +13.38684*T
+SolE FCC3 ------------------------------------------------------------
+SolB FECN 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008333 Modified: 43052.7855008333 2017-11-13 2017-11-13
+Name FECN_CHI
+Desc FECN_CHI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Fe
+SubL B 1
+Site 2
+Spec B0 0 N
+EndM 0 A0B0 Fe5N2
+Amnt 5 2
+Name Fe:N
+CpXp Fe5N2#FECN_0000
+; Fe:N
+SolE FECN ------------------------------------------------------------
+SolB FEUZ 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008449 Modified: 43052.7855008449 2017-11-13 2017-11-13
+Name FEUZR_DELTA
+Desc FEUZR_DELTA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 U
+Spec A1 0 Zr
+SubL B 2
+Site 2
+Spec B0 0 U
+Spec B1 0 Zr
+EndM 0 A0B0 U3
+Amnt 1 2
+Name U:U
+CpXp U3#FEUZ_0000
+; U:U
+EndM 0 A0B1 UZr2
+Amnt 1 2
+Name U:Zr
+CpXp UZr2#FEUZ_0001
+; U:Zr
+EndM 0 A1B0 U2Zr
+Amnt 1 2
+Name Zr:U
+CpXp U2Zr#FEUZ_0002
+; Zr:U
+EndM 0 A1B1 Zr3
+Amnt 1 2
+Name Zr:Zr
+CpXp Zr3#FEUZ_0003
+; Zr:Zr
+Exss BGK A0A1B0
+Powr 0
+GXss -775.17
+Exss BGK A0A1B1
+Powr 0
+GXss -775.17
+Exss BGK A0B0B1
+Powr 0
+GXss 25287.922
+Exss BGK A1B0B1
+Powr 0
+GXss 25287.922
+SolE FEUZ ------------------------------------------------------------
+SolB FEZ1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008565 Modified: 43052.7855008565 2017-11-13 2017-11-13
+Name FEZR2
+Desc FEZR2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Fe
+Spec A1 0 Zr
+SubL B 2
+Site 2
+Spec B0 0 Fe
+Spec B1 0 Zr
+EndM 0 A0B0 Fe3
+Amnt 1 2
+Name Fe:Fe
+CpXp Fe3#FEZ1_0000
+; Fe:Fe
+EndM 0 A0B1 Zr2Fe
+Amnt 1 2
+Name Fe:Zr
+CpXp Zr2Fe#FEZ1_0001
+; Fe:Zr
+EndM 0 A1B0 ZrFe2
+Amnt 1 2
+Name Zr:Fe
+CpXp ZrFe2#FEZ1_0002
+; Zr:Fe
+EndM 0 A1B1 Zr3
+Amnt 1 2
+Name Zr:Zr
+CpXp Zr3#FEZ1_0003
+; Zr:Zr
+Exss BGK A0A1B0
+Powr 0
+GXss 10000
+Exss BGK A0A1B1
+Powr 0
+GXss 10000
+Exss BGK A0B0B1
+Powr 0
+GXss 10000
+Exss BGK A1B0B1
+Powr 0
+GXss 10000
+SolE FEZ1 ------------------------------------------------------------
+SolB FEZ2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008796 Modified: 43052.7855008796 2017-11-13 2017-11-13
+Name FEZR3
+Desc FEZR3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Fe
+Spec A1 0 Zr
+SubL B 2
+Site 3
+Spec B0 0 Fe
+Spec B1 0 Zr
+EndM 0 A0B0 Fe4
+Amnt 1 3
+Name Fe:Fe
+CpXp Fe4#FEZ2_0000
+; Fe:Fe
+EndM 0 A0B1 Zr3Fe
+Amnt 1 3
+Name Fe:Zr
+CpXp Zr3Fe#FEZ2_0001
+; Fe:Zr
+EndM 0 A1B0 ZrFe3
+Amnt 1 3
+Name Zr:Fe
+CpXp ZrFe3#FEZ2_0002
+; Zr:Fe
+EndM 0 A1B1 Zr4
+Amnt 1 3
+Name Zr:Zr
+CpXp Zr4#FEZ2_0003
+; Zr:Zr
+Exss BGK A0A1B0
+Powr 0
+GXss 12000
+Exss BGK A0A1B1
+Powr 0
+GXss 12000
+Exss BGK A0B0B1
+Powr 0
+GXss -12000
+Exss BGK A1B0B1
+Powr 0
+GXss -12000
+SolE FEZ2 ------------------------------------------------------------
+SolB GET1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008796 Modified: 43052.7855008796 2017-11-13 2017-11-13
+Name GETE_B1
+Desc GETE_B1
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Ge
+Spec A1 0 Va
+SubL B 1
+Spec B0 0 Te
+EndM 0 A0B0 TeGe
+Amnt 1 1
+Name Ge:Te
+CpXp TeGe#GET1_0000
+; Ge:Te
+EndM 0 A1B0 Te
+Amnt 1 1
+Name Va:Te
+CpXp Te#GET1_0001
+; Va:Te
+SolE GET1 ------------------------------------------------------------
+SolB GET2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855008912 Modified: 43052.7855008912 2017-11-13 2017-11-13
+Name GETE_LOW
+Desc GETE_LOW
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Ge
+Spec A1 0 Va
+SubL B 1
+Spec B0 0 Te
+EndM 0 A0B0 TeGe
+Amnt 1 1
+Name Ge:Te
+CpXp TeGe#GET2_0000
+; Ge:Te
+EndM 0 A1B0 Te
+Amnt 1 1
+Name Va:Te
+CpXp Te#GET2_0001
+; Va:Te
+SolE GET2 ------------------------------------------------------------
+SolB HCP1 12 2 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 43052.7855014005 Modified: 43052.7855014005 2017-11-13 2017-11-13
+Name HCP_A3
+Desc HCP_A3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 30
+Spec A0 0 Ag
+Spec A1 0 Mg
+Spec A2 0 Os
+Spec A3 0 Sb
+Spec A4 0 Sn
+Spec A5 0 Zn
+Spec A6 0 Al
+Spec A7 0 Ti
+Spec A8 0 Ba
+Spec A9 0 Y
+Spec A10 0 Cd
+Spec A11 0 In
+Spec A12 0 Nb
+Spec A13 0 Co
+Spec A14 0 Cr
+Spec A15 0 Fe
+Spec A16 0 Pt
+Spec A17 0 W
+Spec A18 0 Cu
+Spec A19 0 Zr
+Spec A20 0 Er
+Spec A21 0 Ho
+Spec A22 0 Tb
+Spec A23 0 Li
+Spec A24 0 Si
+Spec A25 0 Mn
+Spec A26 0 Mo
+Spec A27 0 Ni
+Spec A28 0 V
+Spec A29 0 U
+SubL B 4
+Site 0.5
+Spec B0 0 Va
+Spec B1 0 B
+Spec B2 0 C
+Spec B3 0 N
+EndM 0 A0B0 Ag2
+Part 2
+Amnt 2 1
+Name Ag2Va
+CpXp Ag2#HCP1_0000
+; Ag2Va
+EndM 0 A1B0 Mg2
+Part 2
+Amnt 2 1
+Name Mg2Va
+CpXp Mg2#HCP1_0001
+; Mg2Va
+EndM 0 A2B0 Os2
+Part 2
+Amnt 2 1
+Name Os2Va
+CpXp Os2#HCP1_0002
+; Os2Va
+EndM 0 A3B0 Sb2
+Part 2
+Amnt 2 1
+Name Sb2Va
+CpXp Sb2#HCP1_0003
+; Sb2Va
+EndM 0 A4B0 Sn2
+Part 2
+Amnt 2 1
+Name Sn2Va
+CpXp Sn2#HCP1_0004
+; Sn2Va
+EndM 0 A5B0 Zn2
+Part 2
+Amnt 2 1
+Name Zn2Va
+CpXp Zn2#HCP1_0005
+; Zn2Va
+EndM 0 A6B0 Al2
+Part 2
+Amnt 2 1
+Name Al2Va
+CpXp Al2#HCP1_0006
+; Al2Va
+EndM 0 A7B0 Ti2
+Part 2
+Amnt 2 1
+Name Ti2Va
+CpXp Ti2#HCP1_0007
+; Ti2Va
+EndM 0 A8B0 Ba2
+Part 2
+Amnt 2 1
+Name Ba2Va
+CpXp Ba2#HCP1_0008
+; Ba2Va
+EndM 0 A9B0 Y2
+Part 2
+Amnt 2 1
+Name Y2Va
+CpXp Y2#HCP1_0009
+; Y2Va
+EndM 0 A7B1 Ti2B
+Part 2
+Amnt 2 1
+Name Ti2B
+CpXp Ti2B#HCP1_0010
+; Ti2B
+EndM 0 A0B1 Ag2B
+Part 2
+Amnt 2 1
+Name Ag2B
+CpXp Ag2B#HCP1_0011
+; Ag2B
+EndM 0 A1B1 Mg2B
+Part 2
+Amnt 2 1
+Name Mg2B
+CpXp Mg2B#HCP1_0012
+; Mg2B
+EndM 0 A2B1 Os2B
+Part 2
+Amnt 2 1
+Name Os2B
+CpXp Os2B#HCP1_0013
+; Os2B
+EndM 0 A3B1 Sb2B
+Part 2
+Amnt 2 1
+Name Sb2B
+CpXp Sb2B#HCP1_0014
+; Sb2B
+EndM 0 A4B1 Sn2B
+Part 2
+Amnt 2 1
+Name Sn2B
+CpXp Sn2B#HCP1_0015
+; Sn2B
+EndM 0 A5B1 Zn2B
+Part 2
+Amnt 2 1
+Name Zn2B
+CpXp Zn2B#HCP1_0016
+; Zn2B
+EndM 0 A6B1 Al2B
+Part 2
+Amnt 2 1
+Name Al2B
+CpXp Al2B#HCP1_0017
+; Al2B
+EndM 0 A8B1 Ba2B
+Part 2
+Amnt 2 1
+Name Ba2B
+CpXp Ba2B#HCP1_0018
+; Ba2B
+EndM 0 A9B1 Y2B
+Part 2
+Amnt 2 1
+Name Y2B
+CpXp Y2B#HCP1_0019
+; Y2B
+EndM 0 A10B0 Cd2
+Part 2
+Amnt 2 1
+Name Cd2Va
+CpXp Cd2#HCP1_0020
+; Cd2Va
+EndM 0 A11B0 In2
+Part 2
+Amnt 2 1
+Name In2Va
+CpXp In2#HCP1_0021
+; In2Va
+EndM 0 A10B1 Cd2B
+Part 2
+Amnt 2 1
+Name Cd2B
+CpXp Cd2B#HCP1_0022
+; Cd2B
+EndM 0 A11B1 In2B
+Part 2
+Amnt 2 1
+Name In2B
+CpXp In2B#HCP1_0023
+; In2B
+EndM 0 A12B2 Nb2C
+Part 2
+Amnt 2 1
+Name Nb2C
+CpXp Nb2C#HCP1_0024
+; Nb2C
+EndM 0 A12B0 Nb2
+Part 2
+Amnt 2 1
+Name Nb2Va
+CpXp Nb2#HCP1_0025
+; Nb2Va
+EndM 0 A0B2 Ag2C
+Part 2
+Amnt 2 1
+Name Ag2C
+CpXp Ag2C#HCP1_0026
+; Ag2C
+EndM 0 A1B2 Mg2C
+Part 2
+Amnt 2 1
+Name Mg2C
+CpXp Mg2C#HCP1_0027
+; Mg2C
+EndM 0 A2B2 Os2C
+Part 2
+Amnt 2 1
+Name Os2C
+CpXp Os2C#HCP1_0028
+; Os2C
+EndM 0 A3B2 Sb2C
+Part 2
+Amnt 2 1
+Name Sb2C
+CpXp Sb2C#HCP1_0029
+; Sb2C
+EndM 0 A4B2 Sn2C
+Part 2
+Amnt 2 1
+Name Sn2C
+CpXp Sn2C#HCP1_0030
+; Sn2C
+EndM 0 A5B2 Zn2C
+Part 2
+Amnt 2 1
+Name Zn2C
+CpXp Zn2C#HCP1_0031
+; Zn2C
+EndM 0 A6B2 Al2C
+Part 2
+Amnt 2 1
+Name Al2C
+CpXp Al2C#HCP1_0032
+; Al2C
+EndM 0 A7B2 Ti2C
+Part 2
+Amnt 2 1
+Name Ti2C
+CpXp Ti2C#HCP1_0033
+; Ti2C
+EndM 0 A8B2 Ba2C
+Part 2
+Amnt 2 1
+Name Ba2C
+CpXp Ba2C#HCP1_0034
+; Ba2C
+EndM 0 A9B2 Y2C
+Part 2
+Amnt 2 1
+Name Y2C
+CpXp Y2C#HCP1_0035
+; Y2C
+EndM 0 A10B2 Cd2C
+Part 2
+Amnt 2 1
+Name Cd2C
+CpXp Cd2C#HCP1_0036
+; Cd2C
+EndM 0 A11B2 In2C
+Part 2
+Amnt 2 1
+Name In2C
+CpXp In2C#HCP1_0037
+; In2C
+EndM 0 A12B1 Nb2B
+Part 2
+Amnt 2 1
+Name Nb2B
+CpXp Nb2B#HCP1_0038
+; Nb2B
+EndM 0 A13B0 Co2
+Part 2
+Amnt 2 1
+Name Co2Va
+Magn 3.3074993925 1396
+CpXp Co2#HCP1_0039
+; Co2Va
+EndM 0 A14B0 Cr2
+Part 2
+Amnt 2 1
+Name Cr2Va
+Magn 2.31239701520067 -369.666297
+CpXp Cr2#HCP1_0040
+; Cr2Va
+EndM 0 A13B1 Co2B
+Part 2
+Amnt 2 1
+Name Co2B
+CpXp Co2B#HCP1_0041
+; Co2B
+EndM 0 A13B2 Co2C
+Part 2
+Amnt 2 1
+Name Co2C
+CpXp Co2C#HCP1_0042
+; Co2C
+EndM 0 A14B1 Cr2B
+Part 2
+Amnt 2 1
+Name Cr2B
+CpXp Cr2B#HCP1_0043
+; Cr2B
+EndM 0 A14B2 Cr2C
+Part 2
+Amnt 2 1
+Name Cr2C
+CpXp Cr2C#HCP1_0044
+; Cr2C
+EndM 0 A15B0 Fe2
+Part 2
+Amnt 2 1
+Name Fe2Va
+CpXp Fe2#HCP1_0045
+; Fe2Va
+EndM 0 A15B1 Fe2B
+Part 2
+Amnt 2 1
+Name Fe2B
+CpXp Fe2B#HCP1_0046
+; Fe2B
+EndM 0 A15B2 Fe2C
+Part 2
+Amnt 2 1
+Name Fe2C
+CpXp Fe2C#HCP1_0047
+; Fe2C
+EndM 0 A16B0 Pt2
+Part 2
+Amnt 2 1
+Name Pt2Va
+CpXp Pt2#HCP1_0048
+; Pt2Va
+EndM 0 A16B1 Pt2B
+Part 2
+Amnt 2 1
+Name Pt2B
+CpXp Pt2B#HCP1_0049
+; Pt2B
+EndM 0 A16B2 Pt2C
+Part 2
+Amnt 2 1
+Name Pt2C
+CpXp Pt2C#HCP1_0050
+; Pt2C
+EndM 0 A17B0 W2
+Part 2
+Amnt 2 1
+Name W2Va
+CpXp W2#HCP1_0051
+; W2Va
+EndM 0 A17B1 W2B
+Part 2
+Amnt 2 1
+Name W2B
+CpXp W2B#HCP1_0052
+; W2B
+EndM 0 A17B2 W2C
+Part 2
+Amnt 2 1
+Name W2C
+CpXp W2C#HCP1_0053
+; W2C
+EndM 0 A18B0 Cu2
+Part 2
+Amnt 2 1
+Name Cu2Va
+CpXp Cu2#HCP1_0054
+; Cu2Va
+EndM 0 A18B1 Cu2B
+Part 2
+Amnt 2 1
+Name Cu2B
+CpXp Cu2B#HCP1_0055
+; Cu2B
+EndM 0 A18B2 Cu2C
+Part 2
+Amnt 2 1
+Name Cu2C
+CpXp Cu2C#HCP1_0056
+; Cu2C
+EndM 0 A19B2 Zr2C
+Part 2
+Amnt 2 1
+Name Zr2C
+CpXp Zr2C#HCP1_0057
+; Zr2C
+EndM 0 A19B0 Zr2
+Part 2
+Amnt 2 1
+Name Zr2Va
+CpXp Zr2#HCP1_0058
+; Zr2Va
+EndM 0 A19B1 Zr2B
+Part 2
+Amnt 2 1
+Name Zr2B
+CpXp Zr2B#HCP1_0059
+; Zr2B
+EndM 0 A20B0 Er2
+Part 2
+Amnt 2 1
+Name Er2Va
+CpXp Er2#HCP1_0060
+; Er2Va
+EndM 0 A21B0 Ho2
+Part 2
+Amnt 2 1
+Name Ho2Va
+CpXp Ho2#HCP1_0061
+; Ho2Va
+EndM 0 A20B1 Er2B
+Part 2
+Amnt 2 1
+Name Er2B
+CpXp Er2B#HCP1_0062
+; Er2B
+EndM 0 A20B2 Er2C
+Part 2
+Amnt 2 1
+Name Er2C
+CpXp Er2C#HCP1_0063
+; Er2C
+EndM 0 A21B1 Ho2B
+Part 2
+Amnt 2 1
+Name Ho2B
+CpXp Ho2B#HCP1_0064
+; Ho2B
+EndM 0 A21B2 Ho2C
+Part 2
+Amnt 2 1
+Name Ho2C
+CpXp Ho2C#HCP1_0065
+; Ho2C
+EndM 0 A22B0 Tb2
+Part 2
+Amnt 2 1
+Name Tb2Va
+CpXp Tb2#HCP1_0066
+; Tb2Va
+EndM 0 A22B1 Tb2B
+Part 2
+Amnt 2 1
+Name Tb2B
+CpXp Tb2B#HCP1_0067
+; Tb2B
+EndM 0 A22B2 Tb2C
+Part 2
+Amnt 2 1
+Name Tb2C
+CpXp Tb2C#HCP1_0068
+; Tb2C
+EndM 0 A15B3 Fe2N
+Part 2
+Amnt 2 1
+Name Fe2N
+CpXp Fe2N#HCP1_0069
+; Fe2N
+EndM 0 A0B3 Ag2N
+Part 2
+Amnt 2 1
+Name Ag2N
+CpXp Ag2N#HCP1_0070
+; Ag2N
+EndM 0 A1B3 Mg2N
+Part 2
+Amnt 2 1
+Name Mg2N
+CpXp Mg2N#HCP1_0071
+; Mg2N
+EndM 0 A2B3 Os2N
+Part 2
+Amnt 2 1
+Name Os2N
+CpXp Os2N#HCP1_0072
+; Os2N
+EndM 0 A3B3 Sb2N
+Part 2
+Amnt 2 1
+Name Sb2N
+CpXp Sb2N#HCP1_0073
+; Sb2N
+EndM 0 A4B3 Sn2N
+Part 2
+Amnt 2 1
+Name Sn2N
+CpXp Sn2N#HCP1_0074
+; Sn2N
+EndM 0 A5B3 Zn2N
+Part 2
+Amnt 2 1
+Name Zn2N
+CpXp Zn2N#HCP1_0075
+; Zn2N
+EndM 0 A6B3 Al2N
+Part 2
+Amnt 2 1
+Name Al2N
+CpXp Al2N#HCP1_0076
+; Al2N
+EndM 0 A7B3 Ti2N
+Part 2
+Amnt 2 1
+Name Ti2N
+CpXp Ti2N#HCP1_0077
+; Ti2N
+EndM 0 A8B3 Ba2N
+Part 2
+Amnt 2 1
+Name Ba2N
+CpXp Ba2N#HCP1_0078
+; Ba2N
+EndM 0 A9B3 Y2N
+Part 2
+Amnt 2 1
+Name Y2N
+CpXp Y2N#HCP1_0079
+; Y2N
+EndM 0 A10B3 Cd2N
+Part 2
+Amnt 2 1
+Name Cd2N
+CpXp Cd2N#HCP1_0080
+; Cd2N
+EndM 0 A11B3 In2N
+Part 2
+Amnt 2 1
+Name In2N
+CpXp In2N#HCP1_0081
+; In2N
+EndM 0 A12B3 Nb2N
+Part 2
+Amnt 2 1
+Name Nb2N
+CpXp Nb2N#HCP1_0082
+; Nb2N
+EndM 0 A13B3 Co2N
+Part 2
+Amnt 2 1
+Name Co2N
+CpXp Co2N#HCP1_0083
+; Co2N
+EndM 0 A14B3 Cr2N
+Part 2
+Amnt 2 1
+Name Cr2N
+CpXp Cr2N#HCP1_0084
+; Cr2N
+EndM 0 A16B3 Pt2N
+Part 2
+Amnt 2 1
+Name Pt2N
+CpXp Pt2N#HCP1_0085
+; Pt2N
+EndM 0 A17B3 W2N
+Part 2
+Amnt 2 1
+Name W2N
+CpXp W2N#HCP1_0086
+; W2N
+EndM 0 A18B3 Cu2N
+Part 2
+Amnt 2 1
+Name Cu2N
+CpXp Cu2N#HCP1_0087
+; Cu2N
+EndM 0 A19B3 Zr2N
+Part 2
+Amnt 2 1
+Name Zr2N
+CpXp Zr2N#HCP1_0088
+; Zr2N
+EndM 0 A20B3 Er2N
+Part 2
+Amnt 2 1
+Name Er2N
+CpXp Er2N#HCP1_0089
+; Er2N
+EndM 0 A21B3 Ho2N
+Part 2
+Amnt 2 1
+Name Ho2N
+CpXp Ho2N#HCP1_0090
+; Ho2N
+EndM 0 A22B3 Tb2N
+Part 2
+Amnt 2 1
+Name Tb2N
+CpXp Tb2N#HCP1_0091
+; Tb2N
+EndM 0 A23B0 Li2
+Part 2
+Amnt 2 1
+Name Li2Va
+CpXp Li2#HCP1_0092
+; Li2Va
+EndM 0 A23B1 BLi2
+Part 2
+Amnt 2 1
+Name Li2B
+CpXp BLi2#HCP1_0093
+; Li2B
+EndM 0 A23B2 CLi2
+Part 2
+Amnt 2 1
+Name Li2C
+CpXp CLi2#HCP1_0094
+; Li2C
+EndM 0 A23B3 NLi2
+Part 2
+Amnt 2 1
+Name Li2N
+CpXp NLi2#HCP1_0095
+; Li2N
+EndM 0 A24B0 Si2
+Part 2
+Amnt 2 1
+Name Si2Va
+CpXp Si2#HCP1_0096
+; Si2Va
+EndM 0 A24B1 Si2B
+Part 2
+Amnt 2 1
+Name Si2B
+CpXp Si2B#HCP1_0097
+; Si2B
+EndM 0 A24B2 Si2C
+Part 2
+Amnt 2 1
+Name Si2C
+CpXp Si2C#HCP1_0098
+; Si2C
+EndM 0 A24B3 Si2N
+Part 2
+Amnt 2 1
+Name Si2N
+CpXp Si2N#HCP1_0099
+; Si2N
+EndM 0 A25B0 Mn2
+Part 2
+Amnt 2 1
+Name Mn2Va
+Magn 1.62439799120038 -539.99946
+CpXp Mn2#HCP1_0100
+; Mn2Va
+EndM 0 A25B1 Mn2B
+Part 2
+Amnt 2 1
+Name Mn2B
+CpXp Mn2B#HCP1_0101
+; Mn2B
+EndM 0 A25B2 Mn2C
+Part 2
+Amnt 2 1
+Name Mn2C
+CpXp Mn2C#HCP1_0102
+; Mn2C
+EndM 0 A25B3 Mn2N
+Part 2
+Amnt 2 1
+Name Mn2N
+CpXp Mn2N#HCP1_0103
+; Mn2N
+EndM 0 A26B0 Mo2
+Part 2
+Amnt 2 1
+Name Mo2Va
+CpXp Mo2#HCP1_0104
+; Mo2Va
+EndM 0 A26B1 Mo2B
+Part 2
+Amnt 2 1
+Name Mo2B
+CpXp Mo2B#HCP1_0105
+; Mo2B
+EndM 0 A26B2 Mo2C
+Part 2
+Amnt 2 1
+Name Mo2C
+CpXp Mo2C#HCP1_0106
+; Mo2C
+EndM 0 A26B3 Mo2N
+Part 2
+Amnt 2 1
+Name Mo2N
+CpXp Mo2N#HCP1_0107
+; Mo2N
+EndM 0 A27B0 Ni2
+Part 2
+Amnt 2 1
+Name Ni2Va
+Magn 1.1301332432 633
+CpXp Ni2#HCP1_0108
+; Ni2Va
+EndM 0 A27B1 Ni2B
+Part 2
+Amnt 2 1
+Name Ni2B
+CpXp Ni2B#HCP1_0109
+; Ni2B
+EndM 0 A27B2 Ni2C
+Part 2
+Amnt 2 1
+Name Ni2C
+CpXp Ni2C#HCP1_0110
+; Ni2C
+EndM 0 A27B3 Ni2N
+Part 2
+Amnt 2 1
+Name Ni2N
+CpXp Ni2N#HCP1_0111
+; Ni2N
+EndM 0 A28B0 V2
+Part 2
+Amnt 2 1
+Name V2Va
+CpXp V2#HCP1_0112
+; V2Va
+EndM 0 A28B1 V2B
+Part 2
+Amnt 2 1
+Name V2B
+CpXp V2B#HCP1_0113
+; V2B
+EndM 0 A28B2 V2C
+Part 2
+Amnt 2 1
+Name V2C
+CpXp V2C#HCP1_0114
+; V2C
+EndM 0 A28B3 V2N
+Part 2
+Amnt 2 1
+Name V2N
+CpXp V2N#HCP1_0115
+; V2N
+EndM 0 A29B0 U2
+Part 2
+Amnt 2 1
+Name U2Va
+CpXp U2#HCP1_0116
+; U2Va
+EndM 0 A29B1 U2B
+Part 2
+Amnt 2 1
+Name U2B
+CpXp U2B#HCP1_0117
+; U2B
+EndM 0 A29B2 U2C
+Part 2
+Amnt 2 1
+Name U2C
+CpXp U2C#HCP1_0118
+; U2C
+EndM 0 A29B3 U2N
+Part 2
+Amnt 2 1
+Name U2N
+CpXp U2N#HCP1_0119
+; U2N
+Exss BGK A0A1B0
+Powr 0
+GXss -33502.124 -8.755721*T
+Exss BGK A0A1B0
+Powr 1
+GXss 7271.459 +3.007638*T
+Exss BGK A0A1B0
+Powr 2
+GXss -5125.362 -4.273198*T
+Exss BGK A0A2B0
+Powr 0
+GXss 80*T
+Exss BGK A0A3B0
+Powr 0
+GXss -24173.95 +44.2101*T
+Exss BGK A0A3B0
+Powr 1
+GXss -2341.9664 -49.1982*T
+Exss BGK A0A4B0
+Powr 0
+GXss 1046.1 +10.23693*T
+Exss BGK A0A4B0
+Powr 1
+GXss -40505.5
+Exss BGK A0A5B0
+Powr 0
+GXss -21360 -2.5*T
+Exss BGK A0A5B0
+Powr 1
+GXss 37766.12 -26.6016*T
+Exss BGK A1A6B0
+Powr 0
+GXss 4336 -2.863*T
+Exss BGK A1A6B0
+Powr 1
+GXss 449 +0.135*T
+Exss BGK A1A6B0
+Powr 2
+GXss -1963
+Exss BGK A6A7B0
+Powr 0
+GXss -133500 +39*T
+Exss BGK A6A7B0
+Powr 1
+GXss 750
+Exss BGK A6A7B0
+Powr 2
+GXss 17500
+Exss BGK A8A9B0
+Powr 0
+GXss 80*T
+Exss BGK A7B0B1
+Powr 0
+GXss -21213.442
+Exss BGK A10A11B0
+Powr 0
+GXss 13422.48 +0.71961*T
+Exss BGK A3A10B0
+Powr 0
+GXss 80*T
+Exss BGK A12B0B2
+Powr 0
+GXss 14389 -5.26*T
+Exss BGK A13A14B0
+Powr 0
+GXss -6436
+Exss BGK A13A15B0
+Powr 0
+GXss -400
+Exss BGK A12A13B0
+Powr 0
+GXss -7146
+Exss BGK A13A16B0
+Powr 0
+GXss -43000 -8*T
+Exss BGK A13A17B0
+Powr 0
+GXss 63000
+Exss BGK A1A18B0
+Powr 0
+GXss 22500 -3*T
+Exss BGK A9A18B0
+Powr 0
+GXss 80*T
+Exss BGK A17B0B2
+Powr 0
+GXss 4165
+Exss BGK A19B0B2
+Powr 0
+GXss 3206.881
+Exss BGK A20A22B0
+Powr 0
+GXss 130
+Exss BGK A15B0B3
+Powr 0
+GXss 10012 -19.9853*T
+Exss BGK A15B0B3
+Powr 1
+GXss 9446 -9.3472*T
+Exss BGK A7A15B0
+Powr 0
+GXss -28750 +11*T
+Exss BGK A7A15B0
+Powr 1
+GXss 1700 +6*T
+Exss BGK A7A15B0
+Powr 2
+GXss 15000
+Exss BGK A15A19B0
+Powr 0
+GXss 80*T
+Exss BGK A1A23B0
+Powr 0
+GXss -6856
+Exss BGK A1A23B0
+Powr 1
+GXss -4000
+Exss BGK A1A23B0
+Powr 2
+GXss 4000
+Exss BGK A1A24B0
+Powr 0
+GXss -7148.79 +0.89361*T
+Exss BGK A1A19B0
+Powr 0
+GXss 30384 +13.723*T
+Exss BGK A1A19B0
+Powr 1
+GXss 18589 -25.175*T
+Exss BGK A7A25B0
+Powr 0
+GXss 22100
+Exss BGK A7A26B0
+Powr 0
+GXss 14250.8
+Exss BGK A19A27B0
+Powr 0
+GXss -68350 +3.5*T
+Exss BGK A19A27B0
+Powr 1
+GXss -10000 +6.6*T
+Exss BGK A7B0B3
+Powr 0
+GXss -13501
+Exss BGK A7A24B0
+Powr 0
+GXss -234045.13 +51.80942*T
+Exss BGK A4A19B0
+Powr 0
+GXss -155675 -31*T
+Exss BGK A4A19B0
+Powr 1
+GXss 151800
+Exss BGK A4A19B0
+Powr 2
+GXss 129900
+Exss BGK A7A28B0
+Powr 0
+GXss 13233
+Exss BGK A19A29B0
+Powr 0
+GXss 25287.922
+Exss BGK A4A6B0
+Powr 0
+GXss 45297.84 -8.39814*T
+Exss BGK A8A18B0
+Powr 0
+GXss 80*T
+Exss BGK A14A18B0
+Powr 0
+GXss 60000
+Exss BGK A14A15B0
+Powr 0
+GXss 10833 -7.477*T
+Exss BGK A14A25B0
+Powr 0
+GXss -19088 +17.5423*T
+Exss BGK A15A18B0
+Powr 0
+GXss 48232.565 -8.609542*T
+Exss BGK A15A18B0
+Powr 1
+GXss -8861.882 +5.289751*T
+Exss BGK A18A27B0
+Powr 0
+GXss 8047.72 +3.42217*T
+Exss BGK A18A27B0
+Powr 1
+GXss -2041.3 +0.99714*T
+Exss BGK A4A18B0
+Powr 0
+GXss 5000
+Exss BGK A4A11B0
+Powr 0
+GXss 35000
+Exss BGK A4A5B0
+Powr 0
+GXss 33433.94 -11.14466*T
+Exss BGK A0A18B0
+Powr 0
+GXss 36772.58 -11.02847*T
+Exss BGK A0A16B0
+Powr 0
+GXss 24000
+Exss BGK A6A25B0
+Powr 0
+GXss -108066 +43.829998*T
+Exss BGK A6A25B0
+Powr 1
+GXss -54519.599 +40*T
+Exss BTK A13A14B0
+Powr 0
+GXss -1795
+Exss BBK A13A14B0
+Powr 0
+GXss 
+Exss BTK A13A15B0
+Powr 0
+GXss -253
+Exss BBK A13A15B0
+Powr 0
+GXss 5.41
+Exss BTK A13A15B0
+Powr 1
+GXss 1494
+Exss BBK A13A15B0
+Powr 1
+GXss -0.24
+Exss BTK A13A16B0
+Powr 0
+GXss 582
+Exss BBK A13A16B0
+Powr 0
+GXss 
+Exss BTK A13A16B0
+Powr 1
+GXss 
+Exss BBK A13A16B0
+Powr 1
+GXss 
+Exss BTK A13A16B0
+Powr 2
+GXss 745
+Exss BBK A13A16B0
+Powr 2
+GXss 
+Exss BTK A13A17B0
+Powr 0
+GXss -3379
+Exss BBK A13A17B0
+Powr 0
+GXss -3.268
+SolE HCP1 ------------------------------------------------------------
+SolB HCP2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855014352 Modified: 43052.7855014352 2017-11-13 2017-11-13
+Name HCP_ZN
+Desc HCP_ZN
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 6
+Site 2
+Spec A0 0 Ag
+Spec A1 0 Zn
+Spec A2 0 Al
+Spec A3 0 Ga
+Spec A4 0 Si
+Spec A5 0 Sn
+SubL B 1
+Spec B0 0 Va
+EndM 0 A0B0 Ag2
+Amnt 2 1
+Name Ag2Va
+CpXp Ag2#HCP2_0000
+; Ag2Va
+EndM 0 A1B0 Zn2
+Amnt 2 1
+Name Zn2Va
+CpXp Zn2#HCP2_0001
+; Zn2Va
+EndM 0 A2B0 Al2
+Amnt 2 1
+Name Al2Va
+CpXp Al2#HCP2_0002
+; Al2Va
+EndM 0 A3B0 Ga2
+Amnt 2 1
+Name Ga2Va
+CpXp Ga2#HCP2_0003
+; Ga2Va
+EndM 0 A4B0 Si2
+Amnt 2 1
+Name Si2Va
+CpXp Si2#HCP2_0004
+; Si2Va
+EndM 0 A5B0 Sn2
+Amnt 2 1
+Name Sn2Va
+CpXp Sn2#HCP2_0005
+; Sn2Va
+Exss BGK A0A1B0
+Powr 0
+GXss -37400 +2.474*T
+Exss BGK A1A2B0
+Powr 0
+GXss 37641.9 -17.9051*T
+Exss BGK A1A2B0
+Powr 1
+GXss 
+Exss BGK A1A2B0
+Powr 2
+GXss 
+Exss BGK A1A2B0
+Powr 3
+GXss 1405.58
+Exss BGK A1A3B0
+Powr 0
+GXss 21488
+Exss BGK A1A4B0
+Powr 0
+GXss 160*T
+Exss BGK A1A5B0
+Powr 0
+GXss 66867.88 -22.28932*T
+SolE HCP2 ------------------------------------------------------------
+SolB HIGH 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855014352 Modified: 43052.7855014352 2017-11-13 2017-11-13
+Name HIGH_SIGMA
+Desc HIGH_SIGMA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 8
+Spec A0 0 Mn
+SubL B 1
+Site 4
+Spec B0 0 Cr
+SubL C 2
+Site 18
+Spec C0 0 Cr
+Spec C1 0 Mn
+EndM 0 A0B0C0 Mn8Cr22
+Amnt 8 4 18
+Name Mn:Cr:Cr
+CpXp Mn8Cr22#HIGH_0000
+; Mn:Cr:Cr
+EndM 0 A0B0C1 Mn26Cr4
+Amnt 8 4 18
+Name Mn:Cr:Mn
+CpXp Mn26Cr4#HIGH_0001
+; Mn:Cr:Mn
+Exss BGK A0B0C0C1
+Powr 0
+GXss 90000
+SolE HIGH ------------------------------------------------------------
+SolB LAV1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855017361 Modified: 43052.7855017361 2017-11-13 2017-11-13
+Name LAVES_C14
+Desc LAVES_C14
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 9
+Site 2
+Spec A0 0 Co
+Spec A1 0 Cr
+Spec A2 0 Nb
+Spec A3 0 W
+Spec A4 0 Fe
+Spec A5 0 Ti
+Spec A6 0 Ni
+Spec A7 0 Zr
+Spec A8 0 Mn
+SubL B 9
+Spec B0 0 Co
+Spec B1 0 Cr
+Spec B2 0 Nb
+Spec B3 0 W
+Spec B4 0 Fe
+Spec B5 0 Ti
+Spec B6 0 Ni
+Spec B7 0 Zr
+Spec B8 0 Mn
+EndM 0 A0B0 Co3
+Amnt 2 1
+Name Co:Co
+CpXp Co3#LAV1_0000
+; Co:Co
+EndM 0 A0B1 Co2Cr
+Amnt 2 1
+Name Co:Cr
+CpXp Co2Cr#LAV1_0001
+; Co:Cr
+EndM 0 A0B2 NbCo2
+Amnt 2 1
+Name Co:Nb
+CpXp NbCo2#LAV1_0002
+; Co:Nb
+EndM 0 A0B3 WCo2
+Amnt 2 1
+Name Co:W
+CpXp WCo2#LAV1_0003
+; Co:W
+EndM 0 A0B4 Co2Fe
+Amnt 2 1
+Name Co:Fe
+CpXp Co2Fe#LAV1_0004
+; Co:Fe
+EndM 0 A0B5 Co2Ti
+Amnt 2 1
+Name Co:Ti
+CpXp Co2Ti#LAV1_0005
+; Co:Ti
+EndM 0 A0B6 NiCo2
+Amnt 2 1
+Name Co:Ni
+CpXp NiCo2#LAV1_0006
+; Co:Ni
+EndM 0 A0B7 ZrCo2
+Amnt 2 1
+Name Co:Zr
+CpXp ZrCo2#LAV1_0007
+; Co:Zr
+EndM 0 A0B8 Co2Mn
+Amnt 2 1
+Name Co:Mn
+CpXp Co2Mn#LAV1_0008
+; Co:Mn
+EndM 0 A1B0 CoCr2
+Amnt 2 1
+Name Cr:Co
+CpXp CoCr2#LAV1_0009
+; Cr:Co
+EndM 0 A1B1 Cr3
+Amnt 2 1
+Name Cr:Cr
+CpXp Cr3#LAV1_0010
+; Cr:Cr
+EndM 0 A1B2 NbCr2
+Amnt 2 1
+Name Cr:Nb
+CpXp NbCr2#LAV1_0011
+; Cr:Nb
+EndM 0 A1B3 WCr2
+Amnt 2 1
+Name Cr:W
+CpXp WCr2#LAV1_0012
+; Cr:W
+EndM 0 A1B4 FeCr2
+Amnt 2 1
+Name Cr:Fe
+CpXp FeCr2#LAV1_0013
+; Cr:Fe
+EndM 0 A1B5 Cr2Ti
+Amnt 2 1
+Name Cr:Ti
+CpXp Cr2Ti#LAV1_0014
+; Cr:Ti
+EndM 0 A1B6 NiCr2
+Amnt 2 1
+Name Cr:Ni
+CpXp NiCr2#LAV1_0015
+; Cr:Ni
+EndM 0 A1B7 ZrCr2
+Amnt 2 1
+Name Cr:Zr
+CpXp ZrCr2#LAV1_0016
+; Cr:Zr
+EndM 0 A1B8 MnCr2
+Amnt 2 1
+Name Cr:Mn
+CpXp MnCr2#LAV1_0017
+; Cr:Mn
+EndM 0 A2B0 Nb2Co
+Amnt 2 1
+Name Nb:Co
+CpXp Nb2Co#LAV1_0018
+; Nb:Co
+EndM 0 A2B1 Nb2Cr
+Amnt 2 1
+Name Nb:Cr
+CpXp Nb2Cr#LAV1_0019
+; Nb:Cr
+EndM 0 A2B2 Nb3
+Amnt 2 1
+Name Nb:Nb
+CpXp Nb3#LAV1_0020
+; Nb:Nb
+EndM 0 A2B3 WNb2
+Amnt 2 1
+Name Nb:W
+CpXp WNb2#LAV1_0021
+; Nb:W
+EndM 0 A2B4 Nb2Fe
+Amnt 2 1
+Name Nb:Fe
+CpXp Nb2Fe#LAV1_0022
+; Nb:Fe
+EndM 0 A2B5 Nb2Ti
+Amnt 2 1
+Name Nb:Ti
+CpXp Nb2Ti#LAV1_0023
+; Nb:Ti
+EndM 0 A2B6 Nb2Ni
+Amnt 2 1
+Name Nb:Ni
+CpXp Nb2Ni#LAV1_0024
+; Nb:Ni
+EndM 0 A2B7 Nb2Zr
+Amnt 2 1
+Name Nb:Zr
+CpXp Nb2Zr#LAV1_0025
+; Nb:Zr
+EndM 0 A2B8 Nb2Mn
+Amnt 2 1
+Name Nb:Mn
+CpXp Nb2Mn#LAV1_0026
+; Nb:Mn
+EndM 0 A3B0 W2Co
+Amnt 2 1
+Name W:Co
+CpXp W2Co#LAV1_0027
+; W:Co
+EndM 0 A3B1 W2Cr
+Amnt 2 1
+Name W:Cr
+CpXp W2Cr#LAV1_0028
+; W:Cr
+EndM 0 A3B2 W2Nb
+Amnt 2 1
+Name W:Nb
+CpXp W2Nb#LAV1_0029
+; W:Nb
+EndM 0 A3B3 W3
+Amnt 2 1
+Name W:W
+CpXp W3#LAV1_0030
+; W:W
+EndM 0 A3B4 W2Fe
+Amnt 2 1
+Name W:Fe
+CpXp W2Fe#LAV1_0031
+; W:Fe
+EndM 0 A3B5 W2Ti
+Amnt 2 1
+Name W:Ti
+CpXp W2Ti#LAV1_0032
+; W:Ti
+EndM 0 A3B6 W2Ni
+Amnt 2 1
+Name W:Ni
+CpXp W2Ni#LAV1_0033
+; W:Ni
+EndM 0 A3B7 W2Zr
+Amnt 2 1
+Name W:Zr
+CpXp W2Zr#LAV1_0034
+; W:Zr
+EndM 0 A3B8 W2Mn
+Amnt 2 1
+Name W:Mn
+CpXp W2Mn#LAV1_0035
+; W:Mn
+EndM 0 A4B0 CoFe2
+Amnt 2 1
+Name Fe:Co
+CpXp CoFe2#LAV1_0036
+; Fe:Co
+EndM 0 A4B1 Fe2Cr
+Amnt 2 1
+Name Fe:Cr
+CpXp Fe2Cr#LAV1_0037
+; Fe:Cr
+EndM 0 A4B2 NbFe2
+Amnt 2 1
+Name Fe:Nb
+CpXp NbFe2#LAV1_0038
+; Fe:Nb
+EndM 0 A4B3 WFe2
+Amnt 2 1
+Name Fe:W
+CpXp WFe2#LAV1_0039
+; Fe:W
+EndM 0 A4B4 Fe3
+Amnt 2 1
+Name Fe:Fe
+CpXp Fe3#LAV1_0040
+; Fe:Fe
+EndM 0 A4B5 Fe2Ti
+Amnt 2 1
+Name Fe:Ti
+CpXp Fe2Ti#LAV1_0041
+; Fe:Ti
+EndM 0 A4B6 NiFe2
+Amnt 2 1
+Name Fe:Ni
+CpXp NiFe2#LAV1_0042
+; Fe:Ni
+EndM 0 A4B7 ZrFe2
+Amnt 2 1
+Name Fe:Zr
+CpXp ZrFe2#LAV1_0043
+; Fe:Zr
+EndM 0 A4B8 Fe2Mn
+Amnt 2 1
+Name Fe:Mn
+CpXp Fe2Mn#LAV1_0044
+; Fe:Mn
+EndM 0 A5B0 CoTi2
+Amnt 2 1
+Name Ti:Co
+CpXp CoTi2#LAV1_0045
+; Ti:Co
+EndM 0 A5B1 CrTi2
+Amnt 2 1
+Name Ti:Cr
+CpXp CrTi2#LAV1_0046
+; Ti:Cr
+EndM 0 A5B2 NbTi2
+Amnt 2 1
+Name Ti:Nb
+CpXp NbTi2#LAV1_0047
+; Ti:Nb
+EndM 0 A5B3 WTi2
+Amnt 2 1
+Name Ti:W
+CpXp WTi2#LAV1_0048
+; Ti:W
+EndM 0 A5B4 FeTi2
+Amnt 2 1
+Name Ti:Fe
+CpXp FeTi2#LAV1_0049
+; Ti:Fe
+EndM 0 A5B5 Ti3
+Amnt 2 1
+Name Ti:Ti
+CpXp Ti3#LAV1_0050
+; Ti:Ti
+EndM 0 A5B6 NiTi2
+Amnt 2 1
+Name Ti:Ni
+CpXp NiTi2#LAV1_0051
+; Ti:Ni
+EndM 0 A5B7 ZrTi2
+Amnt 2 1
+Name Ti:Zr
+CpXp ZrTi2#LAV1_0052
+; Ti:Zr
+EndM 0 A5B8 MnTi2
+Amnt 2 1
+Name Ti:Mn
+CpXp MnTi2#LAV1_0053
+; Ti:Mn
+EndM 0 A6B0 Ni2Co
+Amnt 2 1
+Name Ni:Co
+CpXp Ni2Co#LAV1_0054
+; Ni:Co
+EndM 0 A6B1 Ni2Cr
+Amnt 2 1
+Name Ni:Cr
+CpXp Ni2Cr#LAV1_0055
+; Ni:Cr
+EndM 0 A6B2 NbNi2
+Amnt 2 1
+Name Ni:Nb
+CpXp NbNi2#LAV1_0056
+; Ni:Nb
+EndM 0 A6B3 WNi2
+Amnt 2 1
+Name Ni:W
+CpXp WNi2#LAV1_0057
+; Ni:W
+EndM 0 A6B4 Ni2Fe
+Amnt 2 1
+Name Ni:Fe
+CpXp Ni2Fe#LAV1_0058
+; Ni:Fe
+EndM 0 A6B5 Ni2Ti
+Amnt 2 1
+Name Ni:Ti
+CpXp Ni2Ti#LAV1_0059
+; Ni:Ti
+EndM 0 A6B6 Ni3
+Amnt 2 1
+Name Ni:Ni
+CpXp Ni3#LAV1_0060
+; Ni:Ni
+EndM 0 A6B7 ZrNi2
+Amnt 2 1
+Name Ni:Zr
+CpXp ZrNi2#LAV1_0061
+; Ni:Zr
+EndM 0 A6B8 Ni2Mn
+Amnt 2 1
+Name Ni:Mn
+CpXp Ni2Mn#LAV1_0062
+; Ni:Mn
+EndM 0 A7B0 Zr2Co
+Amnt 2 1
+Name Zr:Co
+CpXp Zr2Co#LAV1_0063
+; Zr:Co
+EndM 0 A7B1 Zr2Cr
+Amnt 2 1
+Name Zr:Cr
+CpXp Zr2Cr#LAV1_0064
+; Zr:Cr
+EndM 0 A7B2 NbZr2
+Amnt 2 1
+Name Zr:Nb
+CpXp NbZr2#LAV1_0065
+; Zr:Nb
+EndM 0 A7B3 WZr2
+Amnt 2 1
+Name Zr:W
+CpXp WZr2#LAV1_0066
+; Zr:W
+EndM 0 A7B4 Zr2Fe
+Amnt 2 1
+Name Zr:Fe
+CpXp Zr2Fe#LAV1_0067
+; Zr:Fe
+EndM 0 A7B5 Zr2Ti
+Amnt 2 1
+Name Zr:Ti
+CpXp Zr2Ti#LAV1_0068
+; Zr:Ti
+EndM 0 A7B6 Zr2Ni
+Amnt 2 1
+Name Zr:Ni
+CpXp Zr2Ni#LAV1_0069
+; Zr:Ni
+EndM 0 A7B7 Zr3
+Amnt 2 1
+Name Zr:Zr
+CpXp Zr3#LAV1_0070
+; Zr:Zr
+EndM 0 A7B8 Zr2Mn
+Amnt 2 1
+Name Zr:Mn
+CpXp Zr2Mn#LAV1_0071
+; Zr:Mn
+EndM 0 A8B0 CoMn2
+Amnt 2 1
+Name Mn:Co
+CpXp CoMn2#LAV1_0072
+; Mn:Co
+EndM 0 A8B1 Mn2Cr
+Amnt 2 1
+Name Mn:Cr
+CpXp Mn2Cr#LAV1_0073
+; Mn:Cr
+EndM 0 A8B2 NbMn2
+Amnt 2 1
+Name Mn:Nb
+CpXp NbMn2#LAV1_0074
+; Mn:Nb
+EndM 0 A8B3 WMn2
+Amnt 2 1
+Name Mn:W
+CpXp WMn2#LAV1_0075
+; Mn:W
+EndM 0 A8B4 FeMn2
+Amnt 2 1
+Name Mn:Fe
+CpXp FeMn2#LAV1_0076
+; Mn:Fe
+EndM 0 A8B5 Mn2Ti
+Amnt 2 1
+Name Mn:Ti
+CpXp Mn2Ti#LAV1_0077
+; Mn:Ti
+EndM 0 A8B6 NiMn2
+Amnt 2 1
+Name Mn:Ni
+CpXp NiMn2#LAV1_0078
+; Mn:Ni
+EndM 0 A8B7 ZrMn2
+Amnt 2 1
+Name Mn:Zr
+CpXp ZrMn2#LAV1_0079
+; Mn:Zr
+EndM 0 A8B8 Mn3
+Amnt 2 1
+Name Mn:Mn
+CpXp Mn3#LAV1_0080
+; Mn:Mn
+Exss BGK A4A5B4
+Powr 0
+GXss -38000
+Exss BGK A4A5B5
+Powr 0
+GXss -38000
+Exss BGK A4B4B5
+Powr 0
+GXss 16000
+Exss BGK A5B4B5
+Powr 0
+GXss 16000
+Exss BGK A6A7B6
+Powr 0
+GXss 15000
+Exss BGK A6A7B7
+Powr 0
+GXss 15000
+Exss BGK A6B6B7
+Powr 0
+GXss 15000
+Exss BGK A7B6B7
+Powr 0
+GXss 15000
+Exss BGK A5A8B8
+Powr 0
+GXss 27000
+Exss BGK A5A8B5
+Powr 0
+GXss 27000
+Exss BGK A8B5B8
+Powr 0
+GXss 15000
+Exss BGK A5B5B8
+Powr 0
+GXss 15000
+SolE LAV1 ------------------------------------------------------------
+SolB LAV2 12 2 Compound Energy Formalism
+Stat Solid 0.28
+Date Created: 43052.7855021991 Modified: 43052.7855021991 2017-11-13 2017-11-13
+Name LAVES_C15
+Desc LAVES_C15
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 11
+Site 2
+Spec A0 0 Co
+Spec A1 0 Cr
+Spec A2 0 Nb
+Spec A3 0 W
+Spec A4 0 Cu
+Spec A5 0 Mg
+Spec A6 0 Y
+Spec A7 0 Fe
+Spec A8 0 Si
+Spec A9 0 Zr
+Spec A10 0 Ni
+SubL B 11
+Spec B0 0 Co
+Spec B1 0 Cr
+Spec B2 0 Nb
+Spec B3 0 W
+Spec B4 0 Cu
+Spec B5 0 Mg
+Spec B6 0 Y
+Spec B7 0 Fe
+Spec B8 0 Si
+Spec B9 0 Zr
+Spec B10 0 Ni
+EndM 0 A0B0 Co3
+Amnt 2 1
+Name Co:Co
+CpXp Co3#LAV2_0000
+; Co:Co
+EndM 0 A0B1 Co2Cr
+Amnt 2 1
+Name Co:Cr
+CpXp Co2Cr#LAV2_0001
+; Co:Cr
+EndM 0 A1B0 CoCr2
+Amnt 2 1
+Name Cr:Co
+CpXp CoCr2#LAV2_0002
+; Cr:Co
+EndM 0 A1B1 Cr3
+Amnt 2 1
+Name Cr:Cr
+CpXp Cr3#LAV2_0003
+; Cr:Cr
+EndM 0 A0B2 NbCo2
+Amnt 2 1
+Name Co:Nb
+CpXp NbCo2#LAV2_0004
+; Co:Nb
+EndM 0 A2B0 Nb2Co
+Amnt 2 1
+Name Nb:Co
+CpXp Nb2Co#LAV2_0005
+; Nb:Co
+EndM 0 A2B2 Nb3
+Amnt 2 1
+Name Nb:Nb
+CpXp Nb3#LAV2_0006
+; Nb:Nb
+EndM 0 A1B2 NbCr2
+Amnt 2 1
+Name Cr:Nb
+CpXp NbCr2#LAV2_0007
+; Cr:Nb
+EndM 0 A2B1 Nb2Cr
+Amnt 2 1
+Name Nb:Cr
+CpXp Nb2Cr#LAV2_0008
+; Nb:Cr
+EndM 0 A0B3 WCo2
+Amnt 2 1
+Name Co:W
+CpXp WCo2#LAV2_0009
+; Co:W
+EndM 0 A3B0 W2Co
+Amnt 2 1
+Name W:Co
+CpXp W2Co#LAV2_0010
+; W:Co
+EndM 0 A3B3 W3
+Amnt 2 1
+Name W:W
+CpXp W3#LAV2_0011
+; W:W
+EndM 0 A1B3 WCr2
+Amnt 2 1
+Name Cr:W
+CpXp WCr2#LAV2_0012
+; Cr:W
+EndM 0 A2B3 WNb2
+Amnt 2 1
+Name Nb:W
+CpXp WNb2#LAV2_0013
+; Nb:W
+EndM 0 A3B1 W2Cr
+Amnt 2 1
+Name W:Cr
+CpXp W2Cr#LAV2_0014
+; W:Cr
+EndM 0 A3B2 W2Nb
+Amnt 2 1
+Name W:Nb
+CpXp W2Nb#LAV2_0015
+; W:Nb
+EndM 0 A4B4 Cu3
+Amnt 2 1
+Name Cu:Cu
+CpXp Cu3#LAV2_0016
+; Cu:Cu
+EndM 0 A4B5 Cu2Mg
+Amnt 2 1
+Name Cu:Mg
+CpXp Cu2Mg#LAV2_0017
+; Cu:Mg
+EndM 0 A5B4 CuMg2
+Amnt 2 1
+Name Mg:Cu
+CpXp CuMg2#LAV2_0018
+; Mg:Cu
+EndM 0 A5B5 Mg3
+Amnt 2 1
+Name Mg:Mg
+CpXp Mg3#LAV2_0019
+; Mg:Mg
+EndM 0 A0B4 CuCo2
+Amnt 2 1
+Name Co:Cu
+CpXp CuCo2#LAV2_0020
+; Co:Cu
+EndM 0 A0B5 Co2Mg
+Amnt 2 1
+Name Co:Mg
+CpXp Co2Mg#LAV2_0021
+; Co:Mg
+EndM 0 A1B4 CuCr2
+Amnt 2 1
+Name Cr:Cu
+CpXp CuCr2#LAV2_0022
+; Cr:Cu
+EndM 0 A1B5 Cr2Mg
+Amnt 2 1
+Name Cr:Mg
+CpXp Cr2Mg#LAV2_0023
+; Cr:Mg
+EndM 0 A2B4 Nb2Cu
+Amnt 2 1
+Name Nb:Cu
+CpXp Nb2Cu#LAV2_0024
+; Nb:Cu
+EndM 0 A2B5 Nb2Mg
+Amnt 2 1
+Name Nb:Mg
+CpXp Nb2Mg#LAV2_0025
+; Nb:Mg
+EndM 0 A3B4 W2Cu
+Amnt 2 1
+Name W:Cu
+CpXp W2Cu#LAV2_0026
+; W:Cu
+EndM 0 A3B5 W2Mg
+Amnt 2 1
+Name W:Mg
+CpXp W2Mg#LAV2_0027
+; W:Mg
+EndM 0 A4B0 Cu2Co
+Amnt 2 1
+Name Cu:Co
+CpXp Cu2Co#LAV2_0028
+; Cu:Co
+EndM 0 A4B1 Cu2Cr
+Amnt 2 1
+Name Cu:Cr
+CpXp Cu2Cr#LAV2_0029
+; Cu:Cr
+EndM 0 A4B2 NbCu2
+Amnt 2 1
+Name Cu:Nb
+CpXp NbCu2#LAV2_0030
+; Cu:Nb
+EndM 0 A4B3 WCu2
+Amnt 2 1
+Name Cu:W
+CpXp WCu2#LAV2_0031
+; Cu:W
+EndM 0 A5B0 CoMg2
+Amnt 2 1
+Name Mg:Co
+CpXp CoMg2#LAV2_0032
+; Mg:Co
+EndM 0 A5B1 CrMg2
+Amnt 2 1
+Name Mg:Cr
+CpXp CrMg2#LAV2_0033
+; Mg:Cr
+EndM 0 A5B2 NbMg2
+Amnt 2 1
+Name Mg:Nb
+CpXp NbMg2#LAV2_0034
+; Mg:Nb
+EndM 0 A5B3 WMg2
+Amnt 2 1
+Name Mg:W
+CpXp WMg2#LAV2_0035
+; Mg:W
+EndM 0 A4B6 YCu2
+Amnt 2 1
+Name Cu:Y
+CpXp YCu2#LAV2_0036
+; Cu:Y
+EndM 0 A6B4 Y2Cu
+Amnt 2 1
+Name Y:Cu
+CpXp Y2Cu#LAV2_0037
+; Y:Cu
+EndM 0 A6B6 Y3
+Amnt 2 1
+Name Y:Y
+CpXp Y3#LAV2_0038
+; Y:Y
+EndM 0 A0B6 YCo2
+Amnt 2 1
+Name Co:Y
+CpXp YCo2#LAV2_0039
+; Co:Y
+EndM 0 A1B6 YCr2
+Amnt 2 1
+Name Cr:Y
+CpXp YCr2#LAV2_0040
+; Cr:Y
+EndM 0 A2B6 Nb2Y
+Amnt 2 1
+Name Nb:Y
+CpXp Nb2Y#LAV2_0041
+; Nb:Y
+EndM 0 A3B6 W2Y
+Amnt 2 1
+Name W:Y
+CpXp W2Y#LAV2_0042
+; W:Y
+EndM 0 A5B6 YMg2
+Amnt 2 1
+Name Mg:Y
+CpXp YMg2#LAV2_0043
+; Mg:Y
+EndM 0 A6B0 Y2Co
+Amnt 2 1
+Name Y:Co
+CpXp Y2Co#LAV2_0044
+; Y:Co
+EndM 0 A6B1 Y2Cr
+Amnt 2 1
+Name Y:Cr
+CpXp Y2Cr#LAV2_0045
+; Y:Cr
+EndM 0 A6B2 NbY2
+Amnt 2 1
+Name Y:Nb
+CpXp NbY2#LAV2_0046
+; Y:Nb
+EndM 0 A6B3 WY2
+Amnt 2 1
+Name Y:W
+CpXp WY2#LAV2_0047
+; Y:W
+EndM 0 A6B5 Y2Mg
+Amnt 2 1
+Name Y:Mg
+CpXp Y2Mg#LAV2_0048
+; Y:Mg
+EndM 0 A7B7 Fe3
+Amnt 2 1
+Name Fe:Fe
+CpXp Fe3#LAV2_0049
+; Fe:Fe
+EndM 0 A7B8 Fe2Si
+Amnt 2 1
+Name Fe:Si
+CpXp Fe2Si#LAV2_0050
+; Fe:Si
+EndM 0 A8B7 FeSi2
+Amnt 2 1
+Name Si:Fe
+CpXp FeSi2#LAV2_0051
+; Si:Fe
+EndM 0 A8B8 Si3
+Amnt 2 1
+Name Si:Si
+CpXp Si3#LAV2_0052
+; Si:Si
+EndM 0 A0B7 Co2Fe
+Amnt 2 1
+Name Co:Fe
+CpXp Co2Fe#LAV2_0053
+; Co:Fe
+EndM 0 A0B8 Co2Si
+Amnt 2 1
+Name Co:Si
+CpXp Co2Si#LAV2_0054
+; Co:Si
+EndM 0 A1B7 FeCr2
+Amnt 2 1
+Name Cr:Fe
+CpXp FeCr2#LAV2_0055
+; Cr:Fe
+EndM 0 A1B8 Cr2Si
+Amnt 2 1
+Name Cr:Si
+CpXp Cr2Si#LAV2_0056
+; Cr:Si
+EndM 0 A2B7 Nb2Fe
+Amnt 2 1
+Name Nb:Fe
+CpXp Nb2Fe#LAV2_0057
+; Nb:Fe
+EndM 0 A2B8 Nb2Si
+Amnt 2 1
+Name Nb:Si
+CpXp Nb2Si#LAV2_0058
+; Nb:Si
+EndM 0 A3B7 W2Fe
+Amnt 2 1
+Name W:Fe
+CpXp W2Fe#LAV2_0059
+; W:Fe
+EndM 0 A3B8 W2Si
+Amnt 2 1
+Name W:Si
+CpXp W2Si#LAV2_0060
+; W:Si
+EndM 0 A4B7 Cu2Fe
+Amnt 2 1
+Name Cu:Fe
+CpXp Cu2Fe#LAV2_0061
+; Cu:Fe
+EndM 0 A4B8 Cu2Si
+Amnt 2 1
+Name Cu:Si
+CpXp Cu2Si#LAV2_0062
+; Cu:Si
+EndM 0 A5B7 FeMg2
+Amnt 2 1
+Name Mg:Fe
+CpXp FeMg2#LAV2_0063
+; Mg:Fe
+EndM 0 A5B8 SiMg2
+Amnt 2 1
+Name Mg:Si
+CpXp SiMg2#LAV2_0064
+; Mg:Si
+EndM 0 A6B7 Y2Fe
+Amnt 2 1
+Name Y:Fe
+CpXp Y2Fe#LAV2_0065
+; Y:Fe
+EndM 0 A6B8 Y2Si
+Amnt 2 1
+Name Y:Si
+CpXp Y2Si#LAV2_0066
+; Y:Si
+EndM 0 A7B0 CoFe2
+Amnt 2 1
+Name Fe:Co
+CpXp CoFe2#LAV2_0067
+; Fe:Co
+EndM 0 A7B1 Fe2Cr
+Amnt 2 1
+Name Fe:Cr
+CpXp Fe2Cr#LAV2_0068
+; Fe:Cr
+EndM 0 A7B2 NbFe2
+Amnt 2 1
+Name Fe:Nb
+CpXp NbFe2#LAV2_0069
+; Fe:Nb
+EndM 0 A7B3 WFe2
+Amnt 2 1
+Name Fe:W
+CpXp WFe2#LAV2_0070
+; Fe:W
+EndM 0 A7B4 CuFe2
+Amnt 2 1
+Name Fe:Cu
+CpXp CuFe2#LAV2_0071
+; Fe:Cu
+EndM 0 A7B5 Fe2Mg
+Amnt 2 1
+Name Fe:Mg
+CpXp Fe2Mg#LAV2_0072
+; Fe:Mg
+EndM 0 A7B6 YFe2
+Amnt 2 1
+Name Fe:Y
+CpXp YFe2#LAV2_0073
+; Fe:Y
+EndM 0 A8B0 CoSi2
+Amnt 2 1
+Name Si:Co
+CpXp CoSi2#LAV2_0074
+; Si:Co
+EndM 0 A8B1 CrSi2
+Amnt 2 1
+Name Si:Cr
+CpXp CrSi2#LAV2_0075
+; Si:Cr
+EndM 0 A8B2 NbSi2
+Amnt 2 1
+Name Si:Nb
+CpXp NbSi2#LAV2_0076
+; Si:Nb
+EndM 0 A8B3 WSi2
+Amnt 2 1
+Name Si:W
+CpXp WSi2#LAV2_0077
+; Si:W
+EndM 0 A8B4 CuSi2
+Amnt 2 1
+Name Si:Cu
+CpXp CuSi2#LAV2_0078
+; Si:Cu
+EndM 0 A8B5 Si2Mg
+Amnt 2 1
+Name Si:Mg
+CpXp Si2Mg#LAV2_0079
+; Si:Mg
+EndM 0 A8B6 YSi2
+Amnt 2 1
+Name Si:Y
+CpXp YSi2#LAV2_0080
+; Si:Y
+EndM 0 A7B9 ZrFe2
+Amnt 2 1
+Name Fe:Zr
+Magn 0.05 584.15
+CpXp ZrFe2#LAV2_0081
+; Fe:Zr
+EndM 0 A9B7 Zr2Fe
+Amnt 2 1
+Name Zr:Fe
+CpXp Zr2Fe#LAV2_0082
+; Zr:Fe
+EndM 0 A9B9 Zr3
+Amnt 2 1
+Name Zr:Zr
+CpXp Zr3#LAV2_0083
+; Zr:Zr
+EndM 0 A0B9 ZrCo2
+Amnt 2 1
+Name Co:Zr
+CpXp ZrCo2#LAV2_0084
+; Co:Zr
+EndM 0 A1B9 ZrCr2
+Amnt 2 1
+Name Cr:Zr
+CpXp ZrCr2#LAV2_0085
+; Cr:Zr
+EndM 0 A2B9 Nb2Zr
+Amnt 2 1
+Name Nb:Zr
+CpXp Nb2Zr#LAV2_0086
+; Nb:Zr
+EndM 0 A3B9 W2Zr
+Amnt 2 1
+Name W:Zr
+CpXp W2Zr#LAV2_0087
+; W:Zr
+EndM 0 A4B9 ZrCu2
+Amnt 2 1
+Name Cu:Zr
+CpXp ZrCu2#LAV2_0088
+; Cu:Zr
+EndM 0 A5B9 ZrMg2
+Amnt 2 1
+Name Mg:Zr
+CpXp ZrMg2#LAV2_0089
+; Mg:Zr
+EndM 0 A6B9 ZrY2
+Amnt 2 1
+Name Y:Zr
+CpXp ZrY2#LAV2_0090
+; Y:Zr
+EndM 0 A8B9 ZrSi2
+Amnt 2 1
+Name Si:Zr
+CpXp ZrSi2#LAV2_0091
+; Si:Zr
+EndM 0 A9B0 Zr2Co
+Amnt 2 1
+Name Zr:Co
+CpXp Zr2Co#LAV2_0092
+; Zr:Co
+EndM 0 A9B1 Zr2Cr
+Amnt 2 1
+Name Zr:Cr
+CpXp Zr2Cr#LAV2_0093
+; Zr:Cr
+EndM 0 A9B2 NbZr2
+Amnt 2 1
+Name Zr:Nb
+CpXp NbZr2#LAV2_0094
+; Zr:Nb
+EndM 0 A9B3 WZr2
+Amnt 2 1
+Name Zr:W
+CpXp WZr2#LAV2_0095
+; Zr:W
+EndM 0 A9B4 Zr2Cu
+Amnt 2 1
+Name Zr:Cu
+CpXp Zr2Cu#LAV2_0096
+; Zr:Cu
+EndM 0 A9B5 Zr2Mg
+Amnt 2 1
+Name Zr:Mg
+CpXp Zr2Mg#LAV2_0097
+; Zr:Mg
+EndM 0 A9B6 Zr2Y
+Amnt 2 1
+Name Zr:Y
+CpXp Zr2Y#LAV2_0098
+; Zr:Y
+EndM 0 A9B8 Zr2Si
+Amnt 2 1
+Name Zr:Si
+CpXp Zr2Si#LAV2_0099
+; Zr:Si
+EndM 0 A10B10 Ni3
+Amnt 2 1
+Name Ni:Ni
+CpXp Ni3#LAV2_0100
+; Ni:Ni
+EndM 0 A10B9 ZrNi2
+Amnt 2 1
+Name Ni:Zr
+CpXp ZrNi2#LAV2_0101
+; Ni:Zr
+EndM 0 A9B10 Zr2Ni
+Amnt 2 1
+Name Zr:Ni
+CpXp Zr2Ni#LAV2_0102
+; Zr:Ni
+EndM 0 A0B10 NiCo2
+Amnt 2 1
+Name Co:Ni
+CpXp NiCo2#LAV2_0103
+; Co:Ni
+EndM 0 A1B10 NiCr2
+Amnt 2 1
+Name Cr:Ni
+CpXp NiCr2#LAV2_0104
+; Cr:Ni
+EndM 0 A2B10 Nb2Ni
+Amnt 2 1
+Name Nb:Ni
+CpXp Nb2Ni#LAV2_0105
+; Nb:Ni
+EndM 0 A3B10 W2Ni
+Amnt 2 1
+Name W:Ni
+CpXp W2Ni#LAV2_0106
+; W:Ni
+EndM 0 A4B10 Cu2Ni
+Amnt 2 1
+Name Cu:Ni
+CpXp Cu2Ni#LAV2_0107
+; Cu:Ni
+EndM 0 A5B10 NiMg2
+Amnt 2 1
+Name Mg:Ni
+CpXp NiMg2#LAV2_0108
+; Mg:Ni
+EndM 0 A6B10 Y2Ni
+Amnt 2 1
+Name Y:Ni
+CpXp Y2Ni#LAV2_0109
+; Y:Ni
+EndM 0 A7B10 NiFe2
+Amnt 2 1
+Name Fe:Ni
+CpXp NiFe2#LAV2_0110
+; Fe:Ni
+EndM 0 A8B10 NiSi2
+Amnt 2 1
+Name Si:Ni
+CpXp NiSi2#LAV2_0111
+; Si:Ni
+EndM 0 A10B0 Ni2Co
+Amnt 2 1
+Name Ni:Co
+CpXp Ni2Co#LAV2_0112
+; Ni:Co
+EndM 0 A10B1 Ni2Cr
+Amnt 2 1
+Name Ni:Cr
+CpXp Ni2Cr#LAV2_0113
+; Ni:Cr
+EndM 0 A10B2 NbNi2
+Amnt 2 1
+Name Ni:Nb
+CpXp NbNi2#LAV2_0114
+; Ni:Nb
+EndM 0 A10B3 WNi2
+Amnt 2 1
+Name Ni:W
+CpXp WNi2#LAV2_0115
+; Ni:W
+EndM 0 A10B4 CuNi2
+Amnt 2 1
+Name Ni:Cu
+CpXp CuNi2#LAV2_0116
+; Ni:Cu
+EndM 0 A10B5 Ni2Mg
+Amnt 2 1
+Name Ni:Mg
+CpXp Ni2Mg#LAV2_0117
+; Ni:Mg
+EndM 0 A10B6 YNi2
+Amnt 2 1
+Name Ni:Y
+CpXp YNi2#LAV2_0118
+; Ni:Y
+EndM 0 A10B7 Ni2Fe
+Amnt 2 1
+Name Ni:Fe
+CpXp Ni2Fe#LAV2_0119
+; Ni:Fe
+EndM 0 A10B8 Ni2Si
+Amnt 2 1
+Name Ni:Si
+CpXp Ni2Si#LAV2_0120
+; Ni:Si
+Exss BGK A4A5B4
+Powr 0
+GXss 13011.35
+Exss BGK A4A5B5
+Powr 0
+GXss 13011.35
+Exss BGK A4B4B5
+Powr 0
+GXss 6599.45
+Exss BGK A5B4B5
+Powr 0
+GXss 6599.45
+Exss BGK A7A9B7
+Powr 0
+GXss 80000
+Exss BGK A7A9B9
+Powr 0
+GXss 80000
+Exss BGK A7B7B9
+Powr 0
+GXss 10000
+Exss BGK A9B7B9
+Powr 0
+GXss 10000
+Exss BGK A9A10B10
+Powr 0
+GXss 20000
+Exss BGK A9A10B9
+Powr 0
+GXss 20000
+Exss BGK A10B9B10
+Powr 0
+GXss 20000
+Exss BGK A9B9B10
+Powr 0
+GXss 20000
+SolE LAV2 ------------------------------------------------------------
+SolB LAV3 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022569 Modified: 43052.7855022569 2017-11-13 2017-11-13
+Name LAVES_C36
+Desc LAVES_C36
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 4
+Site 2
+Spec A0 0 Co
+Spec A1 0 Cr
+Spec A2 0 Ni
+Spec A3 0 Zr
+SubL B 4
+Spec B0 0 Co
+Spec B1 0 Cr
+Spec B2 0 Ni
+Spec B3 0 Zr
+EndM 0 A0B0 Co3
+Amnt 2 1
+Name Co:Co
+CpXp Co3#LAV3_0000
+; Co:Co
+EndM 0 A0B1 Co2Cr
+Amnt 2 1
+Name Co:Cr
+CpXp Co2Cr#LAV3_0001
+; Co:Cr
+EndM 0 A1B0 CoCr2
+Amnt 2 1
+Name Cr:Co
+CpXp CoCr2#LAV3_0002
+; Cr:Co
+EndM 0 A1B1 Cr3
+Amnt 2 1
+Name Cr:Cr
+CpXp Cr3#LAV3_0003
+; Cr:Cr
+EndM 0 A2B2 Ni3
+Amnt 2 1
+Name Ni:Ni
+CpXp Ni3#LAV3_0004
+; Ni:Ni
+EndM 0 A2B3 ZrNi2
+Amnt 2 1
+Name Ni:Zr
+CpXp ZrNi2#LAV3_0005
+; Ni:Zr
+EndM 0 A3B2 Zr2Ni
+Amnt 2 1
+Name Zr:Ni
+CpXp Zr2Ni#LAV3_0006
+; Zr:Ni
+EndM 0 A3B3 Zr3
+Amnt 2 1
+Name Zr:Zr
+CpXp Zr3#LAV3_0007
+; Zr:Zr
+EndM 0 A0B2 NiCo2
+Amnt 2 1
+Name Co:Ni
+CpXp NiCo2#LAV3_0008
+; Co:Ni
+EndM 0 A0B3 ZrCo2
+Amnt 2 1
+Name Co:Zr
+CpXp ZrCo2#LAV3_0009
+; Co:Zr
+EndM 0 A1B2 NiCr2
+Amnt 2 1
+Name Cr:Ni
+CpXp NiCr2#LAV3_0010
+; Cr:Ni
+EndM 0 A1B3 ZrCr2
+Amnt 2 1
+Name Cr:Zr
+CpXp ZrCr2#LAV3_0011
+; Cr:Zr
+EndM 0 A2B0 Ni2Co
+Amnt 2 1
+Name Ni:Co
+CpXp Ni2Co#LAV3_0012
+; Ni:Co
+EndM 0 A2B1 Ni2Cr
+Amnt 2 1
+Name Ni:Cr
+CpXp Ni2Cr#LAV3_0013
+; Ni:Cr
+EndM 0 A3B0 Zr2Co
+Amnt 2 1
+Name Zr:Co
+CpXp Zr2Co#LAV3_0014
+; Zr:Co
+EndM 0 A3B1 Zr2Cr
+Amnt 2 1
+Name Zr:Cr
+CpXp Zr2Cr#LAV3_0015
+; Zr:Cr
+SolE LAV3 ------------------------------------------------------------
+SolB M2B_ 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022685 Modified: 43052.7855022685 2017-11-13 2017-11-13
+Name M2B_TETR
+Desc M2B_TETR
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 Ni
+SubL B 1
+Spec B0 0 B
+EndM 0 A0B0 Ni2B
+Amnt 2 1
+Name Ni2B
+CpXp Ni2B#M2B__0000
+; Ni2B
+SolE M2B_ ------------------------------------------------------------
+SolB M2P 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022685 Modified: 43052.7855022685 2017-11-13 2017-11-13
+Name M2P
+Desc M2P
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 Ni
+SubL B 1
+Spec B0 0 P
+EndM 0 A0B0 Ni2P
+Amnt 2 1
+Name Ni:P
+CpXp Ni2P#M2P_0000
+; Ni:P
+SolE M2P ------------------------------------------------------------
+SolB M3P 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022685 Modified: 43052.7855022685 2017-11-13 2017-11-13
+Name M3P
+Desc M3P
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Ni
+SubL B 1
+Spec B0 0 P
+EndM 0 A0B0 Ni3P
+Amnt 3 1
+Name Ni:P
+CpXp Ni3P#M3P_0000
+; Ni:P
+SolE M3P ------------------------------------------------------------
+SolB M3SI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022801 Modified: 43052.7855022801 2017-11-13 2017-11-13
+Name M3SI
+Desc M3SI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Fe
+SubL B 1
+Spec B0 0 Si
+EndM 0 A0B0 Fe3Si
+Amnt 3 1
+Name Fe:Si
+CpXp Fe3Si#M3SI_0000
+; Fe:Si
+SolE M3SI ------------------------------------------------------------
+SolB M4N 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022801 Modified: 43052.7855022801 2017-11-13 2017-11-13
+Name M4N
+Desc M4N
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 4
+Spec A0 0 Fe
+SubL B 2
+Spec B0 0 Va
+Spec B1 0 N
+EndM 0 A0B0 Fe4
+Amnt 4 1
+Name Fe:Va
+CpXp Fe4#M4N_0000
+; Fe:Va
+EndM 0 A0B1 Fe4N
+Amnt 4 1
+Name Fe:N
+CpXp Fe4N#M4N_0001
+; Fe:N
+Exss BGK A0B0B1
+Powr 0
+GXss 64679 -21.9574*T
+Exss BGK A0B0B1
+Powr 1
+GXss 27905 +3.409*T
+SolE M4N ------------------------------------------------------------
+SolB M5S1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855022917 Modified: 43052.7855022917 2017-11-13 2017-11-13
+Name M5SI3
+Desc M5SI3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Fe
+SubL B 1
+Site 3
+Spec B0 0 Si
+EndM 0 A0B0 Fe5Si3
+Amnt 5 3
+Name Fe:Si
+CpXp Fe5Si3#M5S1_0000
+; Fe:Si
+SolE M5S1 ------------------------------------------------------------
+SolB M5S2 12 4 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023611 Modified: 43052.7855023611 2017-11-13 2017-11-13
+Name M5SI3_D88
+Desc M5SI3_D88
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 3
+Site 2
+Spec A0 0 Si
+Spec A1 0 Ti
+Spec A2 0 Cr
+SubL B 3
+Site 3
+Spec B0 0 Si
+Spec B1 0 Ti
+Spec B2 0 Cr
+SubL C 2
+Site 3
+Spec C0 0 Ti
+Spec C1 0 Cr
+SubL D 1
+Spec D0 0 Va
+EndM 0 A0B0C0D0 Ti3Si5
+Amnt 2 3 3 1
+Name Si:Si:Ti:Va
+CpXp Ti3Si5#M5S2_0000
+; Si:Si:Ti:Va
+EndM 0 A0B0C1D0 Cr3Si5
+Amnt 2 3 3 1
+Name Si:Si:Cr:Va
+CpXp Cr3Si5#M5S2_0001
+; Si:Si:Cr:Va
+EndM 0 A0B1C0D0 Ti6Si2
+Amnt 2 3 3 1
+Name Si:Ti:Ti:Va
+CpXp Ti6Si2#M5S2_0002
+; Si:Ti:Ti:Va
+EndM 0 A0B1C1D0 Cr3Ti3Si2
+Amnt 2 3 3 1
+Name Si:Ti:Cr:Va
+CpXp Cr3Ti3Si2#M5S2_0003
+; Si:Ti:Cr:Va
+EndM 0 A0B2C0D0 Cr3Ti3Si2
+Amnt 2 3 3 1
+Name Si:Cr:Ti:Va
+CpXp Cr3Ti3Si2#M5S2_0004
+; Si:Cr:Ti:Va
+EndM 0 A0B2C1D0 Cr6Si2
+Amnt 2 3 3 1
+Name Si:Cr:Cr:Va
+CpXp Cr6Si2#M5S2_0005
+; Si:Cr:Cr:Va
+EndM 0 A1B0C0D0 Ti5Si3
+Amnt 2 3 3 1
+Name Ti:Si:Ti:Va
+CpXp Ti5Si3#M5S2_0006
+; Ti:Si:Ti:Va
+EndM 0 A1B0C1D0 Cr3Ti2Si3
+Amnt 2 3 3 1
+Name Ti:Si:Cr:Va
+CpXp Cr3Ti2Si3#M5S2_0007
+; Ti:Si:Cr:Va
+EndM 0 A1B1C0D0 Ti8
+Amnt 2 3 3 1
+Name Ti:Ti:Ti:Va
+CpXp Ti8#M5S2_0008
+; Ti:Ti:Ti:Va
+EndM 0 A1B1C1D0 Cr3Ti5
+Amnt 2 3 3 1
+Name Ti:Ti:Cr:Va
+CpXp Cr3Ti5#M5S2_0009
+; Ti:Ti:Cr:Va
+EndM 0 A1B2C0D0 Cr3Ti5
+Amnt 2 3 3 1
+Name Ti:Cr:Ti:Va
+CpXp Cr3Ti5#M5S2_0010
+; Ti:Cr:Ti:Va
+EndM 0 A1B2C1D0 Cr6Ti2
+Amnt 2 3 3 1
+Name Ti:Cr:Cr:Va
+CpXp Cr6Ti2#M5S2_0011
+; Ti:Cr:Cr:Va
+EndM 0 A2B0C0D0 Cr2Ti3Si3
+Amnt 2 3 3 1
+Name Cr:Si:Ti:Va
+CpXp Cr2Ti3Si3#M5S2_0012
+; Cr:Si:Ti:Va
+EndM 0 A2B0C1D0 Cr5Si3
+Amnt 2 3 3 1
+Name Cr:Si:Cr:Va
+CpXp Cr5Si3#M5S2_0013
+; Cr:Si:Cr:Va
+EndM 0 A2B1C0D0 Cr2Ti6
+Amnt 2 3 3 1
+Name Cr:Ti:Ti:Va
+CpXp Cr2Ti6#M5S2_0014
+; Cr:Ti:Ti:Va
+EndM 0 A2B1C1D0 Cr5Ti3
+Amnt 2 3 3 1
+Name Cr:Ti:Cr:Va
+CpXp Cr5Ti3#M5S2_0015
+; Cr:Ti:Cr:Va
+EndM 0 A2B2C0D0 Cr5Ti3
+Amnt 2 3 3 1
+Name Cr:Cr:Ti:Va
+CpXp Cr5Ti3#M5S2_0016
+; Cr:Cr:Ti:Va
+EndM 0 A2B2C1D0 Cr8
+Amnt 2 3 3 1
+Name Cr:Cr:Cr:Va
+CpXp Cr8#M5S2_0017
+; Cr:Cr:Cr:Va
+Exss BGK A0A1B0C0D0
+Powr 0
+GXss -350000
+Exss BGK A0A1B1C0D0
+Powr 0
+GXss -350000
+Exss BGK A0B0B1C0D0
+Powr 0
+GXss 35152.64
+Exss BGK A1B0B1C0D0
+Powr 0
+GXss 35152.64
+SolE M5S2 ------------------------------------------------------------
+SolB M6SI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023611 Modified: 43052.7855023611 2017-11-13 2017-11-13
+Name M6SI5
+Desc M6SI5
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 6
+Spec A0 0 Ti
+SubL B 1
+Site 5
+Spec B0 0 Si
+EndM 0 A0B0 Ti6Si5
+Amnt 6 5
+Name Ti:Si
+CpXp Ti6Si5#M6SI_0000
+; Ti:Si
+SolE M6SI ------------------------------------------------------------
+SolB MC_1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023727 Modified: 43052.7855023727 2017-11-13 2017-11-13
+Name MC_ETA
+Desc MC_ETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 W
+SubL B 2
+Spec B0 0 Va
+Spec B1 0 C
+EndM 0 A0B0 W
+Amnt 1 1
+Name W:Va
+CpXp W#MC_1_0000
+; W:Va
+EndM 0 A0B1 WC
+Amnt 1 1
+Name W:C
+CpXp WC#MC_1_0001
+; W:C
+Exss BGK A0B0B1
+Powr 0
+GXss -17.98*T
+SolE MC_1 ------------------------------------------------------------
+SolB MC_2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023727 Modified: 43052.7855023727 2017-11-13 2017-11-13
+Name MC_SHP
+Desc MC_SHP
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 W
+SubL B 1
+Spec B0 0 C
+EndM 0 A0B0 WC
+Amnt 1 1
+Name W:C
+CpXp WC#MC_2_0000
+; W:C
+SolE MC_2 ------------------------------------------------------------
+SolB MN3T 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023843 Modified: 43052.7855023843 2017-11-13 2017-11-13
+Name MN3TI
+Desc MN3TI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 3
+Spec A0 0 Mn
+SubL B 1
+Spec B0 0 Ti
+EndM 0 A0B0 Mn3Ti
+Amnt 3 1
+Name Mn:Ti
+CpXp Mn3Ti#MN3T_0000
+; Mn:Ti
+SolE MN3T ------------------------------------------------------------
+SolB MN4T 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023843 Modified: 43052.7855023843 2017-11-13 2017-11-13
+Name MN4TI
+Desc MN4TI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 22
+Spec A0 0 Mn
+SubL B 1
+Site 5
+Spec B0 0 Ti
+EndM 0 A0B0 Mn22Ti5
+Amnt 22 5
+Name Mn22Ti5
+CpXp Mn22Ti5#MN4T_0000
+; Mn22Ti5
+SolE MN4T ------------------------------------------------------------
+SolB MONI 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855023958 Modified: 43052.7855023958 2017-11-13 2017-11-13
+Name MONI_DELTA
+Desc MONI_DELTA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 24
+Spec A0 0 Ni
+SubL B 2
+Site 20
+Spec B0 0 Mo
+Spec B1 0 Ni
+SubL C 1
+Site 12
+Spec C0 0 Mo
+EndM 0 A0B0C0 Mo32Ni24
+Amnt 24 20 12
+Name Ni:Mo:Mo
+CpXp Mo32Ni24#MONI_0000
+; Ni:Mo:Mo
+EndM 0 A0B1C0 Mo12Ni44
+Amnt 24 20 12
+Name Ni:Ni:Mo
+CpXp Mo12Ni44#MONI_0001
+; Ni:Ni:Mo
+SolE MONI ------------------------------------------------------------
+SolB MSI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024074 Modified: 43052.7855024074 2017-11-13 2017-11-13
+Name MSI
+Desc MSI
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 3
+Spec A0 0 Cr
+Spec A1 0 Fe
+Spec A2 0 Ni
+SubL B 1
+Spec B0 0 Si
+EndM 0 A0B0 CrSi
+Amnt 1 1
+Name Cr:Si
+CpXp CrSi#MSI_0000
+; Cr:Si
+EndM 0 A1B0 FeSi
+Amnt 1 1
+Name Fe:Si
+CpXp FeSi#MSI_0001
+; Fe:Si
+EndM 0 A2B0 NiSi
+Amnt 1 1
+Name Ni:Si
+CpXp NiSi#MSI_0002
+; Ni:Si
+SolE MSI ------------------------------------------------------------
+SolB MU_P 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024306 Modified: 43052.7855024306 2017-11-13 2017-11-13
+Name MU_PHASE
+Desc MU_PHASE
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 7
+Spec A0 0 Co
+SubL B 2
+Site 2
+Spec B0 0 Nb
+Spec B1 0 W
+SubL C 3
+Site 4
+Spec C0 0 Co
+Spec C1 0 Nb
+Spec C2 0 W
+EndM 0 A0B0C0 Nb2Co11
+Amnt 7 2 4
+Name Co:Nb:Co
+CpXp Nb2Co11#MU_P_0000
+; Co:Nb:Co
+EndM 0 A0B0C1 Nb6Co7
+Amnt 7 2 4
+Name Co:Nb:Nb
+CpXp Nb6Co7#MU_P_0001
+; Co:Nb:Nb
+EndM 0 A0B1C0 W2Co11
+Amnt 7 2 4
+Name Co:W:Co
+CpXp W2Co11#MU_P_0002
+; Co:W:Co
+EndM 0 A0B1C2 W6Co7
+Amnt 7 2 4
+Name Co:W:W
+CpXp W6Co7#MU_P_0003
+; Co:W:W
+EndM 0 A0B0C2 W4Nb2Co7
+Amnt 7 2 4
+Name Co:Nb:W
+CpXp W4Nb2Co7#MU_P_0004
+; Co:Nb:W
+EndM 0 A0B1C1 W2Nb4Co7
+Amnt 7 2 4
+Name Co:W:Nb
+CpXp W2Nb4Co7#MU_P_0005
+; Co:W:Nb
+SolE MU_P ------------------------------------------------------------
+SolB NI10 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024421 Modified: 43052.7855024421 2017-11-13 2017-11-13
+Name NI10ZR7
+Desc NI10ZR7
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 23
+Spec A0 0 Ni
+Spec A1 0 Zr
+SubL B 2
+Site 17
+Spec B0 0 Va
+Spec B1 0 Zr
+EndM 0 A0B0 Ni23
+Amnt 23 17
+Name Ni23Va17
+CpXp Ni23#NI10_0000
+; Ni23Va17
+EndM 0 A0B1 Zr17Ni23
+Amnt 23 17
+Name Ni23Zr17
+CpXp Zr17Ni23#NI10_0001
+; Ni23Zr17
+EndM 0 A1B0 Zr23
+Amnt 23 17
+Name Zr23Va17
+CpXp Zr23#NI10_0002
+; Zr23Va17
+EndM 0 A1B1 Zr40
+Amnt 23 17
+Name Zr23Zr17
+CpXp Zr40#NI10_0003
+; Zr23Zr17
+Exss BGK A0A1B0
+Powr 0
+GXss 2240000
+Exss BGK A0A1B1
+Powr 0
+GXss 340000
+Exss BGK A0B0B1
+Powr 0
+GXss -770000
+SolE NI10 ------------------------------------------------------------
+SolB NI21 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024421 Modified: 43052.7855024421 2017-11-13 2017-11-13
+Name NI2SI_C37
+Desc NI2SI_C37
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 Ni
+SubL B 1
+Spec B0 0 Si
+EndM 0 A0B0 Ni2Si
+Amnt 2 1
+Name Ni:Si
+CpXp Ni2Si#NI21_0000
+; Ni:Si
+SolE NI21 ------------------------------------------------------------
+SolB NI22 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024537 Modified: 43052.7855024537 2017-11-13 2017-11-13
+Name NI2SI_HEX
+Desc NI2SI_HEX
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Ni
+SubL B 2
+Spec B0 0 Ni
+Spec B1 0 Va
+SubL C 1
+Spec C0 0 Si
+EndM 0 A0B0C0 Ni2Si
+Amnt 1 1 1
+Name Ni:Ni:Si
+CpXp Ni2Si#NI22_0000
+; Ni:Ni:Si
+EndM 0 A0B1C0 NiSi
+Amnt 1 1 1
+Name Ni:Va:Si
+CpXp NiSi#NI22_0001
+; Ni:Va:Si
+Exss BGK A0B0B1C0
+Powr 0
+GXss 18110
+SolE NI22 ------------------------------------------------------------
+SolB NI31 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024769 Modified: 43052.7855024769 2017-11-13 2017-11-13
+Name NI3MOTA
+Desc NI3MOTA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Ni
+Spec A1 0 Ta
+SubL B 2
+Spec B0 0 Ni
+Spec B1 0 Ta
+EndM 0 A0B0 Ni4
+Amnt 3 1
+Name Ni3Ni
+CpXp Ni4#NI31_0000
+; Ni3Ni
+EndM 0 A0B1 TaNi3
+Amnt 3 1
+Name Ni3Ta
+CpXp TaNi3#NI31_0001
+; Ni3Ta
+EndM 0 A1B0 Ta3Ni
+Amnt 3 1
+Name Ta3Ni
+CpXp Ta3Ni#NI31_0002
+; Ta3Ni
+EndM 0 A1B1 Ta4
+Amnt 3 1
+Name Ta3Ta
+CpXp Ta4#NI31_0003
+; Ta3Ta
+Exss BGK A0A1B0
+Powr 0
+GXss -13540
+Exss BGK A0A1B1
+Powr 0
+GXss -13540
+Exss BGK A0B0B1
+Powr 0
+GXss -2988
+Exss BGK A1B0B1
+Powr 0
+GXss -2988
+SolE NI31 ------------------------------------------------------------
+SolB NI32 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024884 Modified: 43052.7855024884 2017-11-13 2017-11-13
+Name NI3ZR
+Desc NI3ZR
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 3
+Spec A0 0 Ni
+Spec A1 0 Zr
+SubL B 2
+Spec B0 0 Va
+Spec B1 0 Zr
+EndM 0 A0B0 Ni3
+Amnt 3 1
+Name Ni3Va
+CpXp Ni3#NI32_0000
+; Ni3Va
+EndM 0 A0B1 ZrNi3
+Amnt 3 1
+Name Ni3Zr
+CpXp ZrNi3#NI32_0001
+; Ni3Zr
+EndM 0 A1B0 Zr3
+Amnt 3 1
+Name Zr3Va
+CpXp Zr3#NI32_0002
+; Zr3Va
+EndM 0 A1B1 Zr4
+Amnt 3 1
+Name Zr3Zr
+CpXp Zr4#NI32_0003
+; Zr3Zr
+Exss BGK A0A1B0
+Powr 0
+GXss 302000
+Exss BGK A0A1B1
+Powr 0
+GXss 30220
+Exss BGK A0B0B1
+Powr 0
+GXss -132440 +30*T
+SolE NI32 ------------------------------------------------------------
+SolB NI51 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855024884 Modified: 43052.7855024884 2017-11-13 2017-11-13
+Name NI5P2_L
+Desc NI5P2_L
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Ni
+SubL B 1
+Site 2
+Spec B0 0 P
+EndM 0 A0B0 Ni5P2
+Amnt 5 2
+Name Ni:P
+CpXp Ni5P2#NI51_0000
+; Ni:P
+SolE NI51 ------------------------------------------------------------
+SolB NI52 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025000 Modified: 43052.7855025000 2017-11-13 2017-11-13
+Name NI5SI2
+Desc NI5SI2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 5
+Spec A0 0 Ni
+SubL B 1
+Site 2
+Spec B0 0 Si
+EndM 0 A0B0 Ni5Si2
+Amnt 5 2
+Name Ni:Si
+CpXp Ni5Si2#NI52_0000
+; Ni:Si
+SolE NI52 ------------------------------------------------------------
+SolB NI53 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025116 Modified: 43052.7855025116 2017-11-13 2017-11-13
+Name NI5ZR
+Desc NI5ZR
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Site 5
+Spec A0 0 Ni
+Spec A1 0 Zr
+SubL B 2
+Spec B0 0 Va
+Spec B1 0 Zr
+EndM 0 A0B0 Ni5
+Amnt 5 1
+Name Ni5Va
+CpXp Ni5#NI53_0000
+; Ni5Va
+EndM 0 A0B1 ZrNi5
+Amnt 5 1
+Name Ni5Zr
+CpXp ZrNi5#NI53_0001
+; Ni5Zr
+EndM 0 A1B0 Zr5
+Amnt 5 1
+Name Zr5Va
+CpXp Zr5#NI53_0002
+; Zr5Va
+EndM 0 A1B1 Zr6
+Amnt 5 1
+Name Zr5Zr
+CpXp Zr6#NI53_0003
+; Zr5Zr
+Exss BGK A0A1B0
+Powr 0
+GXss 459000
+Exss BGK A0A1B1
+Powr 0
+GXss 47100
+Exss BGK A0B0B1
+Powr 0
+GXss -116850 +7.5*T
+SolE NI53 ------------------------------------------------------------
+SolB NI7Z 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025116 Modified: 43052.7855025116 2017-11-13 2017-11-13
+Name NI7ZR2
+Desc NI7ZR2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 39
+Spec A0 0 Ni
+SubL B 1
+Site 11
+Spec B0 0 Zr
+EndM 0 A0B0 Zr11Ni39
+Amnt 39 11
+Name Ni39Zr11
+CpXp Zr11Ni39#NI7Z_0000
+; Ni39Zr11
+SolE NI7Z ------------------------------------------------------------
+SolB NIT1 12 4 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025347 Modified: 43052.7855025347 2017-11-13 2017-11-13
+Name NITA
+Desc NITA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Ni
+Spec A1 0 Ta
+SubL B 1
+Site 4
+Spec B0 0 Ta
+SubL C 2
+Site 2
+Spec C0 0 Ni
+Spec C1 0 Ta
+SubL D 1
+Site 6
+Spec D0 0 Ni
+EndM 0 A0B0C0D0 Ta4Ni9
+Amnt 1 4 2 6
+Name NiTa4Ni2Ni6
+CpXp Ta4Ni9#NIT1_0000
+; NiTa4Ni2Ni6
+EndM 0 A0B0C1D0 Ta6Ni7
+Amnt 1 4 2 6
+Name NiTa4Ta2Ni6
+CpXp Ta6Ni7#NIT1_0001
+; NiTa4Ta2Ni6
+EndM 0 A1B0C0D0 Ta5Ni8
+Amnt 1 4 2 6
+Name TaTa4Ni2Ni6
+CpXp Ta5Ni8#NIT1_0002
+; TaTa4Ni2Ni6
+EndM 0 A1B0C1D0 Ta7Ni6
+Amnt 1 4 2 6
+Name TaTa4Ta2Ni6
+CpXp Ta7Ni6#NIT1_0003
+; TaTa4Ta2Ni6
+SolE NIT1 ------------------------------------------------------------
+SolB NIT2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025463 Modified: 43052.7855025463 2017-11-13 2017-11-13
+Name NITA2
+Desc NITA2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 2
+Spec A0 0 Ni
+Spec A1 0 Ta
+SubL B 1
+Site 2
+Spec B0 0 Ta
+EndM 0 A0B0 Ta2Ni
+Amnt 1 2
+Name NiTa2
+CpXp Ta2Ni#NIT2_0000
+; NiTa2
+EndM 0 A1B0 Ta3
+Amnt 1 2
+Name TaTa2
+CpXp Ta3#NIT2_0001
+; TaTa2
+Exss BGK A0A1B0
+Powr 0
+GXss 15840.84
+SolE NIT2 ------------------------------------------------------------
+SolB NIZR 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025463 Modified: 43052.7855025463 2017-11-13 2017-11-13
+Name NIZR2
+Desc NIZR2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Ni
+SubL B 1
+Site 2
+Spec B0 0 Zr
+EndM 0 A0B0 Zr2Ni
+Amnt 1 2
+Name NiZr2
+CpXp Zr2Ni#NIZR_0000
+; NiZr2
+SolE NIZR ------------------------------------------------------------
+SolB R_PH 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855025579 Modified: 43052.7855025579 2017-11-13 2017-11-13
+Name R_PHASE
+Desc R_PHASE
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 27
+Spec A0 0 Co
+SubL B 1
+Site 14
+Spec B0 0 W
+SubL C 2
+Site 12
+Spec C0 0 Co
+Spec C1 0 W
+EndM 0 A0B0C0 W14Co39
+Amnt 27 14 12
+Name Co:W:Co
+CpXp W14Co39#R_PH_0000
+; Co:W:Co
+EndM 0 A0B0C1 W26Co27
+Amnt 27 14 12
+Name Co:W:W
+CpXp W26Co27#R_PH_0001
+; Co:W:W
+SolE R_PH ------------------------------------------------------------
+SolB SIGM 12 3 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855026736 Modified: 43052.7855026736 2017-11-13 2017-11-13
+Name SIGMA
+Desc SIGMA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 3
+Site 8
+Spec A0 0 Co
+Spec A1 0 Fe
+Spec A2 0 Mn
+SubL B 2
+Site 4
+Spec B0 0 Cr
+Spec B1 0 W
+SubL C 5
+Site 18
+Spec C0 0 Co
+Spec C1 0 Cr
+Spec C2 0 W
+Spec C3 0 Fe
+Spec C4 0 Mn
+EndM 0 A0B0C0 Co26Cr4
+Amnt 8 4 18
+Name Co:Cr:Co
+CpXp Co26Cr4#SIGM_0000
+; Co:Cr:Co
+EndM 0 A0B0C1 Co8Cr22
+Amnt 8 4 18
+Name Co:Cr:Cr
+CpXp Co8Cr22#SIGM_0001
+; Co:Cr:Cr
+EndM 0 A0B1C0 W4Co26
+Amnt 8 4 18
+Name Co:W:Co
+CpXp W4Co26#SIGM_0002
+; Co:W:Co
+EndM 0 A0B1C2 W22Co8
+Amnt 8 4 18
+Name Co:W:W
+CpXp W22Co8#SIGM_0003
+; Co:W:W
+EndM 0 A0B0C2 W18Co8Cr4
+Amnt 8 4 18
+Name Co:Cr:W
+CpXp W18Co8Cr4#SIGM_0004
+; Co:Cr:W
+EndM 0 A0B1C1 W4Co8Cr18
+Amnt 8 4 18
+Name Co:W:Cr
+CpXp W4Co8Cr18#SIGM_0005
+; Co:W:Cr
+EndM 0 A1B0C1 Fe8Cr22
+Amnt 8 4 18
+Name Fe:Cr:Cr
+CpXp Fe8Cr22#SIGM_0006
+; Fe:Cr:Cr
+EndM 0 A1B0C3 Fe26Cr4
+Amnt 8 4 18
+Name Fe:Cr:Fe
+CpXp Fe26Cr4#SIGM_0007
+; Fe:Cr:Fe
+EndM 0 A0B0C3 Co8Fe18Cr4
+Amnt 8 4 18
+Name Co:Cr:Fe
+CpXp Co8Fe18Cr4#SIGM_0008
+; Co:Cr:Fe
+EndM 0 A0B1C3 W4Co8Fe18
+Amnt 8 4 18
+Name Co:W:Fe
+CpXp W4Co8Fe18#SIGM_0009
+; Co:W:Fe
+EndM 0 A1B0C0 Co18Fe8Cr4
+Amnt 8 4 18
+Name Fe:Cr:Co
+CpXp Co18Fe8Cr4#SIGM_0010
+; Fe:Cr:Co
+EndM 0 A1B0C2 W18Fe8Cr4
+Amnt 8 4 18
+Name Fe:Cr:W
+CpXp W18Fe8Cr4#SIGM_0011
+; Fe:Cr:W
+EndM 0 A1B1C0 W4Co18Fe8
+Amnt 8 4 18
+Name Fe:W:Co
+CpXp W4Co18Fe8#SIGM_0012
+; Fe:W:Co
+EndM 0 A1B1C1 W4Fe8Cr18
+Amnt 8 4 18
+Name Fe:W:Cr
+CpXp W4Fe8Cr18#SIGM_0013
+; Fe:W:Cr
+EndM 0 A1B1C2 W22Fe8
+Amnt 8 4 18
+Name Fe:W:W
+CpXp W22Fe8#SIGM_0014
+; Fe:W:W
+EndM 0 A1B1C3 W4Fe26
+Amnt 8 4 18
+Name Fe:W:Fe
+CpXp W4Fe26#SIGM_0015
+; Fe:W:Fe
+EndM 0 A2B0C1 Mn8Cr22
+Amnt 8 4 18
+Name Mn:Cr:Cr
+CpXp Mn8Cr22#SIGM_0016
+; Mn:Cr:Cr
+EndM 0 A2B0C4 Mn26Cr4
+Amnt 8 4 18
+Name Mn:Cr:Mn
+CpXp Mn26Cr4#SIGM_0017
+; Mn:Cr:Mn
+EndM 0 A0B0C4 Co8Mn18Cr4
+Amnt 8 4 18
+Name Co:Cr:Mn
+CpXp Co8Mn18Cr4#SIGM_0018
+; Co:Cr:Mn
+EndM 0 A0B1C4 W4Co8Mn18
+Amnt 8 4 18
+Name Co:W:Mn
+CpXp W4Co8Mn18#SIGM_0019
+; Co:W:Mn
+EndM 0 A1B0C4 Fe8Cr4
+Amnt 8 4 18
+Name Fe:Cr:Mn
+CpXp Fe8Cr4#SIGM_0020
+; Fe:Cr:Mn
+EndM 0 A1B1C4 W4Fe8Mn18
+Amnt 8 4 18
+Name Fe:W:Mn
+CpXp W4Fe8Mn18#SIGM_0021
+; Fe:W:Mn
+EndM 0 A2B0C0 Co18Mn8Cr4
+Amnt 8 4 18
+Name Mn:Cr:Co
+CpXp Co18Mn8Cr4#SIGM_0022
+; Mn:Cr:Co
+EndM 0 A2B0C2 W18Mn8Cr4
+Amnt 8 4 18
+Name Mn:Cr:W
+CpXp W18Mn8Cr4#SIGM_0023
+; Mn:Cr:W
+EndM 0 A2B0C3 Fe18Mn8Cr4
+Amnt 8 4 18
+Name Mn:Cr:Fe
+CpXp Fe18Mn8Cr4#SIGM_0024
+; Mn:Cr:Fe
+EndM 0 A2B1C0 W4Co18Mn8
+Amnt 8 4 18
+Name Mn:W:Co
+CpXp W4Co18Mn8#SIGM_0025
+; Mn:W:Co
+EndM 0 A2B1C1 W4Cr18
+Amnt 8 4 18
+Name Mn:W:Cr
+CpXp W4Cr18#SIGM_0026
+; Mn:W:Cr
+EndM 0 A2B1C2 W22Mn8
+Amnt 8 4 18
+Name Mn:W:W
+CpXp W22Mn8#SIGM_0027
+; Mn:W:W
+EndM 0 A2B1C3 W4Fe18Mn8
+Amnt 8 4 18
+Name Mn:W:Fe
+CpXp W4Fe18Mn8#SIGM_0028
+; Mn:W:Fe
+EndM 0 A2B1C4 W4Mn26
+Amnt 8 4 18
+Name Mn:W:Mn
+CpXp W4Mn26#SIGM_0029
+; Mn:W:Mn
+Exss BGK A2B0C1C4
+Powr 0
+GXss -1095771 +862.0312*T
+SolE SIGM ------------------------------------------------------------
+SolB TI2N 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855026852 Modified: 43052.7855026852 2017-11-13 2017-11-13
+Name TI2N
+Desc TI2N
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 2
+Spec A0 0 Ti
+SubL B 1
+Spec B0 0 N
+EndM 0 A0B0 Ti2N
+Amnt 2 1
+Name Ti:N
+CpXp Ti2N#TI2N_0000
+; Ti:N
+SolE TI2N ------------------------------------------------------------
+SolB TIM1 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855026968 Modified: 43052.7855026968 2017-11-13 2017-11-13
+Name TIMN_ALPHA
+Desc TIMN_ALPHA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Mn
+SubL B 1
+Spec B0 0 Ti
+EndM 0 A0B0 MnTi
+Amnt 1 1
+Name Mn:Ti
+CpXp MnTi#TIM1_0000
+; Mn:Ti
+SolE TIM1 ------------------------------------------------------------
+SolB TIM2 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855026968 Modified: 43052.7855026968 2017-11-13 2017-11-13
+Name TIMN_BETA
+Desc TIMN_BETA
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Site 17
+Spec A0 0 Mn
+SubL B 1
+Site 16
+Spec B0 0 Ti
+EndM 0 A0B0 Mn17Ti16
+Amnt 17 16
+Name Mn17Ti16
+CpXp Mn17Ti16#TIM2_0000
+; Mn17Ti16
+SolE TIM2 ------------------------------------------------------------
+SolB TISI 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855027083 Modified: 43052.7855027083 2017-11-13 2017-11-13
+Name TISI2
+Desc TISI2
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Ti
+SubL B 1
+Site 2
+Spec B0 0 Si
+EndM 0 A0B0 TiSi2
+Amnt 1 2
+Name Ti:Si
+CpXp TiSi2#TISI_0000
+; Ti:Si
+SolE TISI ------------------------------------------------------------
+SolB ZINC 12 2 Compound Energy Formalism
+Stat Solid 0
+Date Created: 43052.7855027083 Modified: 43052.7855027083 2017-11-13 2017-11-13
+Name ZINCBLENDE_B3
+Desc ZINCBLENDE_B3
+Desc "[+]" Original ChemSage file: bins141.dat
+SubL A 1
+Spec A0 0 Ga
+SubL B 1
+Spec B0 0 As
+EndM 0 A0B0 AsGa
+Amnt 1 1
+Name GaAs
+CpXp AsGa#ZINC_0000
+; GaAs
+SolE ZINC ------------------------------------------------------------

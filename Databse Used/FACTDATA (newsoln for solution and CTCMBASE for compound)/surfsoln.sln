@@ -1,0 +1,71 @@
+Base SURF SURF
+Date Created: 44197.0000000000 Modified: 44156.8237268518 2021/01/01 2020/11/21
+Vers 8.10
+Desc SURF - virtual solution species - Equilib Advanced Examples [SURF][ 0000 12 2099 ]
+SolB bulk 1 1 One-lattice polynomial
+Stat Solid 0
+Date Created: 44150.8339444907 Modified: 44156.8229473495 2020/11/15 2020/11/21
+Name bulksoln
+Desc bulksoln
+Desc This "One-lattice polynomial" solution description has been automatically 
+Desc generated. You can change this description and replace it by adding any 
+Desc number of lines of your own. The first word of the first line will be used 
+Desc and displayed as solution long name.
+SubL A 2
+Spec A0 1 Ag Ag
+Spec A1 1 Pb Pb
+Chck 
+EndM 0 A0 Ag
+Zeds 1
+Amnt 1
+Name Ag
+CpXp Ag#liquid
+EndM 0 A1 Pb
+Zeds 1
+Amnt 1
+Name Pb
+CpXp Pb#liquid_1
+List A0A1
+Exss BGP A0A1
+Powr 1 1
+GXss 6742
+Exss BGP A0A1
+Powr 2 2
+GXss -1465
+Exss BGP A0A1
+Powr 3 3
+GXss -1978
+SolE bulk ------------------------------------------------------------
+SolB surff 1 1 One-lattice polynomial
+Stat Solid 0
+Date Created: 44150.8397532060 Modified: 44156.8237268518 2020/11/15 2020/11/21
+Name surffsoln
+Desc surffsoln
+Desc This "One-lattice polynomial" solution description has been automatically 
+Desc generated. You can change this description and replace it by adding any 
+Desc number of lines of your own. The first word of the first line will be used 
+Desc and displayed as solution long name.
+SubL A 2
+Spec A0 1 Ag(Qa) Ag(Qa)
+Spec A1 1 Pb(Qa) Pb(Qa)
+Chck 
+EndM 0 A0 Ag(Qa)
+Zeds 1
+Amnt 1
+Name Ag(Qa)
+CpXp Ag#liquid +#AxSigmaAg
+EndM 0 A1 Pb(Qa)
+Zeds 1
+Amnt 1
+Name Pb(Qa)
+CpXp Pb#liquid_1 +#AxSigmaPb
+Exss BGP A0A1
+Powr 1 1
+GXss 5596
+Exss BGP A0A1
+Powr 2 2
+GXss -1216
+Exss BGP A0A1
+Powr 3 3
+GXss -1642
+SolE surff ------------------------------------------------------------

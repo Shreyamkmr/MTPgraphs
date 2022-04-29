@@ -1,0 +1,117 @@
+Base SolF SolF
+Date Created: 2014/05/19 Modified: 2014/05/20
+Vers 7.00
+Desc SolFsoln sample database employed in the Solution manual (slide show)
+SolB Melt 98 2 Two-lattice mod. quasichem. revised
+Stat Liquid 0
+Date Created: 2014/05/19 Modified: 2014/05/20
+Name (Li,Na,Ca)(F,Cl,SO4)
+Desc (Li,Na,Ca)(F,Cl,SO4) melt
+SubL A 3
+Spec A0 1 Li Li
+Spec A1 1 Na Na
+Spec A2 2 Ca Ca
+SubL B 3
+Spec B0 1 F F
+Spec B1 1 Cl Cl
+Spec B2 2 SO4 SO4
+Chrg A0 1
+Chrg A1 1
+Chrg A2 2
+Chrg B0 1
+Chrg B1 1
+Chrg B2 2
+EndM 0 A0B0 LiF
+Zeds 6
+Zeta 2.4
+Amnt 1 1
+Name LiF
+CpXp LiF#liquid
+EndM 0 A1B0 NaF
+Zeds 6
+Zeta 2.4
+Amnt 1 1
+Name NaF
+CpXp NaF#liquid
+EndM 0 A2B0 CaF2
+Zeds 6
+Zeta 2.4
+Amnt 1 2
+Name CaF2
+CpXp CaF2#liquid
+EndM 0 A0B1 LiCl
+Zeds 6
+Zeta 2.4
+Amnt 1 1
+Name LiCl
+CpXp LiCl#liquid
+EndM 0 A1B1 NaCl
+Zeds 6
+Zeta 2.4
+Amnt 1 1
+Name NaCl
+CpXp NaCl#liquid
+EndM 0 A2B1 CaCl2
+Zeds 6
+Zeta 2.4
+Amnt 1 2
+Name CaCl2
+CpXp CaCl2#liquid
+EndM 0 A0B2 Li2SO4
+Zeds 3
+Zeta 2.4
+Amnt 2 1
+Name Li2SO4
+CpXp Li2SO4#liquid
+EndM 0 A1B2 Na2SO4
+Zeds 3
+Zeta 2.4
+Amnt 2 1
+Name Na2SO4
+CpXp Na2SO4#liquid
+EndM 0 A2B2 CaSO4
+Zeds 6
+Zeta 2.4
+Amnt 1 1
+Name CaSO4
+CpXp CaSO4#liquid
+; Quad A0A0B0B0 6 6 6 6
+; Quad A1A1B0B0 6 6 6 6
+; Quad A2A2B0B0 6 6 3 3
+; Quad A0A0B1B1 6 6 6 6
+; Quad A1A1B1B1 6 6 6 6
+; Quad A2A2B1B1 6 6 3 3
+; Quad A0A0B2B2 3 3 6 6
+; Quad A1A1B2B2 3 3 6 6
+; Quad A2A2B2B2 6 6 6 6
+Quad A0A2B1B1 3 6 3 3
+Quad A0A2B2B2 3 6 6 6
+Quad A0A2B0B0 3 6 3 3
+Quad A0A2B0B2 3.2 6.4 3.84 5.48571428571429
+Tern A0A1A2B0 0 2 3
+Tern A0A1A2B1 0 2 3
+Tern A0A1A2B2 0 2 3
+Exss BGP A0A1A2B1 A1
+Powr 0 1 0
+GXss 
+Exss BGH A0A1A2B1 A1
+GXss 
+Exss QGP A0A1A2B1 A1
+Powr 0 1 0
+GXss 
+Exss GGP A0A1A2B1 A1
+Powr 0 1 0
+GXss 
+Exss BGP A0A2B1 
+Powr 0 0
+GXss 
+Exss QGR A0A2B1 
+Powr 0
+GXss 
+Exss GGP A0A2B1 
+Powr 0 0
+GXss 
+Exss GGP A1A2B0B2 A2B2
+Powr 1
+GXss 
+SolE Melt ------------------------------------------------------------

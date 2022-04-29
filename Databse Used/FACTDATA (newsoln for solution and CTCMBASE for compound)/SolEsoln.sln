@@ -1,0 +1,62 @@
+Base SolE SolE
+Date Created: 2014/05/17 Modified: 2014/06/12
+Vers 7.00
+Desc SolEsoln sample database employed in the Solution manual (slide show)
+SolB MATT 3 1 One-lattice modified quasichemical
+Stat Liquid 0
+Date Created: 2014/05/17 Modified: 2014/06/12
+Name Matte
+Desc Matte Liquid Cu-Ni-S
+SubL A 3
+Spec A0 1 S 
+Spec A1 2 Cu 
+Spec A2 2 Ni 
+Chck A0A1
+EndM 2 A0 S
+Zeds 1.8366
+Amnt 1
+Name S
+CpXp S#liquidA +S#liquidB
+XLim -0.2
+EndM 3 A1 Cu
+Zeds 0.9294
+Amnt 1
+Name Cu
+CpXp Cu#liquidA +Cu#liquidB
+VExp Cu#liquidA
+EndM 3 A2 Ni
+Zeds 1.8366
+Amnt 1
+Name Ni
+CpXp Ni#liquid
+Exss QGL A0A1 
+Powr 0
+GXss -82767.498888
+Exss QGL A0A1 
+Powr 1
+GXss 32070.2001712
+Exss QGL A0A1 
+Powr 2
+GXss 68734.099296
+Exss QGL A0A1 
+Powr 3
+GXss 84193.698968 -50.000000808*T
+Exss QGL A0A1 
+Powr 4
+GXss -43638.299936
+Exss QGL A0A1 
+Powr 5
+GXss -19.9999999048*T
+Exss QGP A0A1 
+Powr 0 0
+GXss 
+Exss QGP A0A2 
+Powr 0 0
+GXss -96826.90204
+Exss QGP A0A2 
+Powr 1 0
+GXss -42995.800712
+Exss QGP A0A2 
+Powr 6 0
+GXss 2411859.98008
+SolE MATT ------------------------------------------------------------

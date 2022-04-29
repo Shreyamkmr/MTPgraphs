@@ -1,0 +1,447 @@
+     
+FS53base.xcl   Updated 17-February-2021
+------------
+
+[NOTES]
+INFO1=   FS53base.xcl lists restrictions on the FactPS compound database.
+INFO2=   For more information consult the text file FS64_info.xcl
+
+[DATA]
+DATA1=FTOxid     // In-Ho Jung        19-Feb-2013, 12-Jun-2015, 18-Oct-2016, 10-Dec-2018, 17-Jan-2021
+DATA2=FTlite     // Patrice Chartrand 24-Feb-2013, 24-Nov-2018, 17-Feb-2021
+DATA3=FTmisc     // Arthur Pelton     15-Feb-2013  10-Dec-2018 (see the last line of FTmisc)
+DATA4=FThall     // Patrice Chartrand 21-Feb-2013
+DATA5=FTfrtz     // Patrice Chartrand 15-Feb-2013
+DATA6=FTsalt     // Christian Robelin 19-Feb-2013
+DATA7=FTpulp     // Patrice Chartrand 21-Feb-2013
+DATA8=FScopp     // Arthur Pelton     22-Feb-2013, Patrice Chartrand 22-Nov-2018 
+DATA9=FSlead     // Arthur Pelton     22-Feb-2013, Patrice Chartrand 22-Nov-2018
+DATA10=FSnobl    // Arthur Pelton     22-Feb-2013 - FSnobl dropped from 7.0
+DATA11=FSstel    // In-Ho Jung        24-Feb-2013, checked again 18-Oct-2016, 10-Dec-2018  15-Dec-2019  17-Jan-2021
+DATA12=FSupsi    // Arthur Pelton     22-Feb-2013
+DATA13=SGnobl    // Arthur Pelton     22-Feb-2013
+DATA14=SGnucl    // Arthur Pelton     22-Feb-2013
+DATA15=SGsold    // Arthur Pelton     22-Feb-2013
+DATA16=SGSL      // Arthur Pelton     22-Feb-2013
+DATA17=SGTE2007  // Arthur Pelton     22-Feb-2013  
+DATA18=SGTE2011  // Arthur Pelton     22-Feb-2013
+DATA19=SGTE2014  // Arthur Pelton     16-Feb-2015
+DATA20=SpMCBN    // Phil Spencer      17-Sep-2014 
+DATA21=TDnucl    // Arthur Pelton     22-Feb-2013
+DATA22=VLAB      // Patrice Chartrand 24-Feb-2013
+DATA23=VLGM      // Patrice Chartrand 24-Feb-2013
+DATA23=CON1      // In-Ho Jung consortium oxide database       18-Feb-2015, 12-Jun-2015
+DATA24=CON2      // In-Ho Jung consortium oxide database        18-Feb-2015, 12-Jun-2015, 1-Aug-2016 18-Oct-2016
+DATA25=STLQ      // In-Ho Jung consortium steel database  28-Feb-2015, 1-Aug-2016
+DATA26=FEFX      // Patrice Chartrand 26-Aug-2017
+DATA27=CON3      // In-Ho Jung consortium oxide database        July 31 2019  
+DATA28=OXSP      // In-Ho Jung consortium oxysulphate database        July 31 2019                                     
+DATA29=SFCA      // In-Ho Jung consortium SFCA database        July 31 2019       
+DATA30=STSC      // In-Ho Jung consortium STSC steel database        July 31 2019
+DATA31=SGTE2017  // In-Ho Jung 30-03-2020 : SGTE2017 the same original SGTE14 except new addition of gas duplicates
+DATA32=SGTE2020   // In-Ho Jung 30-03-2020 : SGTE2020 and the same original SGTE14 except new addition of gas duplicates
+                          
+
+   // DATA23=SGPS      // Testing by Chris -  non-stoichimetric oxides, enter the nominal compostion. 
+
+[FTOxid]
+INFO1=    When FToxid is selected the following species are excluded from FactPS. 
+INFO2=    Several oxides compounds (complex oxides) are solution phases in FToxid database.
+GAS1=  DUPLICATE  // 2016-10-18
+LIQUID1=  DUPLICATE 
+LIQUID2=  Fe3O4 // FeO is still left because many people want to calculate activity of liquid FeO ?
+LIQUID3=  Ca2P2O7 Ca3(PO4)2 CaO6P2 FeO4P Mg3P2O8 // 2015-06-12
+LIQUID4= MgAl2O4 NaBO2 Na2B8O13 Na4B2O5 FeNaO2 KAlO2 K2SiO3 K2Si2O5 K2Si4O9 CaZrO3 // 20161018 FToxid and CON2
+LIQUID5= LiAlO2 Li2SiO3 (Li2O)2(SiO2) Li2Si2O5 // 20161018 FToxid and CON2
+LIQUID6= CuFeO2 (FeO)2(TiO2) (CuO)(Fe2O3) (Cu2O)(Fe2O3) Mn2TiO4 CaTiO3 CaSiTiO5 // 20161018 FToxid and CON2
+LIQUID7= K4TiO4 Na8Ti5O14 Al2TiO5  MgTi2O5 Na2Ti2O5 Li2TiO3 Na4TiO4 // 20161018 FToxid and CON2
+LIQUID8= V2O4                    //  20210117
+SOLID1=   DUPLICATE
+      //  22 => 25 SOLIDS  2015-06-12
+SOLID2=   MgAl2O4 Al6Si2O13 CaOMgOSiO2 Na2Ti2O5 Cr3O4 MgCr2O4 Mn3O4   FeO    Fe3O4    MgFe2O4 
+SOLID3=   FeAl2O4 Fe2O5Ti   FeCr2O4    MnFe2O4  Co3O4 CoCr2O4 CoFe2O4 NiAl2O4 NiCr2O4 NiFe2O4 
+SOLID4=   ZnAl2O4 ZnFe2O4     
+SOLID5=   Na2Ca2Si3O9 (P2O5)2 FeO4P // 2015-06-12
+SOLID6=   Al2SiO5 // 20160731
+SOLID7=   MnAl2O4 KAl9O14 K2Al12O19 KMg3AlSi3O10F2  // 20181210
+SOLID8=   (Li2O)(Al2O3)(SiO2)4  Mn7SiO12   // 20191213
+SOLID9=   V2O4                  //  20210117
+
+[FTlite]
+INFO1=    When FTlite is selected the following species are excluded from FactPS.
+       //  LIQUIDS
+LIQUID1=  DUPLICATE
+LIQUID2=  B4C ZrB2  ZrC ZnP2 Zn3P2 CeAl2
+LIQUID3=  NiAl NiSi CoAl
+LIQUID4=  LiH Na2C2 CaH2         // Patrice Chartrand Nov-2018
+LIQUID5=  TiN ZrN                // Patrice Chartrand 17-02-2021
+       //  SOLIDS
+SOLID1=   DUPLICATE
+SOLID2=   B4C Mg(B6)2 Fe3Si FeAl3 Mn10Si17 BTi CTi
+SOLID3=   SiB3  SiB6  SiB14 TiAl  Cr4C CrSi2 Cr3Si ZrC
+SOLID4=   Ni4Si3 NiAl Ni2Al3 Ni3Al Ni7Si13 NiTi Co2Al5 CoSi
+SOLID5=   YZn4                     // Patrice Chartrand 01-Sep-2014
+SOLID6=   VC V2C V10C8 Ni2H Ni3C   // Patrice Chartrand Nov-2018
+SOLID7=   Fe4N Mn4N Mn5N2          // Patrice Chartrand 17-02-2021
+
+[FTmisc]
+INFO1=    When FTmisc is selected the following species are excluded from FactPS
+INFO2=    essentially, all sulfides are removed
+      //  11 LIQUIDS
+LIQUID1=  Cu2S  FeS  Ni3S2 NiS NiS2  MnS PbS  As2S2  As2S3  As4S4
+LIQUID2=  S
+SOLID1=   DUPLICATE
+SOLID2=   Ni6S5 Cu5FeS4 Pb2S2 CoS Cr3S4 Cr5S6 Cr6S7 CrS As2S2 As2S3 As4S4
+SOLID3=   CuFeS2 CuFe2S3 Cu3FeS4 Cu3FeS8 Cu4Fe5S8 Cu5FeS4 Cu9Fe8S16 Cu9Fe9S16 Cu11Fe2S13  // This should be also added to FTmisc (Cu-Fe-Ni-S)  In-Ho Dec-2018
+
+[FThall]
+INFO1=    When FThall is selected the following species are excluded from FactPS.
+      //   GASES
+GAS1=     DUPLICATE
+      //   LIQUIDS
+LIQUID1=  DUPLICATE
+LIQUID2=  AlF3   NaF   CaF2  MgF2   LiF
+LIQUID3=  Al2O3 Na2O   CaO     MgO    Li2O    LiAlO2 MgAl2O4
+      //   SOLIDS
+SOLID1=   DUPLICATE
+SOLID2=   Li2O2 NaO2  Na2O2 LiAl
+SOLID3=   NaAlO2 MgAl2O4 CaO2 Mg2Ca Al2Ca Al4Ca
+
+[FTfrtz]
+INFO1=    When FTfrtz is selected the following species are excluded from FactPS
+INFO2=    excluded gas species is for metastability reasons
+     //   11 GASES  
+GAS1=     N2 N3 HNNH NO N2O NO2 N2O3 N2O4 HONO ONCl NO2Cl
+LIQUID1=  DUPLICATE
+LIQUID2=  N2O4 N2H4 K2O KOH H2SO4(H2O)6 H2SO4(H2O)4 H2SO4(H2O)3 H2SO4(H2O)2 
+LIQUID3=  H2SO4(H2O) (H2SO4)2(H2O)13
+SOLID1=   DUPLICATE
+SOLID2=   K2O N2O4 N2O5
+
+[FTsalt]
+INFO1=    When FTsalt is selected the following species are excluded from FactPS.  
+GAS1=     DUPLICATE 
+LIQUID1=  DUPLICATE
+LIQUID2=  MgF2     CaF2     AlCl3     K2CO3 // K2CO3 added 12-Feb-2019  
+SOLID1=   DUPLICATE
+SOLID2=   Na3AlCl6  K3AlCl6  K3Al2Cl9   
+
+[FTpulp]
+INFO1=    When FTPulp is selected the following species are excluded from FactPS.
+GAS1=     DUPLICATE
+LIQUID1=  DUPLICATE
+LIQUID2=  NaS2 Na2S2
+SOLID1=   DUPLICATE
+SOLID2=   NaS2 K3Na(SO4)2
+
+[FScopp]
+INFO1=    When FScopp is selected the following species are excluded from FactPS
+INFO2=    remove all LIQUID species except the elements in FScopp 
+LIQUID1=  DUPLICATE
+LIQUID2=  P MnS FeS CoAl NiAl NiS NiS2 Ni3S2 Cu2O Cu2S As2S2 As2S3 As4S4 Ag2S PbO
+LIQUID3=  PbS NiSi ZnS SnS SnS2 ZnSb PbSe PbTe AuSn CaH2 InS InAs InSe GaSb Sb2Se3 CdSb
+LIQUID4=  InSb ZnTe SnTe BaH2 SrH2 Tl2S
+      //  Remove solid duplicates and compounds in systems optimized in FScopp.  Do not remove compounds in systems
+      //      which are in FScopp but which were not optimized
+SOLID1=   DUPLICATE
+SOLID2=   MgNi2 Fe3P Ni3P Pb2S2 Ni3Sn2 Ni3Sn4 NiTi TiAl Mn10Si17 FeAl3 Fe3Si NiAl Ni2Al3 Ni3Al
+SOLID3=   Ni7Si13 Ni6S5 TiC VC Ni3C AuCu AuCu3 Cr4C NbC NbCr2 Mg3Sb2 Cr3S4 Cr5S6 Cr6S7 CrS
+SOLID4=   NbSi2
+
+[FSlead]
+INFO1=    When FSlead is selected the following species are excluded from FactPS
+INFO2=    remove all LIQUID species except the elements in FSlead
+LIQUID1=  DUPLICATE
+LIQUID2=  P CaH2 FeS NiS NiS2 Ni3S2 Cu2O Cu2S ZnS As2S2 As2S3 As2S4 As4S4 GaAs As2Se3
+LIQUID3=  Ag2S InS InAs InSe SnS SnS2 ZnSb GaSb Sb2Se3 CdSb InSb ZnTe SnTe BaH2 AuSn
+LIQUID4=  Tl2S PbS PbSe PbTe
+      //  Remove solid duplicates and compounds in systems optimized in FSlead.  Do not remove compounds in systems
+      //      which are in FSlead but which were not optimized
+SOLID1=   DUPLICATE
+SOLID2=   AsCu8 As2Cu5 As2Zn As2Zn3 Ni3C Ni6S5 AuCu AuCu3
+
+[FSnobl]  // - dropped from 7.0
+// INFO1=    When FSnobl is selected the following species are excluded from FactPS
+// INFO2=    remove all LIQUID species containing only the elements in SGnobl except the elements themselves
+// LIQUID1=  DUPLICATE
+// LIQUID2=  Be2C B4C CoAl NiAl NiSi Mg2Ge ZrB2 ZrC InAs AlSb ZnSb CdSb InSb Al2Te3 ZnTe As2Te3 CdTe InTe In2Te3 SnTe Sb2Te3
+// LIQUID3=  CeAl2 TaB2 TaC AuTe2 Mg2Pb PbTe Bi2Te3 	
+//       //  Remove solid duplicates and compounds in systems optimized in SGnobl.  Do not remove compounds in system
+//       //      which are in SGnobl but which were not optimized 
+// SOLID1=   DUPLICATE
+// SOLID2=   TiAl TiAl3 VC Fe3C Ni7Si13 Cu2Mg CNb MoC Ni3Sn2 Ni3Sn4 Ag3Sb AuCu AuCu3
+
+[FSstel]
+INFO1=    When FSstel is selected the following species are excluded from FactPS. 
+INFO2=    All solid intermetallics already belong to optimized binary system in FSStel but not duplicated because 
+INFO3=    FSStel considered slight different stoichiometric compounds or considered it as solution.
+INFO4=    In-Ho changed it on Feb. 24. (Liquid1, solid1 added; several other solid compounds: 41 -> 48 compounds)
+// GAS1=  DUPLICATE  // FactSage80 version
+LIQUID1=  DUPLICATE
+LIQUID2=  B4C ZrB2  ZrC ZnP2 Zn3P2 CeAl2  // In-Ho Dec-2018 - same as FTlite
+LIQUID3=  NiAl NiSi CoAl //In-Ho Dec-2018 - same as FTlite
+LIQUID4=  S TiN MnS FeS NiS NiS2 Ni3S2 Cu2S ZnS NbN Mo2S3 SnS SnS2 AlSb Sb2S3 ZnSb La TaB2 TaC TaN Ta2N PbS Bi2S3 //In-Ho Dec-2018
+SOLID1=   DUPLICATE
+      //  48 SOLIDS
+SOLID2=   AlC Al3Fe Al11Mn4 NiAl Ni2Al3 Ni3Al TiAl TiAl3 Cr4C HfC Mo2C CNb Nb2C Nb8C7 Ni3C
+SOLID3=   CTi VC V2C V10C8 W2C NbCo2 CrN Cr2N NbCr2 CrSi2 Cr3Si Fe3Mo2 Fe2N Fe4N NbFe2
+SOLID4=   FeP2 Fe7S8 Fe9S10 Fe10S11 Fe11S12 Fe3Si Fe2Ti Fe3W2 Mn5N2 Mn10Si17 Mo2N NbN Nb2N TiN VN 
+SOLID5=   V13N6 Ni7Si13 NiTi 
+SOLID6=   CoAl Ni4B3 Ni6P5 Ni6S5 Ni3Ti Cu2Mg 
+SOLID7=   CuFeS2 CuFe2S3 Cu3FeS4 Cu3FeS8 Cu4Fe5S8 Cu5FeS4 Cu9Fe8S16 Cu9Fe9S16 Cu11Fe2S13  // This should be also added to FTmisc (Cu-Fe-Ni-S)
+SOLID8=   ZrC SiZr Si2Zr SiZr2 Si3Zr5 Mo2B Mo2B5 CeSi2 TaFe2 
+SOLID9=   TiH2 CrS Cr2S3 Cr3S4 Cr5S6 Cr6S7 Mn4N Co3N CuS2 Cu7S4 Cu9S5 ZrH2 NbSi2 Nb5Si3  // FactSage80 version
+SOLID10=  BCr, Ni3Sn, Ni3Sn2 // FactSage81 version 20210117
+
+[FSupsi]
+INFO1=    When FSupsi is selected the following species are excluded from FactPS
+INFO2=    remove all LIQUID species except the elements in FSupsi
+LIQUID1=  ALL X Al Au B C Ca Co Cu Fe Ge In Mg Mn N Ni O P Pb Sb Sn Te Ti V Zn
+      //  remove solid duplicates plus Si and SiO2
+SOLID1=   DUPLICATE
+SOLID2=   Si SiO2
+
+[SGnobl]
+INFO1=    When SGnobl is selected the following species are excluded from FactPS
+INFO2=    remove all LIQUID species containing only the elements in SGnobl except the elements themselves
+LIQUID1=  DUPLICATE
+LIQUID2=  Be2C B4C CoAl NiAl NiSi Mg2Ge ZrB2 ZrC InAs AlSb ZnSb CdSb InSb Al2Te3 ZnTe As2Te3 CdTe InTe In2Te3 SnTe Sb2Te3
+LIQUID3=  CeAl2 TaB2 TaC AuTe2 Mg2Pb PbTe Bi2Te3 	
+      //  Remove solid duplicates and compounds in systems optimized in SGnobl.  Do not remove compounds in systems
+      //  which are in SGnobl but which were not optimized 
+SOLID1=   DUPLICATE
+SOLID2=   TiAl TiAl3 VC Fe3C Ni7Si13 Cu2Mg CNb MoC Ni3Sn2 Ni3Sn4 Ag3Sb AuCu AuCu3
+
+[SGnucl]
+INFO1=    When SGnucl is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGsold]
+INFO1=    When SGsold is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGSL]
+INFO1=    When SGSL is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2007]
+INFO1=    When SGTE2007 is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2011]
+INFO1=    When SGTE2011 is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2014]
+INFO1=    When SGTE2014 is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+GAS1=     DUPLICATE    // In-Ho added this to remove gas duplicates
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2017]
+INFO1=    When SGTE2017 is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+GAS1=     DUPLICATE    // In-Ho added this to remove gas duplicates
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SGTE2020]
+INFO1=    When SGTE2020 is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+GAS1=     DUPLICATE    // In-Ho added this to remove gas duplicates
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[SpMCBN] 
+INFO1=    When SpMCBN is selected the following species are excluded from FactPS: 
+INFO2=    All solid intermetallics belonging to optimized binary systems in SpMCBN but not duplicated because SpMCBN uses slightly different stoichiometries 
+INFO3=    or treats the phase as a solution 
+INFO4=    remove all duplicate liquids
+LIQUID1=  DUPLICATE 
+SOLID1=   DUPLICATE 
+      //  82 SOLIDS 
+SOLID2=   AlB2 Al4C3 Al2Ca Al4Ca Al3C4 Al5Co2 Al9Co2 AlN Al3Ni BCo BCo2 BCr B2Cr                
+SOLID3=   BFe BFe2 B2Hf BMn B2Mn BMo B2Mo B4Mo BMo2 BN B2Nb BNi B2Ta BTi B2Ti BV B2V         
+SOLID4=   B2V3 B3V2 B4V3 B2Zr C3Mn7 CSi CW CaC2 CaMg2 CaSi Ca2Si CaSi2 Co3Nb Co3W       
+SOLID5=   Cr3C2 Cr7C3 Cr23C6 Cr5Si3 Fe2Nb FeSi FeSi2 Fe2Ta FeTi Mg2Si Mn4N MnSi Mn3Si 
+SOLID6=   Mn5Si3 MoC MoSi2 Mo3Si Mo5Si3 N4Si3 NTa NbSi2 Nb5Si3 NiSi Ni2Si Ni4W  
+SOLID7=   Si2Ta SiTa2 Si3Ta5 SiTi Si2Ti Si2V Si3V5 Si2W Si3W5 SiZr Si2Zr Si3Zr5 SiZr2  
+
+[TDnucl]
+INFO1=    When TDnucl is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+
+[VLAB]
+INFO1=    When VLAB is selected the following species are excluded from FactPS.
+       //   GASES
+GAS1=     DUPLICATE
+       //   LIQUIDS
+LIQUID1=  DUPLICATE
+LIQUID2=  AlF3   NaF   CaF2  MgF2   LiF   Na2S NaS2 Na2S2
+LIQUID3=  Al2O3 Na2O   CaO     MgO    Li2O    LiAlO2 MgAl2O4
+LIQUID4=  B4C ZrB2  ZrC ZnP2 Zn3P2 CeAl2
+LIQUID5=  NiAl NiSi CoAl
+       //   SOLIDS
+SOLID1=   DUPLICATE
+SOLID2=   Li2O2 NaO2  Na2O2 LiAl
+SOLID3=   NaAlO2 MgAl2O4 CaO2 Mg2Ca Al2Ca Al4Ca
+SOLID4=   B4C Mg(B6)2 Fe3Si FeAl3 Mn10Si17 BTi CTi
+SOLID5=   SiB3  SiB6  SiB14 TiAl  Cr4C CrSi2 Cr3Si ZrC
+SOLID6=   Ni4Si3 NiAl Ni2Al3 Ni3Al Ni7Si13 NiTi Co2Al5 CoSi
+
+[VLGM]
+INFO1=    When VLGM is selected the following species are excluded from FactPS.
+       //  LIQUIDS
+LIQUID1=  DUPLICATE
+LIQUID2=  B4C ZrB2  ZrC ZnP2 Zn3P2
+LIQUID3=  NiAl NiSi CoAl
+       //  SOLIDS
+SOLID1=   DUPLICATE
+SOLID2=   B4C Mg(B6)2 Fe3Si FeAl3 Mn10Si17 BTi CTi
+SOLID3=   SiB3  SiB6  SiB14 TiAl  Cr4C CrSi2 Cr3Si ZrC
+SOLID4=   Ni4Si3 NiAl Ni2Al3 Ni3Al Ni7Si13 NiTi Co2Al5 CoSi
+
+
+[CON1]
+INFO1=    When CON1 is selected the following species are excluded from FactPS. 
+INFO2=    Several oxides compounds (complex oxides) are solution phases in CON1 database.
+INFO3=    The description is the same as FTOxid
+LIQUID1=  DUPLICATE 
+LIQUID2=  Fe3O4 // FeO ?
+LIQUID3= Ca2P2O7 Ca3(PO4)2 CaO6P2 FeO4P Mg3P2O8 // 20150612
+SOLID1=   DUPLICATE
+      //  25 SOLIDS
+SOLID2=   MgAl2O4 Al6Si2O13 CaOMgOSiO2 Na2Ti2O5 Cr3O4 MgCr2O4 Mn3O4   FeO    Fe3O4    MgFe2O4 
+SOLID3=   FeAl2O4 Fe2O5Ti   FeCr2O4    MnFe2O4  Co3O4 CoCr2O4 CoFe2O4 NiAl2O4 NiCr2O4 NiFe2O4 
+SOLID4=   ZnAl2O4 ZnFe2O4     
+SOLID5=   Na2Ca2Si3O9 (P2O5)2 FeO4P // 20150612
+SOLID6=   Al2SiO5 (Li2O)(Al2O3)(SiO2)2 (Li2O)(Al2O3)(SiO2)4 // 20160731
+SOLID7=   Mg4Al10Si2O23 // Mg4Al10Si2O23 sapphirine formula was changed 20160731
+
+[CON2]
+INFO1=    When CON2 is selected the following species are excluded from FactPS. updated in 20161019 -- this should be updated next progress report
+INFO2=    Several oxides compounds (complex oxides) are solution phases in CON2 database.
+INFO3=    The description is the same as FTOxid
+GAS1=  DUPLICATE 
+LIQUID1=  DUPLICATE 
+LIQUID2=  Fe3O4 // FeO is left becaue many people want to calculate activity of liquid FeO 
+LIQUID3= Ca2P2O7 Ca3(PO4)2 CaO6P2 FeO4P Mg3P2O8 // 20150612
+LIQUID4= MgAl2O4 NaBO2 Na2B8O13 Na4B2O5 FeNaO2 KAlO2 K2SiO3 K2Si2O5 K2Si4O9 CaZrO3 // 20161018 FToxid and CON2
+LIQUID5= LiAlO2 Li2SiO3 (Li2O)2(SiO2) Li2Si2O5 // 20161018 FToxid and CON2
+LIQUID6= CuFeO2 (FeO)2(TiO2) (CuO)(Fe2O3) (Cu2O)(Fe2O3) Mn2TiO4 CaTiO3 CaSiTiO5 // 20161018 FToxid and CON2
+LIQUID7= K4TiO4 Na8Ti5O14 Al2TiO5  MgTi2O5 Na2Ti2O5 Li2TiO3 Na4TiO4 // 20161018 FToxid and CON2
+SOLID1=   DUPLICATE
+      //  25 SOLIDS
+SOLID2=   MgAl2O4 Al6Si2O13 CaOMgOSiO2 Na2Ti2O5 Cr3O4 MgCr2O4 Mn3O4   FeO    Fe3O4    MgFe2O4 
+SOLID3=   FeAl2O4 Fe2O5Ti   FeCr2O4    MnFe2O4  Co3O4 CoCr2O4 CoFe2O4 NiAl2O4 NiCr2O4 NiFe2O4 
+SOLID4=   ZnAl2O4 ZnFe2O4     
+SOLID5=   Na2Ca2Si3O9 (P2O5)2 FeO4P MnAl2O4 // 20150612
+SOLID6=   Al2SiO5 (Li2O)(Al2O3)(SiO2)2 (Li2O)(Al2O3)(SiO2)4 // 20160731
+SOLID7=   Mg4Al10Si2O23 // Mg4Al10Si2O23 sapphirine formula was changed 20160731
+SOLID8=   KAl9O14 K2Al12O19 KMg3AlSi3O10F2  // 20181210
+SOLID9=   (Li2O)(Al2O3)(SiO2)4  Mn7SiO12   // 20191213
+
+[CON3]
+INFO1=    When CON3 is selected the following species are excluded from FactPS. updated on 20190731
+INFO2=    Several oxides compounds (complex oxides) are solution phases in CON2 database.
+INFO3=    The description is the same as FTOxid
+GAS1=  DUPLICATE 
+LIQUID1=  DUPLICATE 
+LIQUID2=  Fe3O4 // FeO is left becaue many people want to calculate activity of liquid FeO 
+LIQUID3= Ca2P2O7 Ca3(PO4)2 CaO6P2 FeO4P Mg3P2O8 // 20150612
+LIQUID4= MgAl2O4 NaBO2 Na2B8O13 Na4B2O5 FeNaO2 KAlO2 K2SiO3 K2Si2O5 K2Si4O9 CaZrO3 // 20161018 FToxid and CON2
+LIQUID5= LiAlO2 Li2SiO3 (Li2O)2(SiO2) Li2Si2O5 // 20161018 FToxid and CON2
+LIQUID6= CuFeO2 (FeO)2(TiO2) (CuO)(Fe2O3) (Cu2O)(Fe2O3) Mn2TiO4 CaTiO3 CaSiTiO5 // 20161018 FToxid and CON2
+LIQUID7= K4TiO4 Na8Ti5O14 Al2TiO5  MgTi2O5 Na2Ti2O5 Li2TiO3 Na4TiO4 // 20161018 FToxid and CON2
+LIQUID8= V2O4                    //  20210117
+SOLID1=   DUPLICATE
+      //  25 SOLIDS
+SOLID2=   MgAl2O4 Al6Si2O13 CaOMgOSiO2 Na2Ti2O5 Cr3O4 MgCr2O4 Mn3O4   FeO    Fe3O4    MgFe2O4 
+SOLID3=   FeAl2O4 Fe2O5Ti   FeCr2O4    MnFe2O4  Co3O4 CoCr2O4 CoFe2O4 NiAl2O4 NiCr2O4 NiFe2O4 
+SOLID4=   ZnAl2O4 ZnFe2O4     
+SOLID5=   Na2Ca2Si3O9 (P2O5)2 FeO4P MnAl2O4 // 20150612
+SOLID6=   Al2SiO5 (Li2O)(Al2O3)(SiO2)2 (Li2O)(Al2O3)(SiO2)4 // 20160731
+SOLID7=   Mg4Al10Si2O23 // Mg4Al10Si2O23 sapphirine formula was changed 20160731
+SOLID8=   KAl9O14 K2Al12O19 KMg3AlSi3O10F2  // 20181210
+SOLID9=   Cr(CrO4) MgCrO4                  //  20190731
+SOLID10=  V2O4                  //  20190731
+SOLID11=   (Li2O)(Al2O3)(SiO2)4  Mn7SiO12   // 20191213
+
+[OXSP]
+INFO1=    When OXSP is selected the following species are excluded from FactPS. updated on 20190731
+INFO3=    The description is the same as FTOxid
+GAS1=  DUPLICATE 
+LIQUID1=  DUPLICATE 
+SOLID1=   DUPLICATE
+
+[SFCA]
+INFO1=    When SFCA is selected the following species are excluded from FactPS. updated on 20190731
+INFO3=    The description is the same as FTOxid
+GAS1=  DUPLICATE 
+LIQUID1=  DUPLICATE 
+SOLID1=   DUPLICATE
+
+[STLQ]
+INFO1=    When STLQ is selected the following species are excluded from FactPS
+INFO2=    remove all duplicate liquids and solids
+LIQUID1=  DUPLICATE
+SOLID1=   DUPLICATE
+SOLID2=   N4Si3 Mn4N Mn5N2 Mn4N2 Mn10Si17 Fe3C Fe2N Fe4N FeAl3 FeSi Fe3Si // 20160731
+
+
+[STSC]
+INFO1=    When STSC is selected the following species are excluded from FactPS. Same as FSStel 
+INFO2=    All solid intermetallics already belong to optimized binary system in FSStel but not duplicated because 
+INFO3=    FSStel considered slight different stoichiometric compounds or considered it as solution.
+INFO4=    In-Ho changed it on Feb. 24. (Liquid1, solid1 added; several other solid compounds: 41 -> 48 compounds)
+// GAS1=  DUPLICATE 
+LIQUID1=  DUPLICATE
+LIQUID2=  B4C ZrB2  ZrC ZnP2 Zn3P2 CeAl2  // In-Ho Dec-2018 - same as FTlite
+LIQUID3=  NiAl NiSi CoAl //In-Ho Dec-2018 - same as FTlite
+LIQUID4=  S TiN MnS FeS NiS NiS2 Ni3S2 Cu2S ZnS NbN Mo2S3 SnS SnS2 AlSb Sb2S3 ZnSb La TaB2 TaC TaN Ta2N PbS Bi2S3 //In-Ho Dec-2018
+SOLID1=   DUPLICATE
+      //  48 SOLIDS
+SOLID2=   AlC Al3Fe Al11Mn4 NiAl Ni2Al3 Ni3Al TiAl TiAl3 Cr4C HfC Mo2C CNb Nb2C Nb8C7 Ni3C
+SOLID3=   CTi VC V2C V10C8 W2C NbCo2 CrN Cr2N NbCr2 CrSi2 Cr3Si Fe3Mo2 Fe2N Fe4N NbFe2
+SOLID4=   FeP2 Fe7S8 Fe9S10 Fe10S11 Fe11S12 Fe3Si Fe2Ti Fe3W2 Mn5N2 Mn10Si17 Mo2N NbN Nb2N TiN VN 
+SOLID5=   V13N6 Ni7Si13 NiTi 
+SOLID6=   CoAl Ni4B3 Ni6P5 Ni6S5 Ni3Ti Cu2Mg 
+SOLID7=   CuFeS2 CuFe2S3 Cu3FeS4 Cu3FeS8 Cu4Fe5S8 Cu5FeS4 Cu9Fe8S16 Cu9Fe9S16 Cu11Fe2S13  // This should be also added to FTmisc (Cu-Fe-Ni-S)
+SOLID8=   ZrC SiZr Si2Zr SiZr2 Si3Zr5 Mo2B Mo2B5 CeSi2 TaFe2
+SOLID9=   TiH2 CrS Cr2S3 Cr3S4 Cr5S6 Cr6S7 Mn4N Co3N CuS2 Cu7S4 Cu9S5 ZrH2 NbSi2 Nb5Si3
+
+[FEFX]
+INFO1=    When FEFX is selected the following species are excluded from FactPS.
+       //   GASES
+GAS1=     DUPLICATE
+       //   LIQUIDS
+LIQUID1=  DUPLICATE
+LIQUID2=  AlF3   NaF   CaF2  FeO  Fe3O4  CuFeO2 (CuO)(Fe2O3)  (Cu2O)(Fe2O3)
+LIQUID3=  Al2O3 Na2O   CaO   MgO  FeNaO2 NiAl
+       //   SOLIDS
+SOLID1=   DUPLICATE
+SOLID2=   NaO2  Na2O2
+SOLID3=   NaAlO2 CaO2
+SOLID4=   FeAl3  FeO Fe3O4  Na5FeO4  NaFe2O3  FeAl2O4
+SOLID5=   NiAl Al3Ni Ni2Al3 Ni3Al (NiO)(Al2O3) (NiO)(Fe2O3)
+SOLID6=   Cu2Al2O4  (CuO)(Fe2O3)  (Cu2O)(Fe2O3) Al2O3(H2O) Al2O3(H2O)3
+
+//  [SGPS]
+//  INFO1=    When SGPS is selected the following species are excluded from FactPS.
+//  Testing non-stoichimetric oxides - enter the nominal compostion. 
+//  LIQUID1=   FeO
+//  SOLID1=    FeO
+===============================

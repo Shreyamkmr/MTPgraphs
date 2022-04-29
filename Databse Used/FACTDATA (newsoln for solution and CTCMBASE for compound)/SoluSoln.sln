@@ -1,0 +1,111 @@
+Base Solu Solu
+Date Created: 2014/05/13 Modified: 2014/05/13
+Vers 7.00
+Desc Solusoln sample database employed in the Solution manual (slide show)
+SolB Coru 1 1 Polynomial
+Stat Solid 0
+Date Created: 2014/05/14 Modified: 2014/05/14
+Name Binary 
+Desc Binary Al2O3-Fe2O3 corundum solution
+SubL A 2
+Spec A0 1 Al[3+] 
+Spec A1 1 Fe[3+] 
+EndM 0 A0 Al2O3
+Part 2
+Zeds 1
+Amnt 2
+Name Al2O3
+CpXp Al2O3#corundum_alpha_
+EndM 0 A1 Fe2O3
+Part 2
+Zeds 1
+Amnt 2
+Name Fe2O3
+CpXp Fe2O3#hematite
+Exss BGP A0A1 
+Powr 1 1
+GXss 9464.2 +13.376*T
+Exss BGP A0A1 
+Powr 2 1
+GXss 3970.6
+SolE Coru ------------------------------------------------------------
+SolB LiqM 1 1 Polynomial
+Stat Liquid 0
+Date Created: 2014/05/13 Modified: 2014/05/13
+Name Liquid
+Desc Liquid alloy
+SubL A 4
+Spec A0 1 Silver Ag
+Spec A1 1 Copper Cu
+Spec A2 1 Gold Au
+Spec A3 2 Germanium Ge
+EndM 0 A0 Ag
+Zeds 1
+Amnt 1
+Name Silver
+CpXp Ag#liquid
+EndM 0 A1 Cu
+Zeds 1
+Amnt 1
+Name Copper
+CpXp Cu#liquid
+EndM 0 A2 Au
+Zeds 1
+Amnt 1
+Name Gold
+CpXp Au#liquid
+EndM 0 A3 Ge
+Zeds 2
+Amnt 1
+Name Germanium
+CpXp Ge#liquid
+Tern A0A1A3 1 2 3
+Exss BGR A0A1 
+Powr 0
+GXss 17384.4 -4.4643*T
+Exss BGR A0A1 
+Powr 1
+GXss 1660.8 -2.3151*T
+Exss BGR A0A1 
+Powr 0
+GXss 
+Exss BGP A0A1A2 
+Powr 1 2 1
+GXss 3000
+Exss BGR A0A2 
+Powr 0
+GXss -16401.9 +1.14*T
+Exss BGR A0A3 
+Powr 0
+GXss 8708.4 -7.2285*T
+Exss BGR A0A3 
+Powr 1
+GXss -14467.8 +5.1054*T
+Exss BGR A0A3 
+Powr 2
+GXss -7955.4 +2.8752*T
+Exss BGR A1A2 
+Powr 0
+GXss -27900 -1*T
+Exss BGR A1A2 
+Powr 1
+GXss -4730.1
+Exss BGR A1A2 
+Powr 2
+GXss 3500 +3.5*T
+Exss BGR A1A3 
+Powr 0
+GXss -43932
+Exss BGR A2A3 
+Powr 0
+GXss -18059.7 -13.0854*T
+Exss BGR A2A3 
+Powr 1
+GXss -6131.4 -9.102*T
+Exss BGR A2A3 
+Powr 2
+GXss -4733.7 -3.2592*T
+Exss BGR A2A3 
+Powr 3
+GXss -8120.4 -5.8254*T
+SolE LiqM ------------------------------------------------------------

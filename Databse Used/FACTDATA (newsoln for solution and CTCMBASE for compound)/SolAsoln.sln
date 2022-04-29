@@ -1,0 +1,119 @@
+Base SolA SolA
+Date Created: 2014/05/15 Modified: 2014/05/15
+Vers 7.00
+Desc SolAsoln sample database employed in the Solution manual (slide show)
+SolB AL13 12 3 Compound Energy Formalism
+SlNo 42
+Stat Solid 0
+Date Created: 2014/05/15 Modified: 2014/05/15
+Name Al13Fe4
+Desc Al13Fe4
+Desc Al-Fe binary phase which dissolves Mn, Si and Zn
+SubL A 2
+Site 32
+Spec A0 1 Al Al
+SpId A0 1
+Spec A1 1 Zn Zn
+SpId A1 2
+SubL B 2
+Site 12
+Spec B0 1 Fe Fe
+SpId B0 3
+Spec B1 1 Mn Mn
+SpId B1 4
+SubL C 3
+Site 7
+Spec C0 1 Al Al
+SpId C0 5
+Spec C1 1 Si Si
+SpId C1 6
+Spec C2 1 Va Va
+SpId C2 7
+EndM 3 A0B0C0 Fe12Al39
+EMId 1 6
+Amnt 32 12 7
+Name Al32Fe12Al7
+CpXp Fe12Al39#AL13_0000
+; l32Fe12Al7
+EndM 0 A0B1C0 Mn12Al39
+EMId 2 6
+Amnt 32 12 7
+Name Al32Mn12Al7
+CpXp Mn12Al39#AL13_0001
+; l32Mn12Al7
+EndM 0 A0B0C1 Fe12Si7Al32
+EMId 3 7
+Amnt 32 12 7
+Name Al32Fe12Si7
+CpXp Fe12Si7Al32#AL13_0002
+; l32Fe12Si7
+EndM 0 A0B1C1 Mn12Si7Al32
+EMId 4 2
+Amnt 32 12 7
+Name Al32Mn12Si7
+CpXp Mn12Si7Al32#AL13_0003
+; l32Mn12Si7
+EndM 3 A0B0C2 Fe24Al64
+EMId 5 6
+Part 2
+Amnt 64 24 14
+Name Al32Fe12Va7
+CpXp Fe12Al32#AL13_0004
+; l32Fe12Va7
+EndM 0 A0B1C2 Mn12Al32
+EMId 6 6
+Amnt 32 12 7
+Name Al32Mn12Va7
+CpXp Mn12Al32#AL13_0005
+; l32Mn12Va7
+EndM 0 A1B0C0 Zn32Fe12Al7
+EMId 7 5
+Amnt 32 12 7
+Name Zn32Fe12Al7
+CpXp Zn32Fe12Al7#AL13_0006
+; n32Fe12Al7
+EndM 0 A1B1C0 Zn32Mn12Al7
+EMId 8 2
+Amnt 32 12 7
+Name Zn32Mn12Al7
+CpXp Zn32Mn12Al7#AL13_0007
+; n32Mn12Al7
+EndM 0 A1B0C1 Zn32Fe12Si7
+EMId 9 2
+Amnt 32 12 7
+Name Zn32Fe12Si7
+CpXp Zn32Fe12Si7#AL13_0008
+; n32Fe12Si7
+EndM 0 A1B1C1 Zn32Mn12Si7
+EMId 10 2
+Amnt 32 12 7
+Name Zn32Mn12Si7
+CpXp Zn32Mn12Si7#AL13_0009
+; n32Mn12Si7
+EndM 0 A1B0C2 Zn32Fe12
+EMId 11 3
+Amnt 32 12 7
+Name Zn32Fe12Va7
+CpXp Zn32Fe12#AL13_0010
+; n32Fe12Va7
+EndM 0 A1B1C2 Zn32Mn12
+EMId 12 2
+Amnt 32 12 7
+Name Zn32Mn12Va7
+CpXp Zn32Mn12#AL13_0011
+; n32Mn12Va7
+Exss BGH A0B0C0C1C2 C0
+GXss 100
+Exss BGK A0B0B1C0 
+Powr 0
+GXss -611337.0012 +305.99999892*T
+Exss BGK A0B0B1C2 
+Powr 0
+GXss -611337.0012 +305.99999892*T
+Exss BGK A0A1B0B1C0 
+Powr 1
+GXss 100
+Exss BGK A0A1B0B1C0 
+Powr 2
+GXss 200
+SolE AL13 ------------------------------------------------------------

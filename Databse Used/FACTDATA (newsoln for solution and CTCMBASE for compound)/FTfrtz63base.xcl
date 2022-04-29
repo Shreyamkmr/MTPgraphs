@@ -1,0 +1,22 @@
+  
+FTfrtzbase.xcl   15-Feb-2013
+----------------
+   
+[NOTES]
+INFO1=   FTfrtzbase.xcl lists restrictions on the FTfrtz compound database.
+INFO2=   For more information consult the text file FS64_info.xcl
+
+
+[DATA]
+DATA1=FactPS     //  Patrice Chartrand 15-Feb-2013 
+
+[FactPS]
+INFO1=    When FactPS is selected the following species are excluded from FTfrtz. 
+INFO2=    excluded gas species is for metastability reasons
+GAS1=     N2 N3 HNNH NO N2O NO2 N2O3 N2O4 HONO ONCl NO2Cl
+LIQUID1=  DUPLICATE
+LIQUID2=  N2O4 N2H4 K2O KOH H2SO4(H2O)6 H2SO4(H2O)4 H2SO4(H2O)3 H2SO4(H2O)2 
+LIQUID3=  H2SO4(H2O) (H2SO4)2(H2O)13
+SOLID1=   DUPLICATE
+SOLID2=   K2O N2O4 N2O5
+  

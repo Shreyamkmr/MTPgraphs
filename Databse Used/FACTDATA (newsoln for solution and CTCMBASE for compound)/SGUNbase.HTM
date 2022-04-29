@@ -1,0 +1,3569 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<title>SGTE Unary database</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Document Map Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.DocumentMapChar
+	{mso-style-name:"Document Map Char";
+	mso-style-link:"Document Map";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-size:10.0pt;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 56.7pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=blue>
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="100%"
+ style='width:100.0%;background:#DDDDDD'>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+  <h2 align=center style='text-align:center'><span style='font-family:"Arial","sans-serif"'>SGTE
+  Unary database </span></h2>
+  </td>
+ </tr>
+</table>
+
+<div class=MsoNormal align=center style='text-align:center'><span lang=DE
+style='font-family:"Arial","sans-serif"'>
+
+<hr size=3 width="100%" noshade style='color:#ACA899' align=center>
+
+</span></div>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-GB
+style='font-family:"Arial","sans-serif"'>The SGTE Unary database - reference
+data for the thermodynamic properties of the elements </span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span lang=DE
+style='font-family:"Arial","sans-serif"'>
+
+<hr size=3 width="100%" noshade style='color:#ACA899' align=center>
+
+</span></div>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>The development
+and use of databanks for the calculation of complex multi-component phase
+equilibria has made it necessary to adopt standards for the critical assessment
+of data. The basis for the whole process is the definition of reference data
+for the thermodynamic properties of the elements (and other key components) in
+various phases in which they may occur or dissolve. </span></p>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>Through the years
+SGTE has determined and compiled such data in the form of Gibbs energies of the
+elements in various crystaline states and in the liquid state. This compilation
+has been used as the basis for very many assessments of binary and higher order
+alloy systems, initially by members of SGTE, meanwhile by many other scientists
+from the field. These subsystems can, thanks to the use of the same data for
+the component elements, be combined into higher order systems and thus make it
+possible to investigate real world alloys. </span></p>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>It is SGTEs
+general policy to make the data for the elements freely available to the
+scientific community. Please make appropriate use of them. In case you want to
+set up a new database for an alloy system you can extract the necessary phase
+component data from SGUNBase while you assemble the basic solution phases such
+as Liquid, FCC_A1, BCC_A2 etc. </span></p>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>There is however
+one other case of use of the SGUNBase: When ChemSage *.DAT files have been
+converted into FactSage compatible databases it may so happen that not all
+elementary components of the chemical system contained in the *.DAT file are
+treated as Pure Substances, i.e. pure stoichiometric solids, liquids or gases.
+For example in the Cr-Ni system there are only components of the three
+solutions Liquid, FCC_A1 and BCC_A2. </span></p>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>Thus the required
+entries for pure solid Cr and Ni which FactSage searches for when chemical
+inputs are defined, e.g. in the Reactants Screen of Equilib, will not be found
+and an error message will occur. This problem, and thus the error message, is
+avoided if one selects not only the converted ChemSage database files but also
+the SGUNBase for search of the elements and phases. </span></p>
+
+<p><b><span lang=EN-GB style='font-family:"Arial","sans-serif"'>A final note:</span></b><span
+lang=EN-GB style='font-family:"Arial","sans-serif"'> If you come across missing
+data or if you encounter data problems in the SGUNBase, please do not hesitate
+to contact us. </span></p>
+
+<p><span lang=EN-GB style='font-family:"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><b><span lang=EN-GB
+style='font-family:"Arial","sans-serif";color:red'>List of elements and phases</span></b></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=EN-GB style='font-family:
+"Arial","sans-serif"'>Elementary Components (alphabetical order):</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=382
+ style='width:286.25pt;margin-left:-1.0pt;border-collapse:collapse'>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  1: Ag </span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  2: Al </span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  3: Am</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  4: As</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  5: Au</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  6: B</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  7: Ba</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  8: Be</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  9: Bi</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>10:
+  C</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>11:
+  Ca</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>12:
+  Cd</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>13:
+  Ce</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>14:
+  Co</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>15:
+  Cr</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>16:
+  Cs</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>17:
+  Cu</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>18:
+  Dy</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>19:
+  Er</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>20:
+  Eu</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>21:
+  Fe</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>22:
+  Ga</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>23:
+  Gd</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>24:
+  Ge</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>25:
+  Hf</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>26:
+  Hg</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>27:
+  Ho</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>28:
+  In</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>29:
+  Ir</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>30:
+  K</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>31:
+  La</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>32:
+  Li</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>33:
+  Lu</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>34:
+  Mg</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>35:
+  Mn</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>36:
+  Mo</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>37:
+  N</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>38:
+  Na</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>39:
+  Nb</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>40:
+  Nd</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>41:
+  Ni</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>42:
+  Np</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>43:
+  O</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>44:
+  Os</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>45:
+  P</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>46:
+  Pa</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>47:
+  Pb</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>48:
+  Pd</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>49:
+  Pr</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>50:
+  Pt</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>51:
+  Pu</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>52:
+  Rb</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>53:
+  Re</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>54:
+  Rh</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>55:
+  Ru</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>56:
+  S</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>57:
+  Sb</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>58:
+  Sc</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>59:
+  Se</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>60:
+  Si</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>61:
+  Sm</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>62:
+  Sn</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>63:
+  Sr</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>64:
+  Ta</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>65:
+  Tb</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>66:
+  Tc</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>67:
+  Te</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>68:
+  Th</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>69:
+  Ti</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>70:
+  Tl</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>71:
+  Tm</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>72:
+  U</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>73:
+  V</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>74:
+  W</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>75:
+  Y</span></p>
+  </td>
+  <td width=62 nowrap style='width:46.25pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>76:
+  Yb</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>77:
+  Zn</span></p>
+  </td>
+  <td width=64 nowrap style='width:48.0pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>78:
+  Zr</span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PL style='font-family:
+"Arial","sans-serif"'>&nbsp;</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PL style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PL style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span><span lang=PT-BR style='font-family:
+"Arial","sans-serif";color:red'>Mixture Phases:</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PT-BR style='font-family:
+"Arial","sans-serif"'>&nbsp;&nbsp; 1:
+gas_ideal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PT-BR style='font-family:
+"Arial","sans-serif"'>&nbsp; Constituents:</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PT-BR style='font-family:
+"Arial","sans-serif"'>&nbsp;&nbsp; 1:
+N2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2:
+O2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PT-BR style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=PT-BR style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span><span lang=EN-GB style='font-family:
+"Arial","sans-serif";color:red'>Stoichiometric Condensed Phases (ordered by
+atomic mass):</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=EN-GB style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=EN-GB style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span><span lang=FR style='font-family:
+"Arial","sans-serif";color:red'>Liquids:</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=562
+ style='width:421.65pt;border-collapse:collapse'>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  1: Li(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  2: Be(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  3: B(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  4: C(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  5: N(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  6: O(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  7: Na(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  8: Mg(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  9: Al(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>10:
+  Si(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>11:
+  P(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>12:
+  S(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>13:
+  K(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>14:
+  Ca(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>15:
+  Sc(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>16:
+  Ti(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>17:
+  V(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>18:
+  Cr(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>19:
+  Mn(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>20:
+  Fe(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>21:
+  Co(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>22:
+  Ni(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>23:
+  Cu(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>24:
+  Zn(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>25:
+  Ga(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>26:Ge(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>27:
+  As(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>28:
+  Se(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>29:
+  Rb(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>30:
+  Sr(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>31:
+  Y(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>32:
+  Zr(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>33:
+  Nb(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>34:
+  Mo(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>35:
+  Tc(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>36:
+  Ru(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>37:
+  Rh(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>38:
+  Pd(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>39:
+  Ag(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>40:
+  Cd(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>41:
+  In(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>42:
+  Sn(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>43:
+  Sb(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>44:
+  Te(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>45:
+  Cs(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>46:
+  Ba(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>47:
+  La(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>48:
+  Ce(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>49:
+  Pr(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>50:
+  d(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>51:
+  Sm(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>52:
+  Eu(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>53:
+  d(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>54:
+  Tb(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>55:
+  Dy(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>56:
+  o(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>57:
+  Er(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>58:
+  Tm(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>59:
+  Yb(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>60:
+  Lu(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>61:
+  Hf(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>62:
+  Ta(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>63:
+  W(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>64:
+  Re(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>65:
+  Os(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>66:
+  Ir(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>67:
+  Pt(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>68:
+  Au(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>69:
+  Hg(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>70:
+  Tl(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>71:
+  Pb(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>72:
+  Bi(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>73:
+  Th(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>74:
+  Pa(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>75:
+  U(liquid)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=222 nowrap valign=bottom style='width:166.55pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>76:
+  Np(liquid)</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>77:
+  Pu(liquid)</span></p>
+  </td>
+  <td width=132 nowrap valign=bottom style='width:99.2pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>78:Am(liquid)</span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=FR style='font-family:
+"Arial","sans-serif";color:red'>&nbsp; </span></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=FR style='font-family:
+"Arial","sans-serif";color:red'>&nbsp; </span><span lang=EN-GB
+style='font-family:"Arial","sans-serif";color:red'>Solids:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=653
+ style='width:490.05pt;margin-left:-1.0pt;border-collapse:collapse'>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  79: Li_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  80: Li_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  81: Li_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  82: Be_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  83: Be_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  84: Be_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  85: B_beta_rhombo_b</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  86: B_diamond_a4</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  87: B_graphite</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  88: B_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  89: B_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  90: B_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  91: C_graphite</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  92: C_diamond_a4</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  93: O_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  94: O_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  95: Na_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  96: Na_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  97: Na_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  98: Mg_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>&nbsp;
+  99: Mg_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>100:
+  Mg_cbcc_a12</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>101:
+  Mg_cub_a13</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>102:
+  Mg_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>103:
+  Mg_hcp_zn</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>104:
+  Al_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>105:
+  Al_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>106:
+  Al_diamond_a4</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>107:
+  Al_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>108:
+  Al_cbcc_a12</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>109:
+  Al_cub_a13</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>110:
+  Al_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>111:
+  Al_hcp_zn</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>112:
+  Si_diamond_a4</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>113:
+  Si_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>114:
+  Si_cbcc_a12</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>115:
+  Si_cub_a13</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>116:
+  Si_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>117:
+  Si_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>118:
+  Si_hcp_zn</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>119:
+  P_white_p</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>120:
+  P_red_p</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>121:
+  P_rhombohedral_a7</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>122:
+  P_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>123:
+  P_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>124:
+  S_orthorhombic</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>125:
+  S_monoclinic</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>126:
+  S_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>127:
+  S_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>128:
+  K_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>129:
+  K_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>130:
+  K_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>131:
+  Ca_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>132:
+  Ca_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>133:
+  Ca_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>134:
+  Sc_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>135:
+  Sc_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>136:
+  Sc_dhcp</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>137:
+  Sc_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>138:
+  Ti_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>139:
+  Ti_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>140:
+  Ti_bct_a5</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>141:
+  Ti_diamond_a4</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>142:
+  Ti_cbcc_a12</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>143:
+  Ti_cub_a13</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>144:
+  Ti_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>145:
+  V_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>146:
+  V_cbcc_a12</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>147:
+  V_cub_a13</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>148:
+  V_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>149:
+  V_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>150:
+  Cr_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>151:
+  Cr_cbcc_a12</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>152:
+  Cr_cub_a13</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>153:
+  Cr_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>154:
+  Cr_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>155:
+  Cr_hcp_zn</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>156:
+  Mn_cbcc_a12</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>157:
+  Mn_cub_a13</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>158:
+  Mn_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>159:
+  Mn_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>160:
+  Mn_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>161:
+  Fe_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>162:
+  Fe_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>163:
+  Fe_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>164:
+  Fe_cbcc_a12</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>165:
+  Fe_cub_a13</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>166:
+  Fe_orthorhombic_a20</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>167:
+  Fe_tetragonal_u</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>168:
+  Co_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>169:
+  Co_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>170:
+  Co_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>171:
+  Co_cbcc_a12</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>172:
+  Co_cub_a13</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>173:
+  Ni_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>174:
+  Ni_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>175:
+  Ni_cbcc_a12</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>176:
+  Ni_cub_a13</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>177:
+  Ni_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>178:
+  Cu_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>179:
+  Cu_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>180:
+  Cu_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>181:
+  Cu_hcp_zn</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>182:
+  Zn_hcp_zn</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>183:
+  Zn_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>184:
+  Zn_diamond_a4</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>185:
+  Zn_rhombohedral_a7</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>186:
+  Zn_tetragonal_a6</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>187:
+  Zn_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>188:
+  Zn_cbcc_a12</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>189:
+  Zn_cub_a13</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>190:
+  Zn_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>191:
+  Zn_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>192:
+  Ga_orthorhombic</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>193:
+  Ga_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>194:
+  Ga_tetragonal_a6</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>195:
+  Ga_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>196:
+  Ga_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>197:
+  Ga_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>198:
+  Ge_diamond_a4</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>199:
+  Ge_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>200:
+  Ge_rhombohedral_a7</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>201:
+  Ge_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>202:
+  Ge_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>203:
+  Ge_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>204:
+  As_rhombohedral_a7</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>205:
+  As_red_p</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>206:
+  As_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>207:
+  As_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>208:
+  As_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>209:
+  Se_hexagonal_a8</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>210:
+  Rb_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>211:
+  Rb_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>212:
+  Rb_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>213:
+  Sr_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>214:
+  Sr_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>215:
+  Sr_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>216:
+  Y_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>217:
+  Y_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>218:
+  Y_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>219:
+  Zr_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>220:
+  Zr_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>221:
+  Zr_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>222:
+  Zr_cbcc_a12</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>223:
+  Zr_cub_a13</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>224:
+  Zr_omega</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>225:
+  Zr_orthorhombic_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>0&nbsp;&nbsp;&nbsp;
+  226: Zr_tetragonal_</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>u</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>227:
+  Nb_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>228:
+  Nb_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>229:
+  Nb_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>230:
+  Mo_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>231:
+  Mo_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>232:
+  Mo_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>233:
+  Tc_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>234:
+  Tc_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>235:
+  Tc_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>236:
+  Ru_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>237:
+  Ru_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>238:
+  Ru_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>239:
+  Rh_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>240:
+  Rh_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>241:
+  Rh_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>242:
+  Pd_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>243:
+  Pd_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>244:
+  Pd_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>245:
+  Ag_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>246:
+  Ag_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>247:
+  Ag_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>248:
+  Ag_cub_a13</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>249:
+  Ag_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>250:
+  Cd_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>251:
+  Cd_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>252:
+  Cd_rhombo_a10</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>253:
+  Cd_tetragonal_a6</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>254:
+  Cd_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>255:
+  In_tetragonal_a6</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>256:
+  In_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>257:
+  In_rhombohedral_a7</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>258:
+  In_tet_alpha1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>259:
+  In_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>260:
+  In_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>261:
+  In_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>262:
+  In_hcp_zn</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>263:
+  Sn_bct_a5</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>264:
+  Sn_diamond_a4</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>265:
+  Sn_rhombohedral_a7</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>266:
+  Sn_tetragonal_a6</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>267:
+  Sn_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>268:
+  Sn_cbcc_a12</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>269:
+  Sn_cub_a13</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>270:
+  Sn_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>271:
+  Sn_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>272:
+  Sn_hcp_zn</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>273:
+  Sb_rhombohedral_a7</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>274:
+  Sb_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>275:
+  Sb_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>276:
+  Sb_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>277:
+  Sb_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>278:
+  Te_hexagonal_a8</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>279:
+  Cs_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>280:
+  Cs_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>281:
+  Cs_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>282:
+  Ba_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>283:
+  Ba_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>284:
+  Ba_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>285:
+  La_dhcp</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>286:
+  La_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>287:
+  La_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>288:
+  Ce_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>289:
+  Ce_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>290:
+  Ce_dhcp</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>291:
+  Ce_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>292:
+  Pr_dhcp</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>293:
+  Pr_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>294:
+  Nd_dhcp</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>295:
+  Nd_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>296:
+  Nd_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>297:
+  Nd_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>298:
+  Sm_rhomb_c19</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>299:
+  Sm_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>300:
+  Sm_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>301:
+  Eu_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>302:
+  Gd_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>303:
+  Gd_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>304:
+  Gd_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>305:
+  Tb_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>306:
+  Tb_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>307:
+  Dy_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>308:
+  Dy_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>309:
+  Ho_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>310:
+  Ho_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>311:
+  Er_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>312:
+  Er_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>313:
+  Tm_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>314:
+  Yb_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>315:
+  Yb_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>316:
+  Lu_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>317:
+  Hf_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>318:
+  Hf_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>319:
+  Hf_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>320:
+  Ta_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>321:
+  Ta_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>322:
+  Ta_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>323:
+  W_bcc_a2</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>324:
+  W_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>325:
+  W_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>326:
+  Re_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>327:
+  Re_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>328:
+  Re_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>329:
+  Os_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>330:
+  Os_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>331:
+  Os_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>332:
+  Ir_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>333:
+  Ir_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>334:
+  Ir_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>335:
+  Pt_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>336:
+  Pt_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>337:
+  Pt_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>338:
+  Au_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>339:
+  Au_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>340:
+  Au_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>341:
+  Hg_rhombo_a10</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>342:
+  Hg_tetragonal_a6</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>343:
+  Hg_hcp_a3</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>344:
+  Tl_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>345:
+  Tl_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>346:
+  Tl_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>347:
+  Pb_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>348:
+  Pb_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>349:
+  Pb_rhombohedral_a7</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>350:
+  Pb_tetragonal_a6</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>351:
+  Pb_tet_alpha1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>352:
+  Pb_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>353:
+  Pb_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>354:
+  Bi_rhombohedral_a7</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>355:
+  Bi_bct_a5</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>356:
+  Bi_tetragonal_a6</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>357:
+  Bi_tet_alpha1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>358:
+  Bi_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>359:
+  Bi_fcc_a1</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>360:
+  Bi_hcp_a3</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>361:
+  Th_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>362:
+  Th_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>363:
+  Pa_bct_aa</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>364:
+  Pa_bcc_a2</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>365:
+  U_orthorhombic_a20</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>366:
+  U_tetragonal_u</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>367:
+  U_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>368:
+  U_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>369:
+  U_hcp_a3</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>370:
+  Np_ortho_ac</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>371:
+  Np_tetrag_ad</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>372:
+  Np_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>373:
+  Pu_alpha_pu</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>374:
+  Pu_beta_pu</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>375:
+  Pu_gamma_pu</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>376:
+  Pu_fcc_a1</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>377:
+  Pu_tetragonal_a6</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>378:
+  Pu_bcc_a2</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=219 nowrap valign=bottom style='width:164.05pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>379:
+  Am_dhcp</span></p>
+  </td>
+  <td width=208 nowrap valign=bottom style='width:155.9pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>380:
+  Am_fcc_a1</span></p>
+  </td>
+  <td width=227 nowrap valign=bottom style='width:170.1pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal><span style='font-family:"Arial","sans-serif";color:black'>381:
+  Am_bcc_a2</span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin:0in;margin-bottom:.0001pt'><span lang=EN-GB style='font-family:
+"Arial","sans-serif";color:red'>&nbsp;</span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span lang=DE>
+
+<hr size=3 width="100%" noshade style='color:#ACA899' align=center>
+
+</span></div>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=DE>[<a
+href="http://www.sgte.org/" target="_blank">SGTE</a> Home Page] </span></p>
+
+</div>
+
+</body>
+
+</html>
